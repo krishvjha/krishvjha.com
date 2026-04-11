@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Krishv Olympiad Arena 🧠🔥</title>
+  <style>
+    body { font-family: Arial; background: #f4f6f9; padding: 20px; }
+    h1 { text-align: center; }
+    .level { display: none; }
+    .active { display: block; }
+    .question {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    .hint { background: #ffd966; }
+    .check { background: #6fa8dc; color: white; }
+    .solution { background: #93c47d; }
+    .score { text-align: center; margin: 10px; font-size: 18px; }
+  </style>
+</head>
+
+<body>
+
+<h1>Krishv’s Olympiad Arena 🧠🔥</h1>
+<div class="score" id="score">Score: 0</div>
+
+<!-- LEVEL BUTTONS -->
+<div style="text-align:center;">
+  <button onclick="startLevel(1)">Level 1</button>
+  <button onclick="startLevel(2)">Level 2 🔒</button>
+  <button onclick="startLevel(3)">Level 3 🔒</button>
+</div>
+
+<!-- LEVEL 1 -->
+<div id="level1" class="level active">
+<h2>Level 1 (Warm-Up)</h2>
+
+<div class="question">
+<p>1. Smallest 4-digit number using 1,3,5,7?</p>
+<input id="l1q1"><br>
+<button class="hint" onclick="alert('Arrange digits in ascending order')">Hint</button>
+<button class="check" onclick="check('l1q1',1357)">Check</button>
+<button class="solution" onclick="alert('1357')">Solution</button>
+</div>
+
+<div class="question">
+<p>2. 999 + 1 = ?</p>
+<input id="l1q2"><br>
+<button class="hint" onclick="alert('Think carry over')">Hint</button>
+<button class="check" onclick="check('l1q2',1000)">Check</button>
+<button class="solution" onclick="alert('1000')">Solution</button>
+</div>
+
+<div class="question">
+<p>3. Half of 50?</p>
+<input id="l1q3"><br>
+<button class="hint" onclick="alert('Divide by 2')">Hint</button>
+<button class="check" onclick="check('l1q3',25)">Check</button>
+<button class="solution" onclick="alert('25')">Solution</button>
+</div>
+
+<div class="question">
+<p>4. 1/2 + 1/2 = ?</p>
+<input id="l1q4"><br>
+<button class="hint" onclick="alert('Same denominator')">Hint</button>
+<button class="check" onclick="check('l1q4',1)">Check</button>
+<button class="solution" onclick="alert('1')">Solution</button>
+</div>
+
+<div class="question">
+<p>5. 100 cm = ? m</p>
+<input id="l1q5"><br>
+<button class="hint" onclick="alert('100 cm = 1 m')">Hint</button>
+<button class="check" onclick="check('l1q5',1)">Check</button>
+<button class="solution" onclick="alert('1')">Solution</button>
+</div>
+
+<button onclick="unlockLevel(1)">Finish Level 1</button>
+</div>
+
+<!-- LEVEL 2 -->
+<div id="level2" class="level">
+<h2>Level 2 (Thinking)</h2>
+
+<div class="question">
+<p>6. Largest number using 2,0,8,5?</p>
+<input id="l2q1"><br>
+<button class="hint" onclick="alert('Arrange descending')">Hint</button>
+<button class="check" onclick="check('l2q1',8520)">Check</button>
+<button class="solution" onclick="alert('8520')">Solution</button>
+</div>
+
+<div class="question">
+<p>7. 48 ÷ 6 = ?</p>
+<input id="l2q2"><br>
+<button class="check" onclick="check('l2q2',8)">Check</button>
+</div>
+
+<div class="question">
+<p>8. 3/4 of 20?</p>
+<input id="l2q3"><br>
+<button class="hint" onclick="alert('Multiply then divide')">Hint</button>
+<button class="check" onclick="check('l2q3',15)">Check</button>
+</div>
+
+<div class="question">
+<p>9. 1 hour = ? minutes</p>
+<input id="l2q4"><br>
+<button class="check" onclick="check('l2q4',60)">Check</button>
+</div>
+
+<div class="question">
+<p>10. Which is larger: 4567 or 4657?</p>
+<input id="l2q5"><br>
+<button class="check" onclick="checkText('l2q5','4657')">Check</button>
+</div>
+
+<button onclick="unlockLevel(2)">Finish Level 2</button>
+</div>
+
+<!-- LEVEL 3 -->
+<div id="level3" class="level">
+<h2>Level 3 (Challenge)</h2>
+
+<div class="question">
+<p>11. If 2 apples cost 10, cost of 6 apples?</p>
+<input id="l3q1"><br>
+<button class="hint" onclick="alert('Unit price first')">Hint</button>
+<button class="check" onclick="check('l3q1',30)">Check</button>
+</div>
+
+<div class="question">
+<p>12. Next number: 2, 4, 8, 16, ?</p>
+<input id="l3q2"><br>
+<button class="check" onclick="check('l3q2',32)">Check</button>
+</div>
+
+<div class="question">
+<p>13. 1/3 of 90?</p>
+<input id="l3q3"><br>
+<button class="check" onclick="check('l3q3',30)">Check</button>
+</div>
+
+<div class="question">
+<p>14. 2 km = ? m</p>
+<input id="l3q4"><br>
+<button class="check" onclick="check('l3q4',2000)">Check</button>
+</div>
+
+<div class="question">
+<p>15. Trick: 100 - 99 + 98 - 97 = ?</p>
+<input id="l3q5"><br>
+<button class="hint" onclick="alert('Group terms')">Hint</button>
+<button class="check" onclick="check('l3q5',2)">Check</button>
+</div>
+
+</div>
+
+<script>
+let score = 0;
+
+function startLevel(level) {
+  document.querySelectorAll('.level').forEach(l => l.classList.remove('active'));
+  document.getElementById('level'+level).classList.add('active');
+}
+
+function check(id, correct) {
+  let val = document.getElementById(id).value;
+  if(parseInt(val) === correct){
+    alert("🔥 Correct!");
+    score++;
+  } else {
+    alert("👀 Try again");
+  }
+  document.getElementById("score").innerText = "Score: " + score;
+}
+
+function checkText(id, correct) {
+  let val = document.getElementById(id).value.trim();
+  if(val === correct){
+    alert("🔥 Correct!");
+    score++;
+  } else {
+    alert("👀 Check again");
+  }
+  document.getElementById("score").innerText = "Score: " + score;
+}
+
+function unlockLevel(level){
+  if(level === 1){
+    alert("Level 2 Unlocked 🚀");
+    document.querySelectorAll("button")[1].innerText = "Level 2";
+  }
+  if(level === 2){
+    alert("Level 3 Unlocked 🚀");
+    document.querySelectorAll("button")[2].innerText = "Level 3";
+  }
+}
+</script>
+
+</body>
+</html>
