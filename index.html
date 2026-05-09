@@ -3,695 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishv Jha</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background: #0a0a0a;
-            color: #fff;
-            font-family: 'Inter', sans-serif;
-            overflow-x: hidden;
-        }
-
-        /* Navigation */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 100;
-            padding: 24px 48px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(10, 10, 10, 0.6);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            transition: background 0.3s;
-        }
-
-        .logo {
-            font-family: 'Inter', sans-serif;
-            font-weight: 700;
-            font-size: 14px;
-            letter-spacing: 6px;
-            text-transform: uppercase;
-            color: #fff;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 36px;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: rgba(255, 255, 255, 0.6);
-            text-decoration: none;
-            font-size: 13px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #5de0d8;
-        }
-
-        /* Hero Section */
-        .hero {
-            position: relative;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        #hero-canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
-
-        .hero-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(10, 10, 10, 0.6) 70%);
-            z-index: 2;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 3;
-            text-align: center;
-        }
-
-        .hero-content h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(56px, 10vw, 120px);
-            font-weight: 700;
-            line-height: 1.1;
-            margin-bottom: 24px;
-            opacity: 0;
-            transform: translateY(30px);
-            animation: fadeUp 1s ease forwards 0.5s;
-            color: #ffffff;
-            text-shadow: 0 0 40px rgba(0, 0, 0, 0.8), 0 0 80px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.9);
-        }
-
-        .hero-content h1 span {
-            color: #ffffff;
-            -webkit-text-fill-color: #ffffff;
-        }
-
-        .hero-subtitle {
-            font-size: clamp(18px, 2.5vw, 24px);
-            font-weight: 400;
-            color: rgba(255, 255, 255, 0.85);
-            letter-spacing: 6px;
-            text-transform: uppercase;
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeUp 1s ease forwards 0.8s;
-            text-shadow: 0 0 30px rgba(0, 0, 0, 0.8), 0 2px 4px rgba(0, 0, 0, 0.9);
-        }
-
-        .scroll-indicator {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 3;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            opacity: 0;
-            animation: fadeUp 1s ease forwards 1.2s;
-        }
-
-        .scroll-indicator span {
-            font-size: 11px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.3);
-        }
-
-        .scroll-line {
-            width: 1px;
-            height: 40px;
-            background: linear-gradient(to bottom, rgba(93, 224, 216, 0.6), transparent);
-            animation: scrollPulse 2s ease infinite;
-        }
-
-        /* Section Styles */
-        section {
-            padding: 120px 48px;
-            position: relative;
-        }
-
-        .section-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(36px, 5vw, 64px);
-            text-align: center;
-            margin-bottom: 16px;
-        }
-
-        .section-divider {
-            width: 60px;
-            height: 2px;
-            background: linear-gradient(90deg, #5de0d8, #4facfe);
-            margin: 0 auto 64px;
-        }
-
-        /* Apps Section */
-        .apps-section {
-            background: linear-gradient(180deg, #0a0a0a 0%, #0f1923 50%, #0a0a0a 100%);
-        }
-
-        .apps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 32px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .app-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            border-radius: 16px;
-            padding: 40px;
-            transition: all 0.4s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .app-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #5de0d8, #4facfe, transparent);
-            opacity: 0;
-            transition: opacity 0.4s;
-        }
-
-        .app-card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(93, 224, 216, 0.2);
-            background: rgba(255, 255, 255, 0.05);
-        }
-
-        .app-card:hover::before {
-            opacity: 1;
-        }
-
-        .app-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 12px;
-            background: linear-gradient(135deg, rgba(93, 224, 216, 0.2), rgba(79, 172, 254, 0.2));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 24px;
-            font-size: 22px;
-        }
-
-        .app-card h3 {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-
-        .app-card p {
-            color: rgba(255, 255, 255, 0.4);
-            font-size: 14px;
-            line-height: 1.7;
-        }
-
-        /* About Section */
-        .about-section {
-            background: #0a0a0a;
-        }
-
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .about-content p {
-            font-size: 18px;
-            line-height: 1.9;
-            color: rgba(255, 255, 255, 0.5);
-            font-weight: 300;
-        }
-
-        .about-content p strong {
-            color: #5de0d8;
-            font-weight: 600;
-        }
-
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 80px;
-            margin-top: 64px;
-        }
-
-        .stat h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 48px;
-            background: linear-gradient(135deg, #5de0d8, #4facfe);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .stat p {
-            font-size: 12px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.3);
-            margin-top: 8px;
-        }
-
-        /* Contact Section */
-        .contact-section {
-            background: linear-gradient(180deg, #0a0a0a, #0d1117);
-            text-align: center;
-        }
-
-        .contact-links {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            margin-top: 48px;
-            flex-wrap: wrap;
-        }
-
-        .contact-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 14px 32px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 50px;
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: none;
-            font-size: 14px;
-            letter-spacing: 1px;
-            transition: all 0.3s;
-        }
-
-        .contact-link:hover {
-            border-color: #5de0d8;
-            color: #5de0d8;
-            background: rgba(93, 224, 216, 0.05);
-        }
-
-        /* Footer */
-        footer {
-            padding: 32px 48px;
-            text-align: center;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            color: rgba(255, 255, 255, 0.2);
-            font-size: 13px;
-        }
-
-        /* Animations */
-        @keyframes fadeUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes scrollPulse {
-            0%, 100% { opacity: 0.3; transform: scaleY(1); }
-            50% { opacity: 1; transform: scaleY(1.2); }
-        }
-
-        /* Scroll-triggered fade-in */
-        .reveal {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
-        }
-
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            nav {
-                padding: 16px 24px;
-            }
-
-            .nav-links {
-                display: none;
-            }
-
-            section {
-                padding: 80px 24px;
-            }
-
-            .stats {
-                flex-direction: column;
-                gap: 40px;
-            }
-
-            .apps-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <title>RecipeAI — Smart Recipe Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="bg-grid"></div>
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
     <nav>
-        <ul class="nav-links" style="width: 100%; justify-content: center;">
-            <li><a href="#about">About</a></li>
-            <li><a href="#apps">Apps</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="logo" id="logo" title="Click me 3 times...">
+            <div class="logo-icon">🍳</div>
+            Recipe<span>AI</span>
+        </div>
+        <div class="nav-right">
+            <span class="nav-badge">Made By Krishv Jha</span>
+            <button class="google-signin-btn" id="googleSignInBtn" onclick="openGoogleSignIn()">
+                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/></svg>
+                <span>Sign in</span>
+            </button>
+            <div class="user-pill" id="userPill" style="display:none;" onclick="openUserMenu()">
+                <img id="userAvatar" alt="" />
+                <span id="userName"></span>
+            </div>
+        </div>
     </nav>
 
-    <section class="hero">
-        <canvas id="hero-canvas"></canvas>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1><span>Krishv Jha</span></h1>
-            <p class="hero-subtitle">Developer &bull; Innovator &bull; Constructor</p>
+    <!-- Google Sign In Modal -->
+    <div class="auth-modal" id="authModal" onclick="if(event.target===this)closeGoogleSignIn()">
+        <div class="auth-card">
+            <button class="auth-close" onclick="closeGoogleSignIn()">×</button>
+            <div class="auth-google-logo">
+                <svg width="28" height="28" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/></svg>
+            </div>
+            <h2 class="auth-title">Sign in to RecipeAI</h2>
+            <p class="auth-sub">Save your favorite recipes, sync across devices, and unlock personalized recommendations.</p>
+            <form class="auth-form" id="authForm" onsubmit="event.preventDefault();completeGoogleSignIn();">
+                <div class="auth-field">
+                    <label>Full name</label>
+                    <input type="text" id="authName" placeholder="Your name" required>
+                </div>
+                <div class="auth-field">
+                    <label>Email</label>
+                    <input type="email" id="authEmail" placeholder="you@gmail.com" required>
+                </div>
+                <button type="submit" class="auth-submit">Continue with Google</button>
+            </form>
+            <p class="auth-footer">By continuing, you agree to RecipeAI's terms of service. Your data stays on your device.</p>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
-        </div>
-    </section>
+    </div>
 
-    <section class="about-section" id="about">
-        <div class="reveal">
-            <h2 class="section-title">About Me</h2>
-            <div class="section-divider"></div>
-            <div class="about-content">
-                <p>I'm <strong>Krishv Jha</strong> — a passionate developer who loves building things that live on the internet. I create apps, websites, and digital experiences that are fast, beautiful, and built with care.</p>
-                <div class="stats">
-                    <div class="stat">
-                        <h3>1+</h3>
-                        <p>Projects</p>
+    <!-- User Menu -->
+    <div class="user-menu" id="userMenu" style="display:none;">
+        <div class="user-menu-header">
+            <img id="userMenuAvatar" alt="" />
+            <div>
+                <div class="user-menu-name" id="userMenuName"></div>
+                <div class="user-menu-email" id="userMenuEmail"></div>
+            </div>
+        </div>
+        <button class="user-menu-item" onclick="signOut()">
+            <span>↪</span> Sign out
+        </button>
+    </div>
+    <div class="container">
+        <div class="input-section" id="inputSection">
+            <h1 class="hero-title">What should we cook?</h1>
+            <p class="hero-sub">Tell me your ingredients, preferences, and cravings — I'll find the perfect recipe for you.</p>
+            <p class="personality-msg">👋 Hey there, Chef! I'm here to help you create something delicious today.</p>
+            <div class="input-card">
+                <div class="input-row">
+                    <div class="input-group full">
+                        <label class="input-label">🔎 Know a dish? Type it and I'll find the recipe</label>
+                        <div class="recipe-lookup">
+                            <input type="text" class="input-field" id="recipeLookup" placeholder="e.g. Margherita Pizza, Pad Thai, Falafel..." autocomplete="off">
+                            <button class="lookup-btn" onclick="findRecipeByName()">Find</button>
+                        </div>
+                        <div class="lookup-suggestions" id="lookupSuggestions"></div>
                     </div>
-                    <div class="stat">
-                        <h3>2</h3>
-                        <p>Technologies</p>
+                </div>
+                <div class="input-divider"><span>or browse by ingredients</span></div>
+                <div class="input-row">
+                    <div class="input-group full">
+                        <label class="input-label">Input for Ingredients</label>
+                        <textarea class="input-field" id="ingredients" placeholder="What do you have? e.g. paneer, rice, tomatoes, onions, garlic..."></textarea>
                     </div>
-                    <div class="stat">
-                        <h3>&infin;</h3>
-                        <p>Curiosity</p>
+                </div>
+                <div class="input-row">
+                    <div class="input-group full">
+                        <label class="input-label">Spices, Grains, Vegetables etc</label>
+                        <textarea class="input-field" id="spicesGrains" placeholder="e.g. cumin, basmati rice, spinach, turmeric, lentils..." style="min-height:60px"></textarea>
+                    </div>
+                </div>
+                <div class="input-group" style="margin-bottom: 16px;">
+                    <label class="input-label">Recipe Cuisine</label>
+                    <div class="cuisine-tags" id="cuisineTags">
+                        <div class="cuisine-tag" data-cuisine="indian">🇮🇳 Indian</div>
+                        <div class="cuisine-tag" data-cuisine="asian">🥢 Asian</div>
+                        <div class="cuisine-tag" data-cuisine="italian">🇮🇹 Italian</div>
+                        <div class="cuisine-tag" data-cuisine="turkish">🇹🇷 Turkish</div>
+                        <div class="cuisine-tag" data-cuisine="lebanese">🇱🇧 Lebanese</div>
+                        <div class="cuisine-tag" data-cuisine="mexican">🇲🇽 Mexican</div>
+                        <div class="cuisine-tag" data-cuisine="thai">🇹🇭 Thai</div>
+                        <div class="cuisine-tag" data-cuisine="japanese">🇯🇵 Japanese</div>
+                    </div>
+                </div>
+                <div class="input-group" style="margin-bottom: 24px;">
+                    <label class="input-label">Time Order Filter</label>
+                    <div class="time-filter" id="timeFilter">
+                        <button class="time-btn active" data-time="all">All</button>
+                        <button class="time-btn" data-time="15">Under 15m</button>
+                        <button class="time-btn" data-time="30">Under 30m</button>
+                        <button class="time-btn" data-time="60">Under 1hr</button>
+                        <button class="time-btn" data-time="120">Under 2hr</button>
+                    </div>
+                </div>
+                <button class="submit-btn" id="submitBtn" onclick="findRecipes()">
+                    <span class="btn-text">🔍 Find Recipes — Recommend for Me</span>
+                    <div class="spinner"></div>
+                </button>
+            </div>
+        </div>
+        <div class="results-section" id="resultsSection">
+            <div class="results-header">
+                <h2 class="results-title" id="resultsTitle">Your Recipes</h2>
+                <span class="results-count" id="resultsCount"></span>
+            </div>
+            <div class="sort-bar">
+                <button class="sort-btn active" data-sort="relevance" onclick="sortResults('relevance')">Best Match</button>
+                <button class="sort-btn" data-sort="time-asc" onclick="sortResults('time-asc')">Fastest First</button>
+                <button class="sort-btn" data-sort="time-desc" onclick="sortResults('time-desc')">Longest First</button>
+            </div>
+            <div class="recipe-grid" id="recipeGrid"></div>
+            <div class="no-results" id="noResults" style="display:none;">
+                <div class="no-results-emoji">🤔</div>
+                <h3>No recipes found</h3>
+                <p>Try different ingredients or loosen your filters. I'm sure we can find something tasty!</p>
+            </div>
+            <div class="suggested-section" id="suggestedSection">
+                <h3 class="suggested-title">💡 You might also like</h3>
+                <div class="suggested-grid" id="suggestedGrid"></div>
+            </div>
+        </div>
+    </div>
+    <div class="ai-mode-overlay" id="aiOverlay">
+        <nav class="ai-nav">
+            <div class="ai-logo">
+                <div class="ai-logo-icon">🧠</div>
+                RecipeAI <span class="ai-badge">ULTRA</span>
+            </div>
+            <button class="ai-close" onclick="closeAIMode()">← Back to Standard</button>
+        </nav>
+        <div class="ai-container">
+            <div class="ai-hero">
+                <h1>AI Chef Ultra Mode</h1>
+                <p>Next-generation recipe intelligence. Describe anything — a mood, a memory, a craving — and watch the magic happen. Under 5 seconds.</p>
+                <div class="ai-stats">
+                    <div class="ai-stat">
+                        <div class="ai-stat-val">&lt;5s</div>
+                        <div class="ai-stat-label">Response Time</div>
+                    </div>
+                    <div class="ai-stat">
+                        <div class="ai-stat-val">10K+</div>
+                        <div class="ai-stat-label">Recipe Knowledge</div>
+                    </div>
+                    <div class="ai-stat">
+                        <div class="ai-stat-val">∞</div>
+                        <div class="ai-stat-label">Creativity</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="apps-section" id="apps">
-        <div class="reveal">
-            <h2 class="section-title">My Apps</h2>
-            <div class="section-divider"></div>
-            <div class="apps-grid">
-                <a href="https://krishvjha.com/neon/index.html" class="app-card" style="text-decoration: none; color: inherit;">
-                    <div class="app-icon">&#9672;</div>
-                    <h3>Neon Vendetta</h3>
-                    <p>A creative project showcasing innovative design and clean code architecture.</p>
-                </a>
-                <a href="https://krishvjha.com/mot/trainer.html" class="app-card" style="text-decoration: none; color: inherit;">
-                    <div class="app-icon">&#9670;</div>
-                    <h3>Math Olympiad Trainer</h3>
-                    <p>Built to solve real problems with elegant, user-friendly interfaces.</p>
-                </a>
+            <div class="ai-input-area">
+                <textarea class="ai-prompt-field" id="aiPrompt" placeholder="Describe anything you're craving — a mood, a memory, a flavor, a craving..."></textarea>
+                <div class="ai-controls">
+                    <div class="ai-options">
+                        <button class="ai-option active" data-style="creative" onclick="setAIStyle(this)">Creative</button>
+                        <button class="ai-option" data-style="traditional" onclick="setAIStyle(this)">Traditional</button>
+                        <button class="ai-option" data-style="fusion" onclick="setAIStyle(this)">Fusion</button>
+                        <button class="ai-option" data-style="healthy" onclick="setAIStyle(this)">Healthy</button>
+                    </div>
+                    <button class="ai-generate-btn" id="aiGenBtn" onclick="generateAIRecipe()">
+                        <span class="ai-btn-text">✨ Generate Recipe</span>
+                        <div class="spinner"></div>
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-        <div class="reveal">
-            <h2 class="section-title">Contact Me</h2>
-            <div class="section-divider"></div>
-            <p style="color: rgba(255,255,255,0.4); font-size: 16px; max-width: 500px; margin: 0 auto;">Have an idea or want to collaborate? Let's connect.</p>
-            <div class="contact-links">
-                <a href="mailto:krishv.jha.34@seoulforeign.org" class="contact-link">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                    Email
-                </a>
-                <a href="https://github.com/krishvjha" class="contact-link" target="_blank">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    GitHub
-                </a>
+            <div class="ai-typing-indicator" id="aiTyping">
+                <div class="typing-dots"><span></span><span></span><span></span></div>
+                <span>AI Chef is thinking...</span>
             </div>
+            <div class="ai-result" id="aiResult"></div>
         </div>
-    </section>
-
-    <footer>
-        &copy; 2026 Krishv Jha. All rights reserved.
-    </footer>
-
-    <script>
-        // ========== 3D Wireframe Vortex Canvas ==========
-        const canvas = document.getElementById('hero-canvas');
-        const ctx = canvas.getContext('2d');
-        let width, height;
-        let mouse = { x: 0, y: 0 };
-
-        function resize() {
-            width = canvas.width = window.innerWidth;
-            height = canvas.height = window.innerHeight;
-        }
-        resize();
-        window.addEventListener('resize', resize);
-
-        document.addEventListener('mousemove', (e) => {
-            mouse.x = (e.clientX / width - 0.5) * 2;
-            mouse.y = (e.clientY / height - 0.5) * 2;
-        });
-
-        // Particles for the mesh
-        class Particle {
-            constructor() {
-                this.reset();
-            }
-
-            reset() {
-                this.angle = Math.random() * Math.PI * 2;
-                this.radius = 50 + Math.random() * 300;
-                this.z = Math.random() * 600 - 300;
-                this.speed = 0.002 + Math.random() * 0.008;
-                this.drift = (Math.random() - 0.5) * 0.5;
-                this.size = Math.random() * 2.5 + 0.5;
-                this.opacity = Math.random() * 0.6 + 0.2;
-                this.hue = Math.random() > 0.7 ? 20 : 175; // orange or teal
-            }
-
-            update() {
-                this.angle += this.speed;
-                this.z += this.drift;
-                if (this.z > 300 || this.z < -300) this.drift *= -1;
-            }
-
-            project() {
-                const perspective = 800;
-                const scale = perspective / (perspective + this.z);
-                const x = Math.cos(this.angle) * this.radius * scale + width / 2;
-                const y = Math.sin(this.angle) * this.radius * scale * 0.6 + height / 2;
-                return { x, y, scale };
-            }
-        }
-
-        // Grid rings for wireframe effect
-        const rings = [];
-        const ringCount = 40;
-        const segmentsPerRing = 60;
-
-        for (let i = 0; i < ringCount; i++) {
-            const ring = [];
-            const baseRadius = 40 + i * 12;
-            const z = (i - ringCount / 2) * 15;
-            for (let j = 0; j < segmentsPerRing; j++) {
-                const angle = (j / segmentsPerRing) * Math.PI * 2;
-                ring.push({ angle, baseRadius, z, noise: Math.random() * 20 });
-            }
-            rings.push(ring);
-        }
-
-        // Floating particles
-        const particles = [];
-        for (let i = 0; i < 200; i++) {
-            particles.push(new Particle());
-        }
-
-        let time = 0;
-
-        function getWarpedRadius(baseRadius, angle, z, t) {
-            const warp = Math.sin(angle * 3 + t * 0.5) * 15 +
-                         Math.cos(z * 0.02 + t * 0.3) * 20 +
-                         Math.sin(angle * 2 - t * 0.7) * 10;
-            // Create vortex hole in center
-            const holeFactor = Math.max(0, 1 - Math.exp(-baseRadius * 0.008));
-            return baseRadius * holeFactor + warp;
-        }
-
-        function projectPoint(angle, radius, z) {
-            const perspective = 800;
-            const rotX = mouse.y * 0.3;
-            const rotY = mouse.x * 0.3;
-
-            let x3d = Math.cos(angle) * radius;
-            let y3d = Math.sin(angle) * radius * 0.6;
-            let z3d = z;
-
-            // Apply mouse rotation
-            const cosRY = Math.cos(rotY * 0.1);
-            const sinRY = Math.sin(rotY * 0.1);
-            const tempX = x3d * cosRY - z3d * sinRY;
-            z3d = x3d * sinRY + z3d * cosRY;
-            x3d = tempX;
-
-            const cosRX = Math.cos(rotX * 0.1);
-            const sinRX = Math.sin(rotX * 0.1);
-            const tempY = y3d * cosRX - z3d * sinRX;
-            z3d = y3d * sinRX + z3d * cosRX;
-            y3d = tempY;
-
-            const scale = perspective / (perspective + z3d);
-            return {
-                x: x3d * scale + width / 2,
-                y: y3d * scale + height / 2,
-                scale,
-                z: z3d
-            };
-        }
-
-        function draw() {
-            ctx.fillStyle = 'rgba(10, 10, 10, 0.15)';
-            ctx.fillRect(0, 0, width, height);
-
-            time += 0.016;
-
-            // Draw wireframe rings
-            for (let i = 0; i < rings.length; i++) {
-                const ring = rings[i];
-                ctx.beginPath();
-                for (let j = 0; j <= segmentsPerRing; j++) {
-                    const seg = ring[j % segmentsPerRing];
-                    const a = seg.angle + time * 0.2;
-                    const r = getWarpedRadius(seg.baseRadius, a, seg.z, time);
-                    const pt = projectPoint(a, r, seg.z);
-
-                    if (j === 0) ctx.moveTo(pt.x, pt.y);
-                    else ctx.lineTo(pt.x, pt.y);
-                }
-                const alpha = Math.max(0.02, 0.12 - Math.abs(i - ringCount / 2) * 0.005);
-                ctx.strokeStyle = `rgba(93, 224, 216, ${alpha})`;
-                ctx.lineWidth = 0.5;
-                ctx.stroke();
-            }
-
-            // Draw longitudinal lines
-            for (let j = 0; j < segmentsPerRing; j += 3) {
-                ctx.beginPath();
-                for (let i = 0; i < rings.length; i++) {
-                    const seg = rings[i][j];
-                    const a = seg.angle + time * 0.2;
-                    const r = getWarpedRadius(seg.baseRadius, a, seg.z, time);
-                    const pt = projectPoint(a, r, seg.z);
-
-                    if (i === 0) ctx.moveTo(pt.x, pt.y);
-                    else ctx.lineTo(pt.x, pt.y);
-                }
-                ctx.strokeStyle = 'rgba(93, 224, 216, 0.06)';
-                ctx.lineWidth = 0.5;
-                ctx.stroke();
-            }
-
-            // Draw particles
-            for (const p of particles) {
-                p.update();
-                const angle = p.angle + time * 0.2;
-                const r = getWarpedRadius(p.radius, angle, p.z, time);
-                const pt = projectPoint(angle, r, p.z);
-
-                const glow = ctx.createRadialGradient(pt.x, pt.y, 0, pt.x, pt.y, p.size * pt.scale * 4);
-                const color = p.hue === 20
-                    ? `rgba(255, 140, 50, ${p.opacity * pt.scale})`
-                    : `rgba(93, 224, 216, ${p.opacity * pt.scale * 0.5})`;
-                const colorT = p.hue === 20
-                    ? 'rgba(255, 140, 50, 0)'
-                    : 'rgba(93, 224, 216, 0)';
-
-                glow.addColorStop(0, color);
-                glow.addColorStop(1, colorT);
-                ctx.fillStyle = glow;
-                ctx.beginPath();
-                ctx.arc(pt.x, pt.y, p.size * pt.scale * 4, 0, Math.PI * 2);
-                ctx.fill();
-
-                // Core dot
-                ctx.fillStyle = p.hue === 20
-                    ? `rgba(255, 180, 100, ${p.opacity * pt.scale})`
-                    : `rgba(150, 240, 235, ${p.opacity * pt.scale})`;
-                ctx.beginPath();
-                ctx.arc(pt.x, pt.y, p.size * pt.scale, 0, Math.PI * 2);
-                ctx.fill();
-            }
-
-            requestAnimationFrame(draw);
-        }
-
-        draw();
-
-        // ========== Scroll Reveal ==========
-        const reveals = document.querySelectorAll('.reveal');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.15 });
-
-        reveals.forEach(el => observer.observe(el));
-
-        // ========== Nav background on scroll ==========
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('nav');
-            if (window.scrollY > 100) {
-                nav.style.background = 'rgba(10, 10, 10, 0.9)';
-            } else {
-                nav.style.background = 'rgba(10, 10, 10, 0.6)';
-            }
-        });
-    </script>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
