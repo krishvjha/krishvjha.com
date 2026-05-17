@@ -1,0 +1,180 @@
+[
+  {
+    "id": "vegetable-fried-rice",
+    "name": "Vegetable Fried Rice",
+    "cuisine": "global",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": ["rice", "vegetables"],
+    "flexibleIngredients": ["carrot", "peas", "bell pepper", "green onion"],
+    "optionalIngredients": ["tofu", "sesame seeds"],
+    "spices": ["black pepper"],
+    "pantryStaples": ["salt", "oil", "soy sauce"],
+    "displayIngredients": [
+      "3 cups cooked rice, preferably chilled",
+      "1 cup mixed vegetables, finely chopped",
+      "1 small carrot, diced",
+      "1/2 cup peas",
+      "1/2 bell pepper, diced",
+      "2 green onions, sliced",
+      "1/2 cup tofu, diced, optional",
+      "1 tbsp soy sauce",
+      "2 tbsp oil",
+      "1/4 tsp black pepper",
+      "Salt as needed",
+      "1 tsp sesame seeds, optional"
+    ],
+    "steps": [
+      "Heat 1 tbsp oil in a wide pan over medium-high heat. Add diced tofu if using and cook for 4–5 minutes until lightly golden on the edges, then remove it to a plate.",
+      "Add the remaining 1 tbsp oil to the same pan. Add carrot and bell pepper and stir-fry for 3–4 minutes until the vegetables soften slightly but still look bright.",
+      "Add peas and mixed vegetables. Cook for 2–3 minutes, stirring often, until the vegetables are hot and any moisture has mostly evaporated.",
+      "Add the chilled cooked rice and break up clumps with the back of a spoon. Stir-fry for 3–4 minutes until the rice is hot and separate.",
+      "Pour soy sauce around the edges of the pan so it sizzles, then mix well. Add black pepper and a small pinch of salt.",
+      "Return the tofu to the pan if using. Toss everything for 1–2 minutes until evenly coated and lightly glossy.",
+      "Turn off the heat and fold in green onion. Sprinkle sesame seeds if available and serve hot."
+    ],
+    "cookTips": [
+      "Use cold cooked rice because fresh rice can turn sticky.",
+      "Keep the heat medium-high so the rice fries instead of steaming.",
+      "Add soy sauce gradually because it already contains salt."
+    ],
+    "substitutions": [
+      {
+        "missing": "soy sauce",
+        "alternatives": ["salt"],
+        "note": "Use extra salt lightly if soy sauce is unavailable, though the flavor will be simpler."
+      },
+      {
+        "missing": "tofu",
+        "alternatives": ["egg"],
+        "note": "Use egg for a non-vegetarian version with extra protein."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a quick lunch bowl.",
+      "Serve with cucumber slices on the side.",
+      "Top with extra green onion for freshness."
+    ]
+  },
+  {
+    "id": "creamy-tomato-pasta",
+    "name": "Creamy Tomato Pasta",
+    "cuisine": "global",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "requiredIngredients": ["pasta", "tomato", "cream"],
+    "flexibleIngredients": ["onion", "garlic", "parmesan"],
+    "optionalIngredients": ["basil", "mozzarella"],
+    "spices": ["black pepper", "oregano", "chili flakes"],
+    "pantryStaples": ["salt", "water", "olive oil"],
+    "displayIngredients": [
+      "250g pasta",
+      "3 medium tomatoes, finely chopped",
+      "1/2 cup cream",
+      "1 small onion, finely chopped",
+      "2 garlic cloves, minced",
+      "2 tbsp olive oil",
+      "1/2 tsp oregano",
+      "1/4 tsp chili flakes",
+      "1/4 tsp black pepper",
+      "2 tbsp parmesan, grated",
+      "1/4 cup mozzarella, optional",
+      "Salt and water as needed",
+      "A few basil leaves, optional"
+    ],
+    "steps": [
+      "Bring a large pot of water to a boil over high heat. Add salt and pasta, then cook for 8–11 minutes until tender but still slightly firm. Reserve 1/2 cup pasta water and drain.",
+      "While the pasta cooks, heat olive oil in a pan over medium heat. Add onion and cook for 5–6 minutes until soft and translucent.",
+      "Add garlic and cook for 45–60 seconds, stirring constantly, until fragrant but not browned.",
+      "Add chopped tomatoes, oregano, chili flakes, black pepper, and a pinch of salt. Cook for 8–10 minutes until the tomatoes collapse and the sauce thickens.",
+      "Lower the heat. Stir in cream slowly and cook for 2–3 minutes until the sauce turns smooth and light orange.",
+      "Add cooked pasta and toss for 2 minutes, adding a splash of reserved pasta water if the sauce feels too thick.",
+      "Stir in parmesan. Add mozzarella if using and cook for 1 minute until it begins to melt.",
+      "Turn off the heat, tear basil over the top if available, and serve immediately."
+    ],
+    "cookTips": [
+      "Reserve pasta water before draining because it helps loosen and bind the sauce.",
+      "Keep the heat low after adding cream to prevent splitting.",
+      "Cook the tomatoes until they look jammy for better flavor."
+    ],
+    "substitutions": [
+      {
+        "missing": "cream",
+        "alternatives": ["milk", "butter"],
+        "note": "Use milk with a little butter for a lighter sauce."
+      },
+      {
+        "missing": "parmesan",
+        "alternatives": ["cheddar", "mozzarella"],
+        "note": "Use cheddar for stronger flavor or mozzarella for a milder, stretchy finish."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with toasted bread.",
+      "Serve with lettuce and cucumber salad.",
+      "Add extra black pepper before serving."
+    ]
+  },
+  {
+    "id": "chicken-rice-bowl",
+    "name": "Chicken Rice Bowl",
+    "cuisine": "global",
+    "vegetarian": false,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["chicken", "rice"],
+    "flexibleIngredients": ["garlic", "ginger", "carrot", "broccoli"],
+    "optionalIngredients": ["green onion", "sesame seeds"],
+    "spices": ["black pepper", "paprika"],
+    "pantryStaples": ["salt", "oil", "soy sauce", "water"],
+    "displayIngredients": [
+      "500g chicken, cut into bite-sized pieces",
+      "2 cups cooked rice",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 carrot, thinly sliced",
+      "1 cup broccoli, cut into small florets",
+      "1 tbsp soy sauce",
+      "2 tbsp oil",
+      "1/2 tsp paprika",
+      "1/4 tsp black pepper",
+      "Salt as needed",
+      "2 green onions, sliced, optional",
+      "1 tsp sesame seeds, optional"
+    ],
+    "steps": [
+      "Pat the chicken pieces dry and season them with salt, paprika, and black pepper.",
+      "Heat 1 tbsp oil in a wide pan over medium-high heat. Add the chicken in one layer and cook for 4–5 minutes without moving too much, until the underside browns.",
+      "Turn the chicken pieces and cook for another 4–5 minutes until cooked through and no longer pink in the center. Remove to a plate.",
+      "Add the remaining oil to the pan. Add garlic and ginger and cook over medium heat for 1 minute until fragrant.",
+      "Add carrot and broccoli with 2 tbsp water. Cover and cook for 4–5 minutes until the broccoli turns bright green and the carrot softens slightly.",
+      "Return the chicken to the pan. Add soy sauce and toss for 2 minutes until the chicken and vegetables are coated and glossy.",
+      "Spoon hot rice into bowls and top with the chicken and vegetables.",
+      "Finish with green onion and sesame seeds if available."
+    ],
+    "cookTips": [
+      "Dry the chicken before cooking so it browns instead of steaming.",
+      "Cut broccoli small so it cooks quickly in the pan.",
+      "Do not overcook the chicken after returning it to the pan."
+    ],
+    "substitutions": [
+      {
+        "missing": "broccoli",
+        "alternatives": ["snap peas", "bell pepper"],
+        "note": "Use snap peas or bell pepper for a quicker-cooking vegetable."
+      },
+      {
+        "missing": "soy sauce",
+        "alternatives": ["salt"],
+        "note": "Use salt carefully and add a little extra water to prevent dryness."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with cucumber slices for crunch.",
+      "Serve with extra rice for a larger meal.",
+      "Add hot sauce at the table if desired."
+    ]
+  }
+]

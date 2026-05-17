@@ -1,206 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RecipeAI — Smart Recipe Recommender</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Recipe AI</title>
+
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
+
 <body>
-    <div class="bg-grid"></div>
-    <div class="bg-orbs">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-    </div>
-    <nav>
-        <div class="logo" id="logo" title="Click me 3 times...">
-            <div class="logo-icon">🍳</div>
-            Recipe<span>AI</span>
-        </div>
-        <div class="nav-right">
-            <span class="nav-badge">Made By Krishv Jha</span>
-            <button class="google-signin-btn" id="googleSignInBtn" onclick="openGoogleSignIn()">
-                <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/></svg>
-                <span>Sign in</span>
-            </button>
-            <div class="user-pill" id="userPill" style="display:none;" onclick="openUserMenu()">
-                <img id="userAvatar" alt="" />
-                <span id="userName"></span>
-            </div>
-        </div>
-    </nav>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Smart pantry-based recipe finder</p>
+        <h1>Recipe AI</h1>
+        <p class="subtitle">
+          Find recipes you can cook from ingredients you already have.
+        </p>
+      </div>
+    </header>
 
-    <!-- Google Sign In Modal -->
-    <div class="auth-modal" id="authModal" onclick="if(event.target===this)closeGoogleSignIn()">
-        <div class="auth-card">
-            <button class="auth-close" onclick="closeGoogleSignIn()">×</button>
-            <div class="auth-google-logo">
-                <svg width="28" height="28" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.958L3.964 7.29C4.672 5.163 6.656 3.58 9 3.58z" fill="#EA4335"/></svg>
-            </div>
-            <h2 class="auth-title">Sign in to RecipeAI</h2>
-            <p class="auth-sub">Save your favorite recipes, sync across devices, and unlock personalized recommendations.</p>
-            <form class="auth-form" id="authForm" onsubmit="event.preventDefault();completeGoogleSignIn();">
-                <div class="auth-field">
-                    <label>Full name</label>
-                    <input type="text" id="authName" placeholder="Your name" required>
-                </div>
-                <div class="auth-field">
-                    <label>Email</label>
-                    <input type="email" id="authEmail" placeholder="you@gmail.com" required>
-                </div>
-                <button type="submit" class="auth-submit">Continue with Google</button>
-            </form>
-            <p class="auth-footer">By continuing, you agree to RecipeAI's terms of service. Your data stays on your device.</p>
-        </div>
-    </div>
+    <form id="recipeForm" class="form-card">
+      <div class="form-group">
+        <label for="searchInput">Add dish or ingredient</label>
 
-    <!-- User Menu -->
-    <div class="user-menu" id="userMenu" style="display:none;">
-        <div class="user-menu-header">
-            <img id="userMenuAvatar" alt="" />
-            <div>
-                <div class="user-menu-name" id="userMenuName"></div>
-                <div class="user-menu-email" id="userMenuEmail"></div>
-            </div>
+        <div class="typeahead-wrapper">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Start typing: Chicken Curry, paneer, pyaaz, turmeric..."
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+          />
+
+          <div id="searchResults" class="typeahead-results"></div>
         </div>
-        <button class="user-menu-item" onclick="signOut()">
-            <span>↪</span> Sign out
+
+        <p class="input-help">
+          Select a dish to view the full recipe. Select ingredients to build your pantry.
+        </p>
+      </div>
+
+      <div class="form-group">
+        <div class="section-label-row">
+          <label>Selected ingredients</label>
+          <span class="small-muted">Your current pantry</span>
+        </div>
+
+        <div id="selectedIngredients" class="selected-box"></div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="cuisine">Cuisine</label>
+          <select id="cuisine">
+            <option value="any">Any</option>
+            <option value="indian">Indian</option>
+            <option value="italian">Italian</option>
+            <option value="asian">Asian</option>
+            <option value="turkish">Turkish</option>
+            <option value="lebanese">Lebanese</option>
+            <option value="global">Global</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="maxTime">Maximum cooking time</label>
+          <select id="maxTime">
+            <option value="any">Any</option>
+            <option value="15">15 minutes</option>
+            <option value="20">20 minutes</option>
+            <option value="25">25 minutes</option>
+            <option value="30">30 minutes</option>
+            <option value="35">35 minutes</option>
+            <option value="40">40 minutes</option>
+            <option value="45">45 minutes</option>
+            <option value="50">50 minutes</option>
+            <option value="60">60 minutes</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dietaryProfile">Dietary preference</label>
+          <select id="dietaryProfile">
+            <option value="any">Any</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="eggetarian">Eggetarian</option>
+            <option value="nonVegetarian">Non-vegetarian</option>
+            <option value="hinduVeg">Hindu vegetarian</option>
+            <option value="hinduNonVeg">Hindu non-vegetarian</option>
+            <option value="halal">Halal</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="action-row">
+        <button type="submit" class="primary-button">
+          Find recipes from selected ingredients
         </button>
-    </div>
-    <div class="container">
-        <div class="input-section" id="inputSection">
-            <h1 class="hero-title">What should we cook?</h1>
-            <p class="hero-sub">Tell me your ingredients, preferences, and cravings — I'll find the perfect recipe for you.</p>
-            <p class="personality-msg">👋 Hey there, Chef! I'm here to help you create something delicious today.</p>
-            <div class="input-card">
-                <div class="input-row">
-                    <div class="input-group full">
-                        <label class="input-label">🔎 Know a dish? Type it and I'll find the recipe</label>
-                        <div class="recipe-lookup">
-                            <input type="text" class="input-field" id="recipeLookup" placeholder="e.g. Margherita Pizza, Pad Thai, Falafel..." autocomplete="off">
-                            <button class="lookup-btn" onclick="findRecipeByName()">Find</button>
-                        </div>
-                        <div class="lookup-suggestions" id="lookupSuggestions"></div>
-                    </div>
-                </div>
-                <div class="input-divider"><span>or browse by ingredients</span></div>
-                <div class="input-row">
-                    <div class="input-group full">
-                        <label class="input-label">Input for Ingredients</label>
-                        <textarea class="input-field" id="ingredients" placeholder="What do you have? e.g. paneer, rice, tomatoes, onions, garlic..."></textarea>
-                    </div>
-                </div>
-                <div class="input-row">
-                    <div class="input-group full">
-                        <label class="input-label">Spices, Grains, Vegetables etc</label>
-                        <textarea class="input-field" id="spicesGrains" placeholder="e.g. cumin, basmati rice, spinach, turmeric, lentils..." style="min-height:60px"></textarea>
-                    </div>
-                </div>
-                <div class="input-group" style="margin-bottom: 16px;">
-                    <label class="input-label">Recipe Cuisine</label>
-                    <div class="cuisine-tags" id="cuisineTags">
-                        <div class="cuisine-tag" data-cuisine="indian">🇮🇳 Indian</div>
-                        <div class="cuisine-tag" data-cuisine="asian">🥢 Asian</div>
-                        <div class="cuisine-tag" data-cuisine="italian">🇮🇹 Italian</div>
-                        <div class="cuisine-tag" data-cuisine="turkish">🇹🇷 Turkish</div>
-                        <div class="cuisine-tag" data-cuisine="lebanese">🇱🇧 Lebanese</div>
-                        <div class="cuisine-tag" data-cuisine="mexican">🇲🇽 Mexican</div>
-                        <div class="cuisine-tag" data-cuisine="thai">🇹🇭 Thai</div>
-                        <div class="cuisine-tag" data-cuisine="japanese">🇯🇵 Japanese</div>
-                    </div>
-                </div>
-                <div class="input-group" style="margin-bottom: 24px;">
-                    <label class="input-label">Time Order Filter</label>
-                    <div class="time-filter" id="timeFilter">
-                        <button class="time-btn active" data-time="all">All</button>
-                        <button class="time-btn" data-time="15">Under 15m</button>
-                        <button class="time-btn" data-time="30">Under 30m</button>
-                        <button class="time-btn" data-time="60">Under 1hr</button>
-                        <button class="time-btn" data-time="120">Under 2hr</button>
-                    </div>
-                </div>
-                <button class="submit-btn" id="submitBtn" onclick="findRecipes()">
-                    <span class="btn-text">🔍 Find Recipes — Recommend for Me</span>
-                    <div class="spinner"></div>
-                </button>
-            </div>
-        </div>
-        <div class="results-section" id="resultsSection">
-            <div class="results-header">
-                <h2 class="results-title" id="resultsTitle">Your Recipes</h2>
-                <span class="results-count" id="resultsCount"></span>
-            </div>
-            <div class="sort-bar">
-                <button class="sort-btn active" data-sort="relevance" onclick="sortResults('relevance')">Best Match</button>
-                <button class="sort-btn" data-sort="time-asc" onclick="sortResults('time-asc')">Fastest First</button>
-                <button class="sort-btn" data-sort="time-desc" onclick="sortResults('time-desc')">Longest First</button>
-            </div>
-            <div class="recipe-grid" id="recipeGrid"></div>
-            <div class="no-results" id="noResults" style="display:none;">
-                <div class="no-results-emoji">🤔</div>
-                <h3>No recipes found</h3>
-                <p>Try different ingredients or loosen your filters. I'm sure we can find something tasty!</p>
-            </div>
-            <div class="suggested-section" id="suggestedSection">
-                <h3 class="suggested-title">💡 You might also like</h3>
-                <div class="suggested-grid" id="suggestedGrid"></div>
-            </div>
-        </div>
-    </div>
-    <div class="ai-mode-overlay" id="aiOverlay">
-        <nav class="ai-nav">
-            <div class="ai-logo">
-                <div class="ai-logo-icon">🧠</div>
-                RecipeAI <span class="ai-badge">ULTRA</span>
-            </div>
-            <button class="ai-close" onclick="closeAIMode()">← Back to Standard</button>
-        </nav>
-        <div class="ai-container">
-            <div class="ai-hero">
-                <h1>AI Chef Ultra Mode</h1>
-                <p>Next-generation recipe intelligence. Describe anything — a mood, a memory, a craving — and watch the magic happen. Under 5 seconds.</p>
-                <div class="ai-stats">
-                    <div class="ai-stat">
-                        <div class="ai-stat-val">&lt;5s</div>
-                        <div class="ai-stat-label">Response Time</div>
-                    </div>
-                    <div class="ai-stat">
-                        <div class="ai-stat-val">10K+</div>
-                        <div class="ai-stat-label">Recipe Knowledge</div>
-                    </div>
-                    <div class="ai-stat">
-                        <div class="ai-stat-val">∞</div>
-                        <div class="ai-stat-label">Creativity</div>
-                    </div>
-                </div>
-            </div>
-            <div class="ai-input-area">
-                <textarea class="ai-prompt-field" id="aiPrompt" placeholder="Describe anything you're craving — a mood, a memory, a flavor, a craving..."></textarea>
-                <div class="ai-controls">
-                    <div class="ai-options">
-                        <button class="ai-option active" data-style="creative" onclick="setAIStyle(this)">Creative</button>
-                        <button class="ai-option" data-style="traditional" onclick="setAIStyle(this)">Traditional</button>
-                        <button class="ai-option" data-style="fusion" onclick="setAIStyle(this)">Fusion</button>
-                        <button class="ai-option" data-style="healthy" onclick="setAIStyle(this)">Healthy</button>
-                    </div>
-                    <button class="ai-generate-btn" id="aiGenBtn" onclick="generateAIRecipe()">
-                        <span class="ai-btn-text">✨ Generate Recipe</span>
-                        <div class="spinner"></div>
-                    </button>
-                </div>
-            </div>
-            <div class="ai-typing-indicator" id="aiTyping">
-                <div class="typing-dots"><span></span><span></span><span></span></div>
-                <span>AI Chef is thinking...</span>
-            </div>
-            <div class="ai-result" id="aiResult"></div>
-        </div>
-    </div>
-    <div class="toast" id="toast"></div>
-    <script src="js/data.js"></script>
-    <script src="js/app.js"></script>
+
+        <button type="button" id="clearIngredientsButton" class="secondary-button">
+          Clear ingredients
+        </button>
+
+        <button type="button" id="resetFiltersButton" class="secondary-button">
+          Reset filters
+        </button>
+      </div>
+    </form>
+
+    <main id="results"></main>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
 </body>
 </html>

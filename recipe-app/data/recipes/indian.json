@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": ["chicken", "tomato", "onion"],
+    "flexibleIngredients": ["garlic", "ginger", "yogurt"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "coriander powder", "turmeric", "garam masala", "chili powder"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "500g chicken, cut into bite-sized pieces",
+      "2 medium tomatoes, finely chopped",
+      "1 large onion, finely sliced",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1/2 cup plain yogurt",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "2 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat 2 tbsp oil in a heavy-bottomed pan over medium heat. Add sliced onion and cook, stirring occasionally, for 8–10 minutes until deep golden brown.",
+      "Add minced garlic and grated ginger. Stir and cook for 1–2 minutes until the raw smell disappears and the mixture turns slightly fragrant.",
+      "Add chopped tomatoes, turmeric, cumin, coriander powder, and chili powder. Stir well and cook on medium heat for 7–8 minutes until the tomatoes completely break down and oil begins to separate at the edges of the masala.",
+      "Reduce heat to low. Add yogurt one tablespoon at a time, stirring continuously after each addition so it blends without splitting.",
+      "Add chicken pieces and increase heat to medium. Cook for 5–6 minutes, turning pieces occasionally, until the chicken is lightly browned and fully coated with the masala.",
+      "Add 3/4 cup water, stir, cover the pan, and simmer on low heat for 20–22 minutes until the chicken is cooked through and no longer pink inside.",
+      "Uncover, add garam masala, and simmer for 3–4 minutes until the gravy thickens to a coating consistency.",
+      "Season with salt, garnish with chopped cilantro if available, and serve hot."
+    ],
+    "cookTips": [
+      "Brown the onions to a deep golden colour — this gives the curry its rich base flavour.",
+      "Always add yogurt off direct high heat and stir constantly to prevent it from splitting.",
+      "Simmer the chicken gently rather than boiling hard, which keeps the meat juicy."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": ["cream", "coconut milk"],
+        "note": "Use cream for a richer gravy or coconut milk for a mildly sweet, creamy finish."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed basmati rice.",
+      "Serve with roti or flatbread.",
+      "Pair with sliced cucumber and a spoonful of yogurt on the side."
+    ]
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["paneer", "spinach", "onion"],
+    "flexibleIngredients": ["garlic", "ginger", "tomato", "cream"],
+    "optionalIngredients": ["green chili"],
+    "spices": ["cumin", "coriander powder", "turmeric", "garam masala"],
+    "pantryStaples": ["salt", "oil", "butter", "water"],
+    "displayIngredients": [
+      "250g paneer, cut into 2cm cubes",
+      "400g fresh spinach, washed",
+      "1 large onion, roughly chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "2 medium tomatoes, chopped",
+      "1–2 green chilies, slit",
+      "3 tbsp cream",
+      "1 tsp cumin",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1/2 tsp garam masala",
+      "1 tbsp butter",
+      "2 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a rolling boil. Add spinach and blanch for 2 minutes until wilted and bright green. Drain immediately and transfer to a bowl of cold water to stop cooking. Drain again and blend to a smooth puree with 2–3 tbsp water. Set aside.",
+      "Heat 2 tbsp oil in a wide pan over medium heat. Add paneer cubes in a single layer and pan-fry for 2–3 minutes per side until golden on two sides. Remove and set aside on a plate.",
+      "In the same pan, add 1 tbsp butter. Add cumin seeds and let them sizzle for 30 seconds. Add chopped onion and cook for 7–8 minutes over medium heat until soft and lightly golden.",
+      "Add garlic, ginger, and green chili. Cook for 1 minute. Add chopped tomatoes, turmeric, and coriander powder. Cook for 5–6 minutes until the tomatoes are fully soft and the oil separates.",
+      "Pour in the spinach puree and stir to combine with the masala base. Simmer on low heat for 4–5 minutes until the raw spinach smell cooks out.",
+      "Add the pan-fried paneer cubes and stir gently to coat. Simmer for 3–4 minutes so the paneer absorbs the flavours.",
+      "Stir in cream and garam masala. Simmer for 1–2 minutes. Season with salt and serve hot."
+    ],
+    "cookTips": [
+      "Blanch spinach briefly and cool it immediately — this keeps the colour vivid green.",
+      "Pan-frying paneer first gives it a slight crust that holds up in the gravy.",
+      "Do not over-blend the spinach to a watery consistency — a slightly thick puree gives body to the dish."
+    ],
+    "substitutions": [
+      {
+        "missing": "paneer",
+        "alternatives": ["tofu"],
+        "note": "Use firm tofu pressed and pan-fried the same way as paneer."
+      },
+      {
+        "missing": "cream",
+        "alternatives": ["yogurt", "coconut milk"],
+        "note": "Stir in yogurt off heat to avoid curdling, or use coconut milk for a dairy-free version."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti, naan, or flatbread.",
+      "Serve alongside steamed rice.",
+      "Add a small spoonful of butter on top just before serving."
+    ]
+  },
+  {
+    "id": "dal-tadka",
+    "name": "Dal Tadka",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": ["lentils", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "asafoetida", "mustard seeds"],
+    "pantryStaples": ["salt", "oil", "ghee", "water"],
+    "displayIngredients": [
+      "1 cup red or yellow lentils, rinsed",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1–2 green chilies, slit",
+      "1/2 tsp turmeric",
+      "1 tsp cumin seeds",
+      "1/4 tsp asafoetida",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1 tbsp ghee",
+      "2 tbsp oil",
+      "Salt and water as needed",
+      "Fresh cilantro for garnish"
+    ],
+    "steps": [
+      "Rinse lentils under cold water until the water runs clear. Add to a pot with 3 cups water and 1/2 tsp turmeric. Bring to a boil, then reduce to a steady simmer and cook for 20–25 minutes until completely soft and mushy. Add more water if needed. Mash lightly with the back of a spoon.",
+      "While the lentils cook, heat 2 tbsp oil in a separate pan over medium heat. Add chopped onion and cook for 7–8 minutes until golden.",
+      "Add garlic, ginger, and green chili. Cook for 1 minute. Add chopped tomatoes, coriander powder, and chili powder. Cook for 6–7 minutes until the tomatoes break down and oil separates.",
+      "Pour this onion-tomato masala into the cooked lentils. Stir well and simmer together for 5 minutes. Adjust consistency with water and season with salt.",
+      "For the tadka: heat 1 tbsp ghee in a small pan over medium-high heat. Add cumin seeds and let them splutter for 20 seconds. Add asafoetida and stir once. Immediately pour the hot tadka over the dal.",
+      "Stir gently, garnish with chopped cilantro, and serve immediately while the tadka is still sizzling."
+    ],
+    "cookTips": [
+      "Cook lentils until completely mushy — under-cooked lentils taste grainy and starchy.",
+      "The tadka must be added at the last moment and kept hot so the spices bloom properly in the ghee.",
+      "Asafoetida should be added to hot ghee for just a second before the pan goes over the dal."
+    ],
+    "substitutions": [
+      {
+        "missing": "ghee",
+        "alternatives": ["butter", "oil"],
+        "note": "Butter gives a close flavour to ghee; oil works but the tadka will be lighter in aroma."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed basmati rice.",
+      "Serve with roti or bread.",
+      "Pair with a side of sliced onion and lemon wedges."
+    ]
+  },
+  {
+    "id": "aloo-gobi",
+    "name": "Aloo Gobi",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["potato", "cauliflower", "onion"],
+    "flexibleIngredients": ["garlic", "ginger", "tomato", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "2 medium potatoes, peeled and cut into 2cm cubes",
+      "1 small cauliflower, cut into medium florets",
+      "1 medium onion, finely chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 medium tomato, chopped",
+      "1 green chili, slit",
+      "1/2 tsp turmeric",
+      "1 tsp cumin seeds",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste",
+      "Fresh cilantro to garnish"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a wide heavy pan over medium heat. Add cumin seeds and let them splutter for 20 seconds. Add chopped onion and cook for 6–7 minutes until soft and lightly golden.",
+      "Add garlic, ginger, and green chili. Cook for 1 minute. Add chopped tomato, turmeric, coriander powder, and chili powder. Cook for 4–5 minutes until the tomato softens and the spices smell cooked.",
+      "Add potato cubes and stir well to coat with the masala. Cook on medium heat for 3–4 minutes, stirring occasionally so the potatoes absorb the spices.",
+      "Add cauliflower florets and stir to mix. Season with salt.",
+      "Reduce heat to low, cover the pan with a lid, and cook for 15–18 minutes. Stir every 5 minutes and check that nothing is sticking. The vegetables should be tender when pierced with a fork.",
+      "Remove the lid, increase heat to medium, and cook uncovered for 3–4 minutes to evaporate any remaining moisture and lightly crisp the edges.",
+      "Sprinkle garam masala, stir once, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Cut potatoes slightly larger than cauliflower since they take longer to cook.",
+      "Keep the heat low when covered — high heat will burn the bottom before the vegetables cook through.",
+      "Do not add water unless the pan is very dry; the vegetables release enough moisture on their own."
+    ],
+    "substitutions": [
+      {
+        "missing": "cauliflower",
+        "alternatives": ["broccoli"],
+        "note": "Broccoli cooks faster than cauliflower — reduce the covered cooking time by 5 minutes."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a dry side dish with roti or paratha.",
+      "Pack into a wrap or flatbread for a simple meal.",
+      "Serve alongside dal and steamed rice."
+    ]
+  },
+  {
+    "id": "lamb-rogan-josh",
+    "name": "Lamb Rogan Josh",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 90,
+    "difficulty": "hard",
+    "requiredIngredients": ["lamb", "onion", "yogurt"],
+    "flexibleIngredients": ["garlic", "ginger", "tomato"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "coriander powder", "turmeric", "garam masala", "chili powder", "cardamom", "cloves", "cinnamon", "bay leaf"],
+    "pantryStaples": ["salt", "oil", "ghee", "water"],
+    "displayIngredients": [
+      "700g bone-in lamb pieces",
+      "2 large onions, finely sliced",
+      "1 cup plain yogurt, whisked",
+      "4 garlic cloves, minced",
+      "2 inch ginger, grated",
+      "2 medium tomatoes, pureed",
+      "2 bay leaves",
+      "4 cardamom pods, lightly crushed",
+      "4 cloves",
+      "1 inch cinnamon stick",
+      "1 tsp cumin seeds",
+      "1.5 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "2 tsp chili powder",
+      "1.5 tsp garam masala",
+      "2 tbsp ghee",
+      "2 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat ghee and oil together in a large heavy pot over medium heat. Add bay leaves, cardamom, cloves, and cinnamon. Let them sizzle for 30 seconds until fragrant.",
+      "Add sliced onions and cook on medium heat for 15–18 minutes, stirring regularly, until they turn a deep mahogany brown. Do not rush this step.",
+      "Add garlic and ginger. Cook for 2 minutes. Add pureed tomatoes, turmeric, coriander powder, and chili powder. Cook for 8–10 minutes until the oil separates visibly from the masala.",
+      "Reduce heat to low. Add whisked yogurt one tablespoon at a time, stirring briskly after each addition to prevent splitting. Once all yogurt is incorporated, cook on low for 3–4 minutes.",
+      "Increase heat to medium-high. Add lamb pieces and cook for 8–10 minutes, turning regularly, until all sides are browned and well coated with the masala.",
+      "Add 1 cup hot water and season with salt. Bring to a boil, then reduce to the lowest heat setting. Cover tightly and cook for 50–60 minutes, stirring every 15 minutes, until the lamb is very tender and falling off the bone.",
+      "Add garam masala and stir. Cook uncovered on medium heat for 5–7 minutes until the gravy is thick and glossy.",
+      "Garnish with cilantro and serve hot."
+    ],
+    "cookTips": [
+      "Deep brown onions are essential — they give Rogan Josh its characteristic dark, rich gravy.",
+      "Use bone-in lamb for the best flavour; the marrow enriches the sauce during slow cooking.",
+      "If the lamb still feels tough after 60 minutes, add a splash of water and cook for another 15 minutes."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": ["cream"],
+        "note": "Cream can replace yogurt but will result in a richer, less tangy gravy."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed basmati rice.",
+      "Serve with naan or flatbread to scoop up the thick gravy.",
+      "A side of sliced onion with lemon juice complements the richness."
+    ]
+  },
+  {
+    "id": "chana-masala",
+    "name": "Chana Masala",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["chickpea", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "green chili"],
+    "optionalIngredients": ["cilantro", "lemon"],
+    "spices": ["cumin", "coriander powder", "turmeric", "garam masala", "chili powder", "bay leaf"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "2 cans (400g each) cooked chickpeas, drained and rinsed",
+      "2 large onions, finely chopped",
+      "3 medium tomatoes, finely chopped",
+      "4 garlic cloves, minced",
+      "1.5 inch ginger, grated",
+      "1–2 green chilies, slit",
+      "2 bay leaves",
+      "1 tsp cumin seeds",
+      "1.5 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1 tsp chili powder",
+      "1.5 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste",
+      "Juice of half a lemon",
+      "Fresh cilantro to garnish"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a large pan over medium heat. Add cumin seeds and bay leaves. Let them sizzle for 20 seconds.",
+      "Add chopped onion and cook for 10–12 minutes over medium heat, stirring every 2 minutes, until deep golden brown.",
+      "Add garlic, ginger, and green chili. Cook for 1–2 minutes until the raw smell is gone.",
+      "Add chopped tomatoes, turmeric, coriander powder, and chili powder. Stir well and cook on medium heat for 8–10 minutes until the tomatoes fully break down and oil separates from the masala.",
+      "Add drained chickpeas and stir to coat thoroughly. Add 1/2 cup water, stir, and bring to a simmer.",
+      "Cover the pan and cook on medium-low heat for 10 minutes so the chickpeas absorb the flavours. Use the back of a spoon to mash a few chickpeas against the pan to thicken the gravy naturally.",
+      "Add garam masala and lemon juice. Stir and cook uncovered for 3–4 minutes until the gravy thickens to your liking.",
+      "Season with salt, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Mashing a few chickpeas thickens the gravy without adding flour or extra liquid.",
+      "Deeply browned onions are the backbone of a good chana masala — do not undercut this step.",
+      "A squeeze of lemon at the end brightens all the flavours."
+    ],
+    "substitutions": [
+      {
+        "missing": "chickpea",
+        "alternatives": ["beans", "lentils"],
+        "note": "Kidney beans or black beans work well; reduce simmer time slightly as they are softer."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with bhatura, puri, or flatbread.",
+      "Serve alongside steamed rice.",
+      "Top with finely chopped raw onion and a lemon wedge."
+    ]
+  },
+  {
+    "id": "egg-curry",
+    "name": "Egg Curry",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["egg", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "coconut milk"],
+    "optionalIngredients": ["cilantro", "green chili"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "6 large eggs",
+      "2 medium onions, finely chopped",
+      "3 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "1/2 cup coconut milk",
+      "1/2 tsp turmeric",
+      "1 tsp cumin seeds",
+      "1 tsp coriander powder",
+      "1 tsp chili powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Place eggs in a saucepan, cover with cold water, and bring to a boil. Boil for 9 minutes, then transfer to cold water. Peel carefully once cool. Using a sharp knife, make 3–4 shallow diagonal slits in each egg — this helps them absorb the gravy.",
+      "Heat 1 tbsp oil in the curry pan over medium heat. Add the peeled eggs and roll them around in the oil for 2–3 minutes until the surface turns light golden. Remove and set aside.",
+      "Add 2 more tbsp oil to the same pan. Add cumin seeds and let them pop for 20 seconds. Add chopped onion and cook for 8–10 minutes on medium heat until golden.",
+      "Add garlic, ginger, and green chili. Cook for 1 minute. Add chopped tomatoes, turmeric, coriander powder, and chili powder. Cook for 7–8 minutes until oil separates from the masala.",
+      "Pour in coconut milk and 1/4 cup water. Stir and simmer for 3–4 minutes until the gravy is smooth and slightly thickened.",
+      "Gently lower the fried eggs into the gravy. Spoon the sauce over them. Simmer on low heat for 5–6 minutes so the eggs absorb the flavours.",
+      "Add garam masala, season with salt, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Slitting the eggs ensures the gravy penetrates inside rather than just coating the surface.",
+      "Lightly frying the eggs before adding them to the curry gives them a slightly firm, golden skin that holds up in the sauce.",
+      "Coconut milk moderates the heat — if you prefer a spicier curry, use water instead."
+    ],
+    "substitutions": [
+      {
+        "missing": "coconut milk",
+        "alternatives": ["cream", "yogurt"],
+        "note": "Cream produces a richer gravy; yogurt adds a pleasant tang — stir in yogurt off direct high heat."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed rice.",
+      "Serve with flatbread or roti.",
+      "Goes well with a side of sliced cucumber."
+    ]
+  },
+  {
+    "id": "jeera-rice",
+    "name": "Jeera Rice",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": ["rice"],
+    "flexibleIngredients": ["cashew"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "bay leaf", "cloves", "cardamom"],
+    "pantryStaples": ["salt", "ghee", "water"],
+    "displayIngredients": [
+      "1.5 cups basmati rice",
+      "1.5 tsp cumin seeds",
+      "2 bay leaves",
+      "3 cloves",
+      "2 cardamom pods, lightly crushed",
+      "2 tbsp ghee",
+      "Small handful of cashews (optional)",
+      "Salt to taste",
+      "2.5 cups water"
+    ],
+    "steps": [
+      "Wash the rice in cold water 3–4 times until the water runs mostly clear. Soak in fresh cold water for 15 minutes, then drain completely.",
+      "Heat 2 tbsp ghee in a medium pot over medium heat. Add cashews if using and fry for 1–2 minutes until golden. Remove cashews and set aside.",
+      "In the same ghee, add bay leaves, cloves, and cardamom. Let them sizzle for 20 seconds. Add cumin seeds and let them crackle for 30 seconds until fragrant.",
+      "Add the drained rice and stir gently for 1–2 minutes to coat every grain in the spiced ghee without breaking the grains.",
+      "Add 2.5 cups water and salt. Bring to a boil on high heat, then immediately reduce to the lowest heat setting. Cover tightly with a lid and cook for 12–13 minutes.",
+      "Turn off the heat and do not lift the lid for 5 minutes — the steam finishes cooking the rice. Then fluff gently with a fork from the edges inward.",
+      "Top with fried cashews and chopped cilantro and serve."
+    ],
+    "cookTips": [
+      "Soaking the rice for 15 minutes produces longer, fluffier grains after cooking.",
+      "Stir the rice in ghee briefly before adding water — this coats the grains and prevents clumping.",
+      "Resist lifting the lid during the resting period; the trapped steam is essential."
+    ],
+    "substitutions": [
+      {
+        "missing": "ghee",
+        "alternatives": ["butter", "oil"],
+        "note": "Butter comes closest to ghee in flavour; oil produces a lighter result."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a base for any Indian curry.",
+      "Pairs especially well with dal tadka or chana masala.",
+      "Serve with raita made from yogurt and cucumber."
+    ]
+  },
+  {
+    "id": "paneer-butter-masala",
+    "name": "Paneer Butter Masala",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["paneer", "tomato", "onion"],
+    "flexibleIngredients": ["garlic", "ginger", "cream", "cashew"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala", "cardamom", "cloves"],
+    "pantryStaples": ["salt", "butter", "oil", "water", "sugar"],
+    "displayIngredients": [
+      "300g paneer, cut into 2cm cubes",
+      "3 large tomatoes, roughly chopped",
+      "1 large onion, roughly chopped",
+      "3 garlic cloves",
+      "1 inch ginger",
+      "20g cashews",
+      "1/2 cup cream",
+      "2 cardamom pods",
+      "3 cloves",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1 tsp chili powder",
+      "1 tsp garam masala",
+      "1 tsp sugar",
+      "2 tbsp butter",
+      "1 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat 1 tbsp oil in a pan over medium heat. Add onion, garlic, ginger, cardamom, cloves, and cashews. Cook for 5–6 minutes until the onion softens. Add chopped tomatoes and cook for 8 minutes until completely mushy. Let cool slightly, then blend to a very smooth paste.",
+      "Strain the blended paste through a fine sieve, pressing with a spoon to extract maximum sauce. Discard fibrous solids. This step produces a silky, restaurant-quality base.",
+      "Heat 2 tbsp butter in the same pan over medium heat. Add cumin seeds and let them crackle for 20 seconds. Add turmeric, coriander powder, and chili powder, and stir for 30 seconds.",
+      "Pour in the strained tomato-onion paste. Cook on medium heat for 8–10 minutes, stirring regularly, until the sauce darkens slightly and butter begins to separate at the surface.",
+      "Add 1/4 cup water, stir, and bring to a gentle simmer. Add sugar to balance the acidity and season with salt.",
+      "Add paneer cubes and stir gently. Simmer on low heat for 4–5 minutes.",
+      "Reduce heat to very low. Stir in cream and garam masala. Simmer for 2 minutes without boiling. Garnish with a swirl of cream and cilantro."
+    ],
+    "cookTips": [
+      "Straining the sauce is the key step that gives this dish its signature smooth, creamy texture.",
+      "Cook the sauce after blending until the butter separates — this means the raw tomato flavour is fully cooked out.",
+      "Add sugar gradually and taste; the amount needed depends on the acidity of the tomatoes."
+    ],
+    "substitutions": [
+      {
+        "missing": "paneer",
+        "alternatives": ["tofu"],
+        "note": "Use firm tofu pressed and cubed. Pan-fry before adding to the sauce."
+      },
+      {
+        "missing": "cream",
+        "alternatives": ["coconut milk"],
+        "note": "Coconut milk gives a slightly sweeter, dairy-free version of the sauce."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with naan, roti, or flatbread.",
+      "Serve with steamed basmati rice.",
+      "Garnish generously with cream and a pinch of garam masala at the table."
+    ]
+  },
+  {
+    "id": "aloo-matar",
+    "name": "Aloo Matar",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["potato", "peas", "onion"],
+    "flexibleIngredients": ["tomato", "garlic", "ginger"],
+    "optionalIngredients": ["cilantro", "green chili"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "3 medium potatoes, peeled and cut into 2cm cubes",
+      "1 cup peas (fresh or frozen)",
+      "1 large onion, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "1/2 tsp turmeric",
+      "1 tsp cumin seeds",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/2 tsp garam masala",
+      "2 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat 2 tbsp oil in a wide pan over medium heat. Add cumin seeds and let them pop for 20 seconds. Add chopped onion and cook for 6–7 minutes until golden.",
+      "Add garlic, ginger, and green chili. Cook for 1 minute. Add tomatoes, turmeric, coriander powder, and chili powder. Stir and cook for 5–6 minutes until the tomatoes are soft and oil separates.",
+      "Add potato cubes and stir to coat well with the masala. Cook for 3–4 minutes, stirring so the potatoes pick up colour and the spices penetrate.",
+      "Add 3/4 cup water and salt. Stir, cover, and cook on medium-low heat for 12–15 minutes until the potatoes are nearly tender when poked with a knife.",
+      "Add peas, stir, cover again, and cook for 5 more minutes until both potatoes and peas are fully cooked.",
+      "Uncover and cook on medium heat for 2–3 minutes to reduce excess water. The final dish should be semi-dry with a light coating sauce.",
+      "Sprinkle garam masala, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Cut potatoes evenly so they cook at the same rate.",
+      "If using frozen peas, add them directly from frozen — they cook quickly and don't need thawing.",
+      "Keep the final dish semi-dry rather than soupy; the coating sauce should cling to the vegetables."
+    ],
+    "substitutions": [
+      {
+        "missing": "peas",
+        "alternatives": ["beans"],
+        "note": "Cooked kidney beans or mixed beans make a heartier version."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti or flatbread.",
+      "Works well as a filling for wraps.",
+      "Serve alongside dal for a complete meal."
+    ]
+  },
+  {
+    "id": "fish-curry",
+    "name": "South Indian Fish Curry",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": ["fish", "onion", "tomato", "coconut milk"],
+    "flexibleIngredients": ["garlic", "ginger", "green chili", "curry leaves"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["turmeric", "chili powder", "coriander powder", "mustard seeds"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "500g firm white fish fillets, cut into 4cm pieces",
+      "1 large onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "1 cup coconut milk",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1–2 green chilies, slit",
+      "10–12 fresh curry leaves",
+      "1/2 tsp mustard seeds",
+      "1/2 tsp turmeric",
+      "1.5 tsp chili powder",
+      "1 tsp coriander powder",
+      "3 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Rub fish pieces with 1/4 tsp turmeric and a pinch of salt. Set aside for 10 minutes while you prepare the curry base.",
+      "Heat 3 tbsp oil in a wide pan over medium heat. Add mustard seeds and let them pop and splutter for 20–30 seconds. Add curry leaves — they will crackle — then add green chili.",
+      "Add chopped onion and cook for 7–8 minutes until golden. Add garlic and ginger and cook for 1 minute.",
+      "Add chopped tomatoes, the remaining turmeric, chili powder, and coriander powder. Cook for 6–7 minutes until the tomatoes break down completely and the oil separates.",
+      "Pour in coconut milk and 1/4 cup water. Stir well and bring to a gentle simmer over medium-low heat. Cook for 3–4 minutes.",
+      "Gently slide the marinated fish pieces into the simmering gravy in a single layer. Do not stir vigorously — gently spoon the sauce over the fish. Cook for 8–10 minutes on low heat until the fish turns opaque and flakes easily.",
+      "Season with salt, garnish with cilantro, and serve immediately."
+    ],
+    "cookTips": [
+      "Never stir vigorously once the fish is in — it breaks apart easily.",
+      "Curry leaves are essential for the South Indian flavour profile; do not skip them.",
+      "Marinating fish in turmeric removes any strong smell and gives a better colour."
+    ],
+    "substitutions": [
+      {
+        "missing": "coconut milk",
+        "alternatives": ["cream"],
+        "note": "Cream gives a richer, less tangy sauce without the coconut flavour."
+      },
+      {
+        "missing": "curry leaves",
+        "alternatives": ["bay leaf"],
+        "note": "Bay leaf is a loose substitute — it won't replicate the aroma but adds depth."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed rice.",
+      "Serve with flatbread or parotta.",
+      "Add a side of sliced cucumber or a simple green salad."
+    ]
+  },
+  {
+    "id": "shrimp-masala",
+    "name": "Shrimp Masala",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": ["shrimp", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "coconut milk"],
+    "optionalIngredients": ["cilantro", "green chili", "curry leaves"],
+    "spices": ["turmeric", "chili powder", "coriander powder", "garam masala", "mustard seeds"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "400g shrimp, peeled and deveined",
+      "2 medium onions, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "1/2 cup coconut milk",
+      "8 curry leaves",
+      "1/2 tsp mustard seeds",
+      "1/2 tsp turmeric",
+      "1.5 tsp chili powder",
+      "1 tsp coriander powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Toss shrimp with 1/4 tsp turmeric and a pinch of salt. Let sit for 5 minutes.",
+      "Heat 3 tbsp oil in a wide pan over medium-high heat. Add mustard seeds and curry leaves. Once they splutter, add green chili and chopped onion.",
+      "Cook onion for 8–9 minutes on medium heat until golden. Add garlic and ginger and cook for 1 minute.",
+      "Add chopped tomatoes, remaining turmeric, chili powder, and coriander powder. Cook for 6–7 minutes until tomatoes fully break down and oil separates.",
+      "Add coconut milk and stir. Bring to a gentle simmer and cook for 2 minutes.",
+      "Add the marinated shrimp in a single layer. Cook on medium heat for 2–3 minutes, flip each shrimp, and cook for another 2 minutes. Shrimp are done when they turn pink and curl into a C-shape. Do not overcook or they become rubbery.",
+      "Add garam masala, season with salt, garnish with cilantro, and serve immediately."
+    ],
+    "cookTips": [
+      "Shrimp cook very fast — 4 to 5 minutes total is usually enough. Overcooked shrimp turn rubbery.",
+      "A C-shape means perfectly cooked; an O-shape means overcooked.",
+      "Marinating briefly in turmeric improves colour and removes any raw seafood smell."
+    ],
+    "substitutions": [
+      {
+        "missing": "shrimp",
+        "alternatives": ["fish"],
+        "note": "Use firm fish cut into cubes and handle gently; add 3–4 minutes extra cooking time."
+      },
+      {
+        "missing": "coconut milk",
+        "alternatives": ["cream"],
+        "note": "Cream works well for a richer sauce without the coconut flavour."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with steamed rice.",
+      "Serve with flatbread or parotta.",
+      "Pairs well with a simple onion and lemon salad."
+    ]
+  },
+  {
+    "id": "vegetable-biryani",
+    "name": "Vegetable Biryani",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 55,
+    "difficulty": "hard",
+    "requiredIngredients": ["rice", "onion", "carrot", "peas", "potato"],
+    "flexibleIngredients": ["garlic", "ginger", "yogurt", "cauliflower"],
+    "optionalIngredients": ["saffron", "cilantro", "mint"],
+    "spices": ["cumin", "cardamom", "cloves", "cinnamon", "bay leaf", "turmeric", "garam masala", "chili powder"],
+    "pantryStaples": ["salt", "ghee", "oil", "water"],
+    "displayIngredients": [
+      "2 cups basmati rice, washed and soaked 20 minutes",
+      "1 large onion, thinly sliced",
+      "1 medium carrot, diced",
+      "1/2 cup peas",
+      "2 medium potatoes, diced",
+      "1 cup cauliflower florets",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1/2 cup yogurt",
+      "Pinch of saffron soaked in 3 tbsp warm milk",
+      "2 bay leaves",
+      "4 cardamom pods",
+      "4 cloves",
+      "1 inch cinnamon stick",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "3 tbsp ghee",
+      "2 tbsp oil",
+      "Salt and water as needed",
+      "Fresh mint and cilantro"
+    ],
+    "steps": [
+      "Parboil the soaked rice: bring a large pot of heavily salted water to a boil. Add rice and cook for exactly 6 minutes — the grains should still have a firm bite in the centre. Drain immediately and spread on a tray.",
+      "Heat 2 tbsp oil in a heavy wide pot. Fry the sliced onion on medium heat for 12–15 minutes, stirring often, until crispy and deep brown. Remove half the fried onions and set aside for garnish.",
+      "Add garlic and ginger to the remaining onion in the pot. Cook for 1 minute. Add potatoes, carrots, and cauliflower. Cook for 3–4 minutes. Add turmeric, chili powder, and salt and stir.",
+      "Lower the heat. Add yogurt and stir continuously. Add peas, stir, and cook for 3 minutes. The vegetables should be half-cooked at this stage.",
+      "Layer the parboiled rice evenly over the vegetables. Drizzle ghee and saffron milk across the surface. Scatter mint leaves, cilantro, and the reserved fried onions on top. Sprinkle garam masala.",
+      "Cover the pot tightly with a lid. If it does not seal well, place a clean kitchen towel between the pot and lid. Cook on high heat for 3 minutes, then reduce to the absolute lowest heat and cook for 18–20 minutes (dum cooking).",
+      "Turn off heat. Rest undisturbed for 10 minutes. Open and gently mix from the edges, bringing rice and vegetables together without breaking the grains."
+    ],
+    "cookTips": [
+      "Parboiling the rice to exactly 70 percent doneness is critical — it finishes cooking on dum without becoming mushy.",
+      "The dum seal traps steam; any steam escaping means your seal is broken and rice may dry out.",
+      "Layer rather than stir — biryani is built in layers so each forkful has both rice and vegetable."
+    ],
+    "substitutions": [
+      {
+        "missing": "saffron",
+        "alternatives": ["turmeric"],
+        "note": "A very small pinch of turmeric in warm water gives a yellow colour, though without saffron's floral aroma."
+      },
+      {
+        "missing": "yogurt",
+        "alternatives": ["cream"],
+        "note": "Cream adds richness; the vegetable layer will be slightly less tangy."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with raita made from yogurt, cucumber, and cumin.",
+      "Pair with a simple onion and tomato salad.",
+      "Serve with papad or pickle on the side."
+    ]
+  },
+  {
+    "id": "masoor-dal-soup",
+    "name": "Red Lentil Soup",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "requiredIngredients": ["lentils", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "spinach"],
+    "optionalIngredients": ["lemon", "cilantro"],
+    "spices": ["cumin", "turmeric", "chili powder", "coriander powder"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "1 cup red lentils, rinsed",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 large handful of spinach, roughly chopped",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp chili powder",
+      "1 tsp coriander powder",
+      "3 tbsp oil",
+      "Salt to taste",
+      "Juice of half a lemon"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a medium pot over medium heat. Add cumin seeds and let them crackle for 20 seconds. Add chopped onion and cook for 6 minutes until softened and lightly golden.",
+      "Add garlic and ginger. Cook for 1 minute. Add chopped tomatoes, turmeric, chili powder, and coriander powder. Stir and cook for 5 minutes until the tomatoes break down.",
+      "Add rinsed lentils and 3.5 cups water. Stir well. Bring to a boil, then reduce to a steady simmer.",
+      "Skim off any foam that rises in the first few minutes. Simmer uncovered for 18–20 minutes until the lentils are completely soft and the soup has thickened.",
+      "Add the chopped spinach and stir in. Simmer for 2 more minutes until the spinach is wilted.",
+      "Taste and season with salt. Add lemon juice, stir, and check consistency. If too thick, add a splash of hot water.",
+      "Serve hot garnished with cilantro."
+    ],
+    "cookTips": [
+      "Red lentils dissolve naturally as they cook — no need to blend for a smooth result.",
+      "Adding spinach at the end preserves its bright colour and nutrients.",
+      "Lemon juice added at the end lifts the flavour significantly."
+    ],
+    "substitutions": [
+      {
+        "missing": "spinach",
+        "alternatives": ["cabbage", "cabbage"],
+        "note": "Use any leafy greens — add tougher leaves like cabbage 5 minutes earlier."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a starter with a slice of bread.",
+      "Serve as a main with steamed rice.",
+      "Drizzle a little olive oil on top for richness."
+    ]
+  },
+  {
+    "id": "aloo-paratha",
+    "name": "Aloo Paratha",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": ["flour", "potato"],
+    "flexibleIngredients": ["green chili", "green onion"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "ghee", "oil", "water"],
+    "displayIngredients": [
+      "2 cups whole wheat flour, plus extra for dusting",
+      "3 large potatoes, boiled and mashed",
+      "2 green chilies, finely chopped",
+      "2 green onions, finely chopped",
+      "1/2 tsp cumin seeds",
+      "1/2 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/4 tsp garam masala",
+      "Generous handful of cilantro, finely chopped",
+      "Ghee or oil for cooking",
+      "Salt to taste",
+      "Water to knead"
+    ],
+    "steps": [
+      "Make the dough: add 1/2 tsp salt to the flour, then add water gradually, mixing with your fingers, until a soft but non-sticky dough forms. Knead for 4–5 minutes until smooth. Cover with a damp cloth and rest for 15 minutes.",
+      "Make the filling: combine mashed potato, green chili, green onion, cilantro, cumin seeds, coriander powder, chili powder, garam masala, and salt. Mix well. The filling should hold its shape when pressed.",
+      "Divide dough into 8 equal balls and the filling into 8 equal portions. On a lightly floured surface, roll one dough ball into a 4-inch circle. Place a portion of filling in the centre.",
+      "Bring the edges of the dough together and seal tightly by pinching into a bundle. Gently flatten the filled ball with your palm. Dust lightly with flour and roll out carefully to a 7–8 inch circle. Roll evenly but gently — if filling tears through, pinch the hole closed and continue.",
+      "Heat a flat pan or tawa on medium-high heat. Place the paratha on the dry pan and cook for 1–2 minutes until small bubbles appear and the underside has light brown spots.",
+      "Flip and cook the other side for 1–2 minutes. Spread 1 tsp ghee on the top surface, flip again, and press gently with a spatula. Cook for 30 seconds. Spread ghee on the second side and flip once more for 30 seconds until both sides are golden with brown spots.",
+      "Remove and keep warm wrapped in a clean cloth. Repeat with remaining dough and filling."
+    ],
+    "cookTips": [
+      "The filling must be completely cool before rolling — warm filling causes steam that tears the dough.",
+      "Roll slowly and evenly from the centre outward to avoid uneven thickness or torn spots.",
+      "Pressing the paratha gently against the pan helps cook the filling all the way through."
+    ],
+    "substitutions": [
+      {
+        "missing": "green chili",
+        "alternatives": ["chili powder"],
+        "note": "Add a pinch of chili powder to the filling instead for a similar heat level."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve hot with yogurt and pickle.",
+      "Eat with a knob of butter melted on top.",
+      "Serve alongside a simple cucumber and onion salad."
+    ]
+  },
+  {
+    "id": "saag-aloo",
+    "name": "Saag Aloo",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["spinach", "potato", "onion"],
+    "flexibleIngredients": ["garlic", "ginger", "tomato"],
+    "optionalIngredients": ["green chili", "cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala", "mustard seeds"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "400g fresh spinach, washed",
+      "3 medium potatoes, peeled and cut into 2cm cubes",
+      "1 medium onion, finely chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 medium tomato, chopped",
+      "1 green chili, slit",
+      "1/2 tsp mustard seeds",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Blanch spinach in boiling salted water for 2 minutes. Drain and cool under running water. Squeeze out all excess water with your hands. Roughly chop the blanched spinach — do not blend it; this dish should have texture.",
+      "Heat 3 tbsp oil in a wide pan over medium heat. Add mustard seeds and cumin seeds. Let them pop for 20 seconds. Add green chili and chopped onion. Cook for 7–8 minutes until golden.",
+      "Add garlic and ginger. Cook for 1 minute. Add tomato, turmeric, coriander powder, and chili powder. Cook for 5 minutes until the tomato softens.",
+      "Add potato cubes and stir to coat. Add 1/2 cup water and salt. Cover and cook on medium-low for 12–14 minutes, stirring occasionally, until the potatoes are just tender.",
+      "Add the chopped blanched spinach and stir through. Cook uncovered for 4–5 minutes, stirring, until the spinach is well incorporated and any excess moisture evaporates.",
+      "Sprinkle garam masala, stir once, and serve."
+    ],
+    "cookTips": [
+      "Squeeze all water from the spinach before adding it — excess water makes the dish watery.",
+      "Rough-chopping the spinach gives a better texture than blending it smooth for this dish.",
+      "Cook uncovered at the end to evaporate moisture and concentrate the flavours."
+    ],
+    "substitutions": [
+      {
+        "missing": "spinach",
+        "alternatives": ["cabbage"],
+        "note": "Kale needs blanching for 4–5 minutes as it is tougher than spinach."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti or flatbread.",
+      "Goes well alongside dal.",
+      "Serve with a dollop of yogurt on the side."
+    ]
+  },
+  {
+    "id": "matar-paneer",
+    "name": "Matar Paneer",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": ["paneer", "peas", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "cream"],
+    "optionalIngredients": ["cilantro", "green chili"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "250g paneer, cut into 2cm cubes",
+      "1 cup peas (fresh or frozen)",
+      "2 medium onions, finely chopped",
+      "3 medium tomatoes, blended to puree",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "2 tbsp cream",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1 tsp chili powder",
+      "1 tsp garam masala",
+      "3 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat 1 tbsp oil in a non-stick pan over medium heat. Add paneer cubes and cook for 2–3 minutes per side until golden. Remove and set aside.",
+      "In the same pan, add 2 more tbsp oil. Add cumin seeds and let them crackle for 20 seconds. Add green chili and chopped onion and cook for 8–9 minutes until deep golden.",
+      "Add garlic and ginger. Cook for 1 minute. Pour in the tomato puree. Add turmeric, coriander powder, and chili powder. Cook on medium heat for 8–10 minutes until the sauce darkens and oil separates.",
+      "Add 1/2 cup water and salt. Stir and bring to a simmer.",
+      "Add peas and cook for 4–5 minutes until tender.",
+      "Add the pan-fried paneer cubes. Stir gently and simmer for 4–5 minutes so the paneer absorbs the gravy.",
+      "Stir in cream and garam masala. Simmer on low heat for 2 minutes. Garnish with cilantro and serve."
+    ],
+    "cookTips": [
+      "Blending the tomatoes gives a smoother, more uniform gravy than chopping.",
+      "Pan-frying paneer before adding it creates a slight crust that prevents the cubes from breaking up in the sauce.",
+      "Add cream at the very end off high heat for the smoothest finish."
+    ],
+    "substitutions": [
+      {
+        "missing": "paneer",
+        "alternatives": ["tofu"],
+        "note": "Use firm tofu. Press out moisture and pan-fry until golden before adding to the sauce."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti or naan.",
+      "Serve alongside steamed rice.",
+      "Garnish with a swirl of cream at the table."
+    ]
+  },
+  {
+    "id": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 55,
+    "difficulty": "hard",
+    "requiredIngredients": ["chicken", "tomato", "onion", "yogurt"],
+    "flexibleIngredients": ["garlic", "ginger", "cream"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "coriander powder", "turmeric", "garam masala", "chili powder", "paprika", "cardamom"],
+    "pantryStaples": ["salt", "oil", "butter", "water"],
+    "displayIngredients": [
+      "600g boneless chicken, cut into 4cm pieces",
+      "3 large tomatoes, pureed",
+      "2 large onions, finely chopped",
+      "3 garlic cloves, minced (for marinade)",
+      "3 garlic cloves, minced (for sauce)",
+      "1 inch ginger, grated (for marinade)",
+      "1 inch ginger, grated (for sauce)",
+      "1/2 cup yogurt for marinade",
+      "1/2 cup cream",
+      "1 tsp paprika",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1.5 tsp garam masala",
+      "1 tsp chili powder",
+      "2 cardamom pods, crushed",
+      "2 tbsp oil plus 1 tbsp butter",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Marinade: combine yogurt, 3 garlic cloves, ginger, paprika, 1/2 tsp cumin, 1/2 tsp chili powder, 1/4 tsp turmeric, and salt. Add chicken and mix to coat. Marinate for at least 30 minutes (or overnight in the fridge for best results).",
+      "Cook the chicken: heat a grill pan or heavy skillet on high heat with a thin layer of oil. Cook chicken pieces in batches for 4–5 minutes per side until charred spots appear and the chicken is cooked through. Set aside.",
+      "Make the sauce: heat 2 tbsp oil and 1 tbsp butter in a heavy pan over medium heat. Add cardamom and chopped onion. Cook for 10–12 minutes until deep golden brown.",
+      "Add garlic and ginger (for the sauce). Cook for 1 minute. Add tomato puree, remaining cumin, coriander powder, turmeric, and chili powder. Cook for 10–12 minutes until the sauce reduces, darkens, and oil separates visibly.",
+      "Blend the sauce to a smooth consistency. Return to the pan and heat on medium.",
+      "Add the cooked chicken pieces and stir to coat. Simmer for 5 minutes.",
+      "Stir in cream and garam masala. Simmer on low for 3–4 minutes. Season with salt, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Marinating overnight produces deeply flavoured, tender chicken — even 30 minutes makes a big difference.",
+      "High heat when cooking the chicken creates the slightly charred tikka effect that defines this dish.",
+      "Blending the sauce after cooking gives it the signature smooth, silky texture."
+    ],
+    "substitutions": [
+      {
+        "missing": "cream",
+        "alternatives": ["coconut milk", "yogurt"],
+        "note": "Coconut milk gives a lighter finish; yogurt adds tang — stir in yogurt off high heat."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with naan or flatbread.",
+      "Serve over steamed basmati rice.",
+      "Garnish with a cream swirl and chopped cilantro."
+    ]
+  },
+  {
+    "id": "rajma",
+    "name": "Rajma",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["beans", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala", "bay leaf"],
+    "pantryStaples": ["salt", "oil", "water"],
+    "displayIngredients": [
+      "2 cans (400g each) kidney beans, drained and rinsed",
+      "2 large onions, finely chopped",
+      "3 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1.5 inch ginger, grated",
+      "1 green chili, slit",
+      "2 bay leaves",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1.5 tsp coriander powder",
+      "1 tsp chili powder",
+      "1.5 tsp garam masala",
+      "3 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a heavy pot over medium heat. Add cumin seeds and bay leaves. Let them sizzle for 20 seconds. Add green chili and chopped onion. Cook for 10–12 minutes until deep golden brown.",
+      "Add garlic and ginger. Cook for 1–2 minutes. Add chopped tomatoes, turmeric, coriander powder, and chili powder. Cook for 8–10 minutes until the tomatoes are fully broken down and oil separates.",
+      "Add the drained kidney beans and stir well to coat with the masala.",
+      "Add 1 cup water and salt. Bring to a boil, then reduce to a medium-low simmer. Cover and cook for 15 minutes.",
+      "Use the back of a ladle to mash about a quarter of the beans against the side of the pot. This thickens the gravy naturally without adding anything extra.",
+      "Uncover and simmer for 5–7 minutes until the gravy reaches a thick, coating consistency. Add garam masala and stir.",
+      "Season with salt, garnish with cilantro, and serve hot."
+    ],
+    "cookTips": [
+      "Deeply caramelised onions are essential — they form the body of the gravy.",
+      "Mashing a portion of the beans thickens the sauce more than any other technique.",
+      "Let it sit for 5 minutes before serving — rajma thickens as it rests."
+    ],
+    "substitutions": [
+      {
+        "missing": "beans",
+        "alternatives": ["black beans", "chickpea"],
+        "note": "Black beans produce a slightly earthier rajma; chickpeas give a drier, more textured result."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over steamed rice — the classic rajma-chawal combination.",
+      "Serve with roti or flatbread.",
+      "Top with finely chopped raw onion, lemon juice, and cilantro."
+    ]
+  },
+  {
+    "id": "baingan-bharta",
+    "name": "Baingan Bharta",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["eggplant", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "1 large eggplant (about 500g)",
+      "1 large onion, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "2 green chilies, finely chopped",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1 tsp chili powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste",
+      "Cilantro to garnish"
+    ],
+    "steps": [
+      "Roast the eggplant directly on a gas flame or under the grill/broiler. Turn with tongs every 3–4 minutes until the skin is completely charred and blistered on all sides and the eggplant feels very soft when squeezed. This takes 15–20 minutes on a gas flame.",
+      "Transfer to a plate and cool for 10 minutes. Peel off and discard the charred skin. Mash the soft flesh with a fork until roughly textured — some chunks are fine. Avoid blending to a paste.",
+      "Heat 3 tbsp oil in a wide pan over medium heat. Add cumin seeds and let them crackle for 20 seconds. Add chopped onion and cook for 8–10 minutes until golden.",
+      "Add garlic, ginger, and green chili. Cook for 1–2 minutes. Add tomatoes, turmeric, coriander powder, and chili powder. Cook for 6–7 minutes until tomatoes break down and oil separates.",
+      "Add the mashed roasted eggplant. Stir well to combine with the masala. Cook on medium heat for 5–6 minutes, stirring regularly, until the mixture is dry and fragrant.",
+      "Add garam masala, season with salt, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Roasting on a direct flame gives the signature smoky flavour — this cannot be replicated in a pan.",
+      "The eggplant is ready when it collapses completely under gentle pressure.",
+      "Keep the texture slightly chunky rather than smooth for the best bite."
+    ],
+    "substitutions": [
+      {
+        "missing": "eggplant",
+        "alternatives": ["zucchini"],
+        "note": "Zucchini can be roasted and mashed the same way but lacks the smoky depth of eggplant."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti or flatbread.",
+      "Goes well alongside dal and rice.",
+      "Serve with raw sliced onion and a wedge of lemon."
+    ]
+  },
+  {
+    "id": "lauki-dal",
+    "name": "Bottle Gourd Dal",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["lentils", "zucchini"],
+    "flexibleIngredients": ["onion", "garlic", "ginger", "tomato"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "chili powder", "asafoetida", "mustard seeds"],
+    "pantryStaples": ["salt", "ghee", "water"],
+    "displayIngredients": [
+      "3/4 cup yellow lentils (moong or toor), rinsed",
+      "1 medium zucchini, peeled and diced into 2cm cubes",
+      "1 medium onion, finely chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 medium tomato, chopped",
+      "1/2 tsp turmeric",
+      "1/2 tsp chili powder",
+      "1 tsp cumin seeds",
+      "1/4 tsp asafoetida",
+      "1/2 tsp mustard seeds",
+      "1 tbsp ghee",
+      "Salt and water as needed",
+      "Cilantro to garnish"
+    ],
+    "steps": [
+      "Combine rinsed lentils, diced zucchini, 1/4 tsp turmeric, and 3 cups water in a pot. Bring to a boil, skim foam, then reduce to a gentle simmer and cook for 20–22 minutes until both lentils and zucchini are completely soft.",
+      "Add chopped tomato, remaining turmeric, and chili powder to the cooked dal. Stir and simmer for 5 minutes. Season with salt. The consistency should be thick but pourable.",
+      "For the tadka, heat 1 tbsp ghee in a small pan over medium-high heat. Add mustard seeds and wait for them to pop. Add cumin seeds — they will crackle immediately. Add asafoetida and stir for 5 seconds.",
+      "Add chopped onion to the tadka pan and cook for 4–5 minutes until golden. Add garlic and ginger and cook for 1 minute.",
+      "Pour the entire contents of the tadka pan into the dal. Stir to combine. Simmer for 3–4 minutes together.",
+      "Adjust consistency with water if needed, garnish with cilantro, and serve hot."
+    ],
+    "cookTips": [
+      "Zucchini substitutes for bottle gourd (lauki) in most markets outside India — the texture is very similar.",
+      "The tadka is added last and should be hot so the spices and onions release their full aroma into the dal.",
+      "This dal should be slightly thinner than a curry — it is meant to be poured over rice."
+    ],
+    "substitutions": [
+      {
+        "missing": "zucchini",
+        "alternatives": ["potato"],
+        "note": "Potato takes slightly longer to soften — add 5 extra minutes to the initial simmer."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve poured over steamed rice.",
+      "Serve with roti and a vegetable side dish.",
+      "Add a small spoonful of ghee on top before serving."
+    ]
+  },
+  {
+    "id": "keema-curry",
+    "name": "Keema Curry",
+    "cuisine": "indian",
+    "vegetarian": false,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["beef", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "peas", "potato"],
+    "optionalIngredients": ["cilantro", "green chili"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala", "bay leaf"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "500g minced beef (or lamb)",
+      "2 large onions, finely chopped",
+      "3 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1.5 inch ginger, grated",
+      "1 green chili, slit",
+      "1/2 cup peas",
+      "2 bay leaves",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1.5 tsp coriander powder",
+      "1 tsp chili powder",
+      "1 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste",
+      "Cilantro to garnish"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a wide heavy pan over medium heat. Add bay leaves and cumin seeds. Let sizzle for 20 seconds. Add chopped onion and cook for 10–12 minutes until deep golden.",
+      "Add garlic, ginger, and green chili. Cook for 2 minutes.",
+      "Add the minced meat and increase heat to medium-high. Break up lumps with a wooden spoon and cook for 8–10 minutes, stirring regularly, until the meat changes colour completely and any liquid has evaporated. The meat should begin to sizzle in its own fat.",
+      "Add tomatoes, turmeric, coriander powder, and chili powder. Stir and cook for 8–10 minutes until the tomatoes break down fully and oil separates from the mixture.",
+      "Add peas and 1/4 cup water. Stir and cook covered for 8–10 minutes on medium-low heat until the peas are cooked and the mixture is dry but not sticking.",
+      "Sprinkle garam masala and stir. Season with salt. Cook uncovered for 2–3 minutes to dry out any remaining moisture.",
+      "Garnish with cilantro and serve."
+    ],
+    "cookTips": [
+      "Evaporating all moisture from the mince before adding tomatoes is key — soggy keema lacks depth.",
+      "The finished dish should be dry and fragrant, not saucy.",
+      "Keema improves significantly the next day as the flavours develop."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": ["lamb"],
+        "note": "Lamb mince gives a richer, slightly more intense flavour."
+      },
+      {
+        "missing": "peas",
+        "alternatives": ["potato"],
+        "note": "Dice potatoes small and add them with the tomatoes — they absorb the masala beautifully."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti, naan, or flatbread.",
+      "Use as a filling for wraps or stuffed bread.",
+      "Serve alongside jeera rice and dal."
+    ]
+  },
+  {
+    "id": "coconut-chutney",
+    "name": "Coconut Chutney",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": ["coconut milk"],
+    "flexibleIngredients": ["green chili", "garlic", "ginger"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["mustard seeds", "asafoetida", "cumin"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "1/2 cup unsweetened desiccated coconut or fresh grated coconut",
+      "2–3 green chilies",
+      "1 garlic clove",
+      "1/2 inch ginger",
+      "Small handful of cilantro",
+      "1/2 tsp mustard seeds",
+      "1/4 tsp asafoetida",
+      "1 tsp cumin seeds",
+      "1 tbsp oil",
+      "Salt to taste",
+      "Water as needed"
+    ],
+    "steps": [
+      "Combine coconut, green chili, garlic, ginger, cilantro, and salt in a blender. Add 4–5 tbsp water and blend to a smooth, spreadable paste. Adjust water to reach a thick but not watery consistency. Transfer to a bowl.",
+      "For the tadka: heat 1 tbsp oil in a very small pan over medium-high heat. Add mustard seeds and wait for them to pop — about 20 seconds. Add cumin seeds and they will crackle immediately. Add asafoetida and stir for 5 seconds.",
+      "Immediately pour the hot tadka over the blended coconut chutney.",
+      "Stir to combine, taste for salt, and serve within a few hours while the tadka aroma is fresh.",
+      "If the chutney thickens on standing, stir in a tablespoon of water before serving."
+    ],
+    "cookTips": [
+      "The tadka must be poured immediately while it is still sizzling hot.",
+      "Chutney with fresh coconut is best consumed the same day.",
+      "Adjust chili quantity based on heat preference before blending."
+    ],
+    "substitutions": [],
+    "servingSuggestions": [
+      "Serve alongside dosa, idli, or any South Indian breakfast dish.",
+      "Use as a dipping sauce for pakoras or fritters.",
+      "Spread on flatbread as a condiment."
+    ]
+  },
+  {
+    "id": "tadka-dal-spinach",
+    "name": "Dal Palak",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "easy",
+    "requiredIngredients": ["lentils", "spinach", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "chili powder", "garam masala", "asafoetida"],
+    "pantryStaples": ["salt", "ghee", "oil", "water"],
+    "displayIngredients": [
+      "1 cup red lentils or split yellow lentils, rinsed",
+      "200g fresh spinach, washed and roughly chopped",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1/2 tsp turmeric",
+      "1 tsp chili powder",
+      "1/4 tsp asafoetida",
+      "1 tsp cumin seeds",
+      "1/2 tsp garam masala",
+      "1 tbsp ghee",
+      "2 tbsp oil",
+      "Salt and water as needed"
+    ],
+    "steps": [
+      "Cook rinsed lentils with 3 cups water and 1/4 tsp turmeric. Bring to a boil, skim foam, reduce heat, and simmer for 18–20 minutes until lentils are completely mushy. Set aside.",
+      "Heat 2 tbsp oil in a pan over medium heat. Add cumin seeds and sizzle for 20 seconds. Add asafoetida and stir. Add chopped onion and cook for 7–8 minutes until golden.",
+      "Add garlic and ginger. Cook for 1 minute. Add chopped tomatoes, remaining turmeric, and chili powder. Cook for 6 minutes until tomatoes break down.",
+      "Add the chopped spinach to the tomato masala. Stir and cook for 3–4 minutes on medium heat until the spinach wilts and any moisture evaporates.",
+      "Pour the cooked lentils into the spinach-masala mixture. Stir well. Simmer together for 5 minutes. Adjust consistency with water and season with salt.",
+      "Heat 1 tbsp ghee in a small pan. When it shimmers, add a pinch of cumin seeds and let them pop. Pour immediately over the dal. Add garam masala and serve."
+    ],
+    "cookTips": [
+      "Simmer lentils and spinach masala together so the flavours fully merge.",
+      "The final ghee tadka adds a layer of richness — do not skip it.",
+      "This dal should be thick and lightly textured, not watery."
+    ],
+    "substitutions": [
+      {
+        "missing": "spinach",
+        "alternatives": ["cabbage"],
+        "note": "Finely shred kale and add it 2 minutes earlier than spinach as it takes longer to wilt."
+      },
+      {
+        "missing": "ghee",
+        "alternatives": ["butter"],
+        "note": "Butter gives a very similar finishing richness."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over steamed rice.",
+      "Serve with roti and a side of pickle.",
+      "Pairs well with a simple cucumber and yogurt side."
+    ]
+  },
+  {
+    "id": "mushroom-masala",
+    "name": "Mushroom Masala",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "requiredIngredients": ["mushroom", "onion", "tomato"],
+    "flexibleIngredients": ["garlic", "ginger", "cream", "bell pepper"],
+    "optionalIngredients": ["cilantro", "green chili"],
+    "spices": ["cumin", "turmeric", "coriander powder", "chili powder", "garam masala"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "400g button mushrooms, cleaned and halved or quartered",
+      "1 large onion, finely chopped",
+      "2 medium tomatoes, finely chopped",
+      "1 small bell pepper, diced",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "3 tbsp cream",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "1 tsp chili powder",
+      "1/2 tsp garam masala",
+      "3 tbsp oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Heat 2 tbsp oil in a wide pan over high heat. Add mushrooms in a single layer — do not overcrowd. Cook without stirring for 2–3 minutes until well browned on one side. Stir and cook for another 2 minutes. Remove mushrooms and set aside. Browning the mushrooms separately is essential for flavour.",
+      "Reduce heat to medium. Add 1 more tbsp oil to the same pan. Add cumin seeds and let them crackle for 20 seconds. Add green chili and chopped onion. Cook for 7–8 minutes until golden.",
+      "Add garlic and ginger. Cook for 1 minute. Add bell pepper and cook for 2 minutes until slightly softened.",
+      "Add chopped tomatoes, turmeric, coriander powder, and chili powder. Cook for 6–7 minutes until the tomatoes are completely broken down and oil separates.",
+      "Return the browned mushrooms to the pan and stir to coat with the masala. Cook for 3–4 minutes so the mushrooms absorb all the flavours.",
+      "Stir in cream and garam masala. Simmer on low heat for 2 minutes. Season with salt, garnish with cilantro, and serve."
+    ],
+    "cookTips": [
+      "Brown mushrooms in batches over high heat without moving them — steaming produces bland, rubbery mushrooms.",
+      "Mushrooms release water as they cook — browning first removes this and concentrates flavour.",
+      "Bell pepper adds sweetness and colour; do not overcook it."
+    ],
+    "substitutions": [
+      {
+        "missing": "cream",
+        "alternatives": ["coconut milk", "yogurt"],
+        "note": "Coconut milk gives a light, slightly sweet finish; yogurt adds a pleasant tang — add off high heat."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with roti or naan.",
+      "Serve over steamed rice.",
+      "Pairs well as a side dish with dal."
+    ]
+  },
+  {
+    "id": "aloo-chaat",
+    "name": "Aloo Chaat",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": ["potato", "onion"],
+    "flexibleIngredients": ["yogurt", "tomato"],
+    "optionalIngredients": ["cilantro", "green chili", "lemon"],
+    "spices": ["cumin", "chili powder", "coriander powder"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "4 medium potatoes, boiled, peeled, and cubed",
+      "1 small onion, finely chopped",
+      "1 small tomato, finely chopped",
+      "2 green chilies, finely chopped",
+      "2 tbsp yogurt",
+      "1 tsp cumin powder (toasted cumin, ground)",
+      "1 tsp chili powder",
+      "1/2 tsp coriander powder",
+      "Juice of 1 lemon",
+      "2 tbsp oil",
+      "Salt to taste",
+      "Fresh cilantro, chopped"
+    ],
+    "steps": [
+      "Heat 2 tbsp oil in a non-stick pan over medium-high heat. Add boiled potato cubes in a single layer. Cook without stirring for 3–4 minutes until the underside is golden and crispy. Flip and cook for another 3 minutes. Season with a pinch of salt and remove from heat.",
+      "Transfer crispy potatoes to a wide bowl. While still warm, add chopped onion, tomato, and green chili.",
+      "Add chili powder, coriander powder, and cumin powder. Toss to coat evenly.",
+      "Add lemon juice and stir. The potatoes will start to absorb the flavours immediately.",
+      "Drizzle yogurt over the top and fold in gently. Season with salt. The mixture should be tangy, spicy, and slightly creamy.",
+      "Garnish generously with chopped cilantro and serve immediately — the crispy edges soften quickly."
+    ],
+    "cookTips": [
+      "Boil potatoes until just tender — overcooked potatoes fall apart when pan-fried.",
+      "Serve immediately after assembly; chaat loses its textural contrast as it sits.",
+      "Toast whole cumin seeds in a dry pan and grind for the most aromatic cumin powder."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": ["cream"],
+        "note": "Cream will be richer and less tangy; add an extra squeeze of lemon to compensate."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a snack or street food starter.",
+      "Serve in small bowls as a party appetiser.",
+      "Top with extra green chili for more heat."
+    ]
+  },
+  {
+    "id": "carrot-halwa",
+    "name": "Gajar Halwa",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": ["carrot", "milk"],
+    "flexibleIngredients": ["cashew", "cream"],
+    "optionalIngredients": ["saffron"],
+    "spices": ["cardamom"],
+    "pantryStaples": ["ghee", "sugar"],
+    "displayIngredients": [
+      "500g carrots, peeled and finely grated",
+      "500ml whole milk",
+      "4 tbsp sugar, or to taste",
+      "3 tbsp ghee",
+      "1/2 tsp ground cardamom",
+      "Small pinch of saffron soaked in 1 tbsp warm milk",
+      "2 tbsp cashews, roughly chopped",
+      "2 tbsp cream (optional)"
+    ],
+    "steps": [
+      "Heat 1 tbsp ghee in a heavy wide pan over medium heat. Add grated carrots and cook, stirring regularly, for 5–6 minutes until they soften slightly and the colour deepens.",
+      "Pour in the milk and stir. Bring to a gentle boil, then reduce to a steady medium simmer. Cook uncovered, stirring every 3–4 minutes, for 25–30 minutes until all the milk has been absorbed and the mixture is nearly dry. The carrot should look glossy and dense.",
+      "Add sugar and stir. The mixture will loosen slightly as the sugar melts. Continue cooking on medium heat for 5–6 minutes, stirring continuously, until the sugar is fully absorbed and the halwa is sticky again.",
+      "Add 2 tbsp ghee and stir vigorously. Cook for 3–4 more minutes until the halwa comes together and begins to leave the sides of the pan.",
+      "Add ground cardamom and saffron milk. Stir to combine.",
+      "In a separate small pan, heat 1 tbsp ghee and fry cashews for 2–3 minutes until golden. Add to the halwa.",
+      "Stir in cream if using for extra richness. Serve warm or at room temperature."
+    ],
+    "cookTips": [
+      "Grating carrots finely produces a smoother, more uniform halwa — a coarse grate gives a chunkier texture.",
+      "Stir frequently as the milk reduces to prevent the bottom from scorching.",
+      "The halwa is done when it comes away cleanly from the sides of the pan."
+    ],
+    "substitutions": [
+      {
+        "missing": "cashew",
+        "alternatives": ["peanut"],
+        "note": "Roasted peanuts make a more rustic version — chop them and add at the same stage."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve warm as a dessert.",
+      "Serve with a small scoop of vanilla ice cream.",
+      "Garnish with a few extra saffron strands."
+    ]
+  },
+  {
+    "id": "pav-bhaji",
+    "name": "Pav Bhaji",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": ["potato", "peas", "tomato", "onion", "bell pepper", "bread"],
+    "flexibleIngredients": ["carrot", "cauliflower", "garlic", "ginger"],
+    "optionalIngredients": ["cilantro", "lemon"],
+    "spices": ["cumin", "turmeric", "chili powder", "coriander powder", "garam masala"],
+    "pantryStaples": ["salt", "butter", "oil"],
+    "displayIngredients": [
+      "3 medium potatoes, boiled and mashed",
+      "1/2 cup peas, boiled",
+      "1/2 cup cauliflower florets, boiled",
+      "1 medium carrot, boiled and mashed",
+      "2 large onions (1 finely chopped for bhaji, 1 finely diced for garnish)",
+      "3 medium tomatoes, finely chopped",
+      "1 green bell pepper, finely chopped",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1.5 tsp chili powder",
+      "1 tsp coriander powder",
+      "1 tsp garam masala",
+      "4 tbsp butter plus extra for toasting bread",
+      "Salt to taste",
+      "6 bread rolls or dinner rolls",
+      "Lemon wedges and cilantro to serve"
+    ],
+    "steps": [
+      "Heat 2 tbsp butter in a wide heavy pan over medium heat. Add cumin seeds and let them crackle for 20 seconds. Add chopped onion and cook for 8–9 minutes until golden.",
+      "Add garlic and ginger. Cook for 1 minute. Add bell pepper and cook for 3 minutes until it softens. Add chopped tomatoes, turmeric, chili powder, and coriander powder. Cook for 8–10 minutes until the tomatoes fully break down and butter separates from the masala.",
+      "Add all the boiled and mashed vegetables — potato, peas, cauliflower, and carrot. Stir vigorously and use a potato masher or the back of a large spoon to mash everything into the masala until mostly smooth with a few chunks remaining.",
+      "Add 1/4 cup water and stir. Cook on medium heat for 5–6 minutes, mashing and stirring continuously. The bhaji should be thick, glossy, and slightly sticky.",
+      "Add remaining 2 tbsp butter and garam masala. Stir well and cook for 2 more minutes. Season with salt generously.",
+      "Slice bread rolls horizontally. Heat a flat pan over medium-high heat. Butter the cut sides of the rolls and toast for 1–2 minutes until golden and slightly crispy.",
+      "Serve bhaji in a bowl topped with a knob of butter, raw diced onion, cilantro, and a wedge of lemon. Serve the toasted rolls on the side."
+    ],
+    "cookTips": [
+      "Mash the vegetables aggressively into the masala — the more you work the mixture, the richer and creamier the bhaji becomes.",
+      "Be generous with butter; pav bhaji is not a low-fat dish and the butter is part of its signature flavour.",
+      "Finely dice the raw garnish onion so it provides crunch without being overpowering."
+    ],
+    "substitutions": [
+      {
+        "missing": "cauliflower",
+        "alternatives": ["broccoli"],
+        "note": "Broccoli works well boiled and mashed — it blends into the bhaji without altering the flavour significantly."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with toasted buttered bread rolls.",
+      "Top with a dollop of butter that melts into the hot bhaji.",
+      "Add extra lemon juice and raw onion just before eating."
+    ]
+  },
+  {
+    "id": "tomato-rasam",
+    "name": "Tomato Rasam",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": ["tomato", "lentils"],
+    "flexibleIngredients": ["garlic", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "black pepper", "turmeric", "mustard seeds", "asafoetida"],
+    "pantryStaples": ["salt", "ghee", "water"],
+    "displayIngredients": [
+      "4 medium tomatoes, roughly chopped",
+      "3 tbsp split red lentils (masoor), rinsed",
+      "3 garlic cloves, crushed",
+      "1–2 green chilies, slit",
+      "1/2 tsp black pepper, coarsely crushed",
+      "1 tsp cumin seeds",
+      "1/4 tsp turmeric",
+      "1/2 tsp mustard seeds",
+      "1/4 tsp asafoetida",
+      "1 tbsp ghee",
+      "Salt to taste",
+      "2.5 cups water",
+      "Cilantro to garnish"
+    ],
+    "steps": [
+      "Boil lentils with 1 cup water and 1/4 tsp turmeric for 15 minutes until very soft. Mash completely and set aside.",
+      "Blend chopped tomatoes to a smooth puree. Pour into a pot with the cooked lentils and 1.5 cups water. Add crushed garlic, green chili, salt, and coarsely crushed black pepper. Bring to a boil.",
+      "Reduce to a medium simmer and cook for 10 minutes. The rasam should be thin and soupy — not thick like a curry. Adjust water if too thick.",
+      "Prepare the tadka: heat 1 tbsp ghee in a small pan over medium-high heat. Add mustard seeds and wait for them to pop. Add cumin seeds — they crackle immediately. Add asafoetida and stir for 5 seconds.",
+      "Pour the sizzling tadka into the rasam. Stir and simmer together for 2 more minutes.",
+      "Taste for salt and pepper. Garnish with cilantro and serve hot."
+    ],
+    "cookTips": [
+      "Rasam should be thin and watery — it is meant to be drunk as a soup or poured over rice, not eaten like a curry.",
+      "Coarsely cracked black pepper is the primary flavour agent — use fresh pepper for best results.",
+      "Do not reduce the rasam too much; add water if it thickens beyond a soup consistency."
+    ],
+    "substitutions": [
+      {
+        "missing": "ghee",
+        "alternatives": ["oil"],
+        "note": "Oil works for the tadka but ghee gives a noticeably richer finish."
+      }
+    ],
+    "servingSuggestions": [
+      "Drink as a warm soup on its own.",
+      "Pour over steamed rice and mix before eating.",
+      "Serve alongside South Indian rice dishes as a broth."
+    ]
+  },
+  {
+    "id": "aloo-methi",
+    "name": "Aloo Methi",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "requiredIngredients": ["potato", "spinach"],
+    "flexibleIngredients": ["onion", "garlic", "ginger", "green chili"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "chili powder", "coriander powder", "asafoetida"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "3 medium potatoes, peeled and cut into 2cm cubes",
+      "2 large handfuls of fresh spinach (standing in for fenugreek leaves), washed and chopped",
+      "1 medium onion, finely chopped",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "1 green chili, slit",
+      "1/4 tsp asafoetida",
+      "1 tsp cumin seeds",
+      "1/2 tsp turmeric",
+      "1 tsp chili powder",
+      "1 tsp coriander powder",
+      "3 tbsp oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Heat 3 tbsp oil in a wide pan over medium heat. Add cumin seeds and asafoetida. Let the cumin crackle for 20 seconds. Add green chili and chopped onion. Cook for 6–7 minutes until golden.",
+      "Add garlic and ginger. Cook for 1 minute.",
+      "Add potato cubes and stir to coat with the spiced oil. Add turmeric, chili powder, and coriander powder. Stir well and cook for 3–4 minutes.",
+      "Add 1/4 cup water and salt. Cover the pan and cook on medium-low heat for 12–14 minutes, stirring every 4 minutes, until the potatoes are just cooked through.",
+      "Add the chopped spinach and stir through. The spinach will wilt quickly. Cook uncovered for 4–5 minutes, stirring, until any excess moisture has evaporated and the dish is dry.",
+      "Season with salt, stir once, and serve."
+    ],
+    "cookTips": [
+      "Fresh spinach is a practical substitute for fenugreek leaves (methi) which may be harder to find.",
+      "Cook uncovered at the end to keep this a dry dish — excess moisture makes it mushy.",
+      "Asafoetida adds depth and cuts through any bitterness in the greens."
+    ],
+    "substitutions": [],
+    "servingSuggestions": [
+      "Serve as a dry side dish with roti.",
+      "Pairs well alongside dal and rice.",
+      "Works as a filling for wraps or sandwiches."
+    ]
+  },
+  {
+    "id": "khichdi",
+    "name": "Khichdi",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "easy",
+    "requiredIngredients": ["rice", "lentils"],
+    "flexibleIngredients": ["carrot", "peas", "potato"],
+    "optionalIngredients": ["cilantro"],
+    "spices": ["cumin", "turmeric", "asafoetida", "bay leaf", "garam masala"],
+    "pantryStaples": ["salt", "ghee", "water"],
+    "displayIngredients": [
+      "3/4 cup basmati or short-grain rice, rinsed",
+      "1/2 cup yellow moong dal or red lentils, rinsed",
+      "1 small carrot, diced",
+      "1/2 cup peas",
+      "1 small potato, diced",
+      "1 tsp cumin seeds",
+      "1/4 tsp asafoetida",
+      "1/2 tsp turmeric",
+      "2 bay leaves",
+      "1/2 tsp garam masala",
+      "2 tbsp ghee",
+      "Salt to taste",
+      "4.5 cups water"
+    ],
+    "steps": [
+      "Heat 2 tbsp ghee in a medium pot over medium heat. Add bay leaves, cumin seeds, and asafoetida. Let the cumin crackle for 20 seconds.",
+      "Add diced potato and carrot. Stir and cook for 2 minutes.",
+      "Add the rinsed rice and lentils. Stir for 1–2 minutes to coat with ghee and let the grains turn slightly opaque.",
+      "Add turmeric and salt. Add 4.5 cups water. Stir and bring to a boil.",
+      "Reduce to low heat, add peas, cover tightly, and cook for 20 minutes. Do not lift the lid.",
+      "Turn off heat and rest for 5 minutes. Remove lid and stir gently — the rice and lentils should be very soft and porridge-like, with everything cooked together into a cohesive mass.",
+      "Add garam masala and a spoonful of ghee on top. Stir and serve hot."
+    ],
+    "cookTips": [
+      "Khichdi should be soft and slightly porridge-like, not fluffy like plain rice — use more water than you would for plain rice.",
+      "Adjust consistency with a splash of hot water after cooking if it feels too thick.",
+      "A generous spoonful of ghee on top before serving is not optional — it is what makes khichdi comforting."
+    ],
+    "substitutions": [
+      {
+        "missing": "ghee",
+        "alternatives": ["butter", "oil"],
+        "note": "Butter works well; oil produces a lighter result without the same richness."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with yogurt and pickle.",
+      "Serve with a fried papad or crispy snack on the side.",
+      "Add extra ghee on top just before eating — a traditional way to serve it."
+    ]
+  },
+  {
+    "id": "cabbage-sabzi",
+    "name": "Cabbage Sabzi",
+    "cuisine": "indian",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": ["cabbage"],
+    "flexibleIngredients": ["onion", "green chili", "carrot", "peas"],
+    "optionalIngredients": ["cilantro", "lemon"],
+    "spices": ["mustard seeds", "cumin", "turmeric", "chili powder", "asafoetida"],
+    "pantryStaples": ["salt", "oil"],
+    "displayIngredients": [
+      "Half a medium cabbage, finely shredded",
+      "1 small carrot, coarsely grated",
+      "1/2 cup peas",
+      "1 small onion, thinly sliced",
+      "2 green chilies, slit",
+      "1/2 tsp mustard seeds",
+      "1 tsp cumin seeds",
+      "1/4 tsp asafoetida",
+      "1/2 tsp turmeric",
+      "1/2 tsp chili powder",
+      "2 tbsp oil",
+      "Salt to taste",
+      "Lemon juice and cilantro to garnish"
+    ],
+    "steps": [
+      "Heat 2 tbsp oil in a wide pan over medium-high heat. Add mustard seeds and wait for them to pop fully, about 20 seconds. Add cumin seeds and asafoetida — they will crackle immediately.",
+      "Add green chili and sliced onion. Cook for 3–4 minutes until the onion is translucent.",
+      "Add shredded cabbage and grated carrot. Increase heat to high. Cook, stirring continuously, for 3–4 minutes. The cabbage should wilt but still retain a slight crunch.",
+      "Add turmeric, chili powder, and salt. Stir well. Add peas and cook for 2–3 minutes until everything is cooked through but still slightly crisp.",
+      "Turn off the heat. Squeeze a little lemon juice over the top and stir.",
+      "Garnish with cilantro and serve immediately."
+    ],
+    "cookTips": [
+      "High heat and constant stirring keeps the cabbage from steaming and going soft — you want a slight bite.",
+      "This dish cooks very quickly once the spices are in — have everything ready before you start.",
+      "Do not cover the pan; covering traps steam and makes the cabbage too soft."
+    ],
+    "substitutions": [
+      {
+        "missing": "peas",
+        "alternatives": ["corn"],
+        "note": "Corn kernels add a sweet crunch as a substitute for peas."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a light dry side dish with roti.",
+      "Use as a filling for wraps or sandwiches.",
+      "Serve alongside dal and rice for a simple everyday meal."
+    ]
+  }
+]

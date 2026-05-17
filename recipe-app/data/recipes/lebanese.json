@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "chickpea",
+      "tahini",
+      "lemon",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "olive oil"
+    ],
+    "optionalIngredients": [
+      "paprika",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "paprika"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "2 cans (400g each) chickpeas, drained — reserve the liquid",
+      "4 tbsp tahini",
+      "Juice of 2 lemons",
+      "2 garlic cloves, crushed",
+      "1/2 tsp cumin",
+      "4–5 tbsp ice-cold water",
+      "4 tbsp olive oil, plus extra for drizzling",
+      "1/2 tsp paprika for garnish",
+      "Small handful of flat-leaf parsley, chopped",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Peel the chickpeas for a significantly smoother hummus: pinch each chickpea between your fingers and the skin slips off. This takes 5 minutes but is worth it. Reserve a few whole chickpeas for garnish.",
+      "Add tahini, lemon juice, crushed garlic, cumin, and 1/2 tsp salt to a food processor. Blend for 1 minute until the mixture is a thick, pale paste. This pre-blending of tahini and lemon creates an aerated, creamy base.",
+      "Add the peeled chickpeas to the processor. Blend for 3–4 minutes, stopping to scrape the sides twice. The mixture will look crumbly at first.",
+      "With the processor running, add ice-cold water one tablespoon at a time until the hummus is completely smooth, creamy, and lighter in colour. Cold water — not warm — keeps the emulsion stable. Blend for at least 3 full minutes total for the silkiest texture.",
+      "Taste and adjust with more lemon juice, salt, or garlic. Add 2 tbsp olive oil and pulse twice to incorporate.",
+      "Spread into a wide shallow bowl, creating a swirling well in the centre with the back of a spoon. Drizzle generously with olive oil into the well. Sprinkle paprika, a few whole chickpeas, and chopped parsley. Serve at room temperature."
+    ],
+    "cookTips": [
+      "Blending tahini and lemon juice first, before adding chickpeas, produces a notably fluffier, lighter hummus.",
+      "Ice-cold water is the key to a smooth, aerated result — warm water makes it dense.",
+      "Blend longer than you think necessary — 3 to 4 full minutes of blending is what distinguishes silky hummus from grainy hummus."
+    ],
+    "substitutions": [
+      {
+        "missing": "tahini",
+        "alternatives": [
+          "peanut butter"
+        ],
+        "note": "Peanut butter produces a nuttier, less traditional dip but blends smoothly the same way."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with warm flatbread or pitta.",
+      "Use as a spread in wraps or sandwiches.",
+      "Serve alongside falafel and tabbouleh as part of a mezze spread."
+    ]
+  },
+  {
+    "id": "tabbouleh",
+    "name": "Tabbouleh",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "parsley",
+      "bulgur",
+      "tomato",
+      "lemon"
+    ],
+    "flexibleIngredients": [
+      "mint",
+      "green onion",
+      "cucumber"
+    ],
+    "optionalIngredients": [
+      "olive"
+    ],
+    "spices": [
+      "black pepper",
+      "cinnamon"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "3 large bunches of flat-leaf parsley (about 200g), very finely chopped",
+      "1/4 cup fine bulgur wheat",
+      "3 medium ripe tomatoes, very finely diced",
+      "1 small bunch of fresh mint, leaves finely chopped",
+      "4 green onion stalks, very finely sliced",
+      "1/2 medium cucumber, very finely diced",
+      "Juice of 2 lemons",
+      "5 tbsp extra virgin olive oil",
+      "1/4 tsp cinnamon",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Soak the bulgur in the lemon juice and a pinch of salt for 15 minutes. Fine bulgur absorbs the liquid and softens without needing to be boiled — do not cook it. The result should be just tender with a slight bite.",
+      "While bulgur soaks, wash and dry the parsley very thoroughly. It must be completely dry before chopping — wet parsley makes the salad watery. Remove thick stems and discard. Chop the parsley as finely as possible — almost minced. This is the most time-consuming step but the foundation of the dish.",
+      "Finely dice the tomatoes and place them in a sieve over a bowl for 5 minutes to drain excess juice. Finely slice the green onion, chop the mint leaves, and finely dice the cucumber.",
+      "In a large bowl, combine the soaked bulgur, chopped parsley, drained tomato, mint, green onion, and cucumber. Toss gently.",
+      "Add olive oil, cinnamon, salt, and black pepper. Toss again. Taste and adjust with more lemon juice or salt — tabbouleh should be bright, acidic, and fresh.",
+      "Let the assembled salad rest for 5 minutes before serving so the flavours meld. Serve at room temperature."
+    ],
+    "cookTips": [
+      "Parsley is the hero — it should make up the majority of the salad, not the bulgur.",
+      "Dry the parsley completely before chopping; any moisture dilutes the dressing.",
+      "Drain the tomatoes before adding them — excess tomato juice makes the salad soggy."
+    ],
+    "substitutions": [
+      {
+        "missing": "bulgur",
+        "alternatives": [
+          "rice",
+          "semolina"
+        ],
+        "note": "Use cooked and cooled rice as a gluten-free base; fine semolina can be soaked the same way as bulgur."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as part of a mezze alongside hummus and flatbread.",
+      "Use lettuce leaves as cups to scoop and eat.",
+      "Pair with grilled chicken or lamb."
+    ]
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "tomato",
+      "cucumber",
+      "lettuce",
+      "bread",
+      "lemon"
+    ],
+    "flexibleIngredients": [
+      "radish",
+      "mint",
+      "parsley",
+      "green onion"
+    ],
+    "optionalIngredients": [
+      "feta"
+    ],
+    "spices": [
+      "sumac",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "2 medium ripe tomatoes, cut into 2cm chunks",
+      "1 medium cucumber, halved and sliced 1cm thick",
+      "2 cups romaine lettuce, roughly torn",
+      "4 radishes, thinly sliced",
+      "3 green onion stalks, sliced",
+      "Handful of fresh mint leaves, torn",
+      "Handful of flat-leaf parsley, roughly chopped",
+      "2 thick pitta breads or flatbreads",
+      "50g feta, crumbled (optional)",
+      "1.5 tsp sumac",
+      "Juice of 1.5 lemons",
+      "5 tbsp extra virgin olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Make the crispy bread: tear or cut flatbreads into 3–4cm pieces. Toast in an oven at 190°C / 375°F for 8–10 minutes until completely golden and crispy, or fry in 2 tbsp olive oil in a pan over medium heat, turning, until deep golden on all sides. Season with a pinch of salt. Set aside to cool completely.",
+      "Make the dressing: whisk together lemon juice, olive oil, sumac, salt, and black pepper in a small bowl. The dressing should be bright and acidic with the sharp, fruity bite of sumac.",
+      "Combine tomatoes, cucumber, lettuce, radish, green onion, mint, and parsley in a large bowl. Season lightly with salt and toss.",
+      "Pour the dressing over the salad and toss well to coat every piece.",
+      "Add the crispy bread pieces and toss once. The bread should be added just before serving — it softens quickly once dressed. For a slightly softer bread texture, add the croutons 2 minutes early.",
+      "Transfer to a serving plate. Scatter crumbled feta over the top if using. Finish with an extra pinch of sumac and a drizzle of olive oil. Serve immediately."
+    ],
+    "cookTips": [
+      "Add bread at the very last moment to keep it crispy; once dressed, it softens within minutes.",
+      "Sumac is what makes fattoush distinctive — do not substitute it if you can find it.",
+      "Use the ripest tomatoes available; their juice mingles with the dressing beautifully."
+    ],
+    "substitutions": [
+      {
+        "missing": "sumac",
+        "alternatives": [
+          "lemon"
+        ],
+        "note": "Add extra lemon juice for a similar tartness, though the fruity, earthy quality of sumac cannot be fully replicated."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately as a starter or light meal.",
+      "Pair with grilled chicken or fish.",
+      "Serve alongside hummus as part of a mezze spread."
+    ]
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "chickpea",
+      "onion",
+      "garlic",
+      "flour"
+    ],
+    "flexibleIngredients": [
+      "parsley",
+      "cilantro",
+      "cumin",
+      "coriander powder"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "chili powder",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil"
+    ],
+    "displayIngredients": [
+      "2 cans (400g each) chickpeas, drained and dried thoroughly",
+      "1 medium onion, roughly chopped",
+      "4 garlic cloves",
+      "Large handful of parsley, roughly chopped",
+      "Large handful of cilantro, roughly chopped",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp chili powder",
+      "1/2 tsp black pepper",
+      "1 tsp salt",
+      "3 tbsp flour",
+      "1 tbsp sesame seeds",
+      "Oil for shallow or deep frying"
+    ],
+    "steps": [
+      "Pat the drained chickpeas completely dry with kitchen towel — excess moisture prevents the falafel from holding their shape. Spread on a tray and press dry if needed.",
+      "Add chickpeas, onion, garlic, parsley, cilantro, cumin, coriander powder, chili powder, black pepper, and salt to a food processor. Pulse in short bursts — do not blend continuously. The goal is a coarse, grainy mixture that holds together when pressed, not a smooth paste. If it is too wet, the falafel will fall apart during frying.",
+      "Transfer to a bowl. Add flour and sesame seeds. Mix with your hands until combined. The mixture should hold its shape when squeezed into a ball. If too crumbly, add 1 more tbsp flour. If too wet, refrigerate for 20 minutes.",
+      "Shape into balls or flat patties about 4cm across, using firm pressure to compact each one well.",
+      "Heat 3–4cm of oil in a wide pan over medium-high heat until a small piece of mixture sizzles immediately — about 170°C. Fry falafel in batches of 4–5, turning every 2–3 minutes, for 6–8 minutes total until deep golden brown and crispy on all sides. Do not crowd the pan.",
+      "Drain on paper towel for 1–2 minutes. Serve immediately — falafel is crispiest right out of the oil."
+    ],
+    "cookTips": [
+      "Use the pulse function, not continuous blend — overprocessed chickpeas produce a paste that falls apart in oil.",
+      "Dry chickpeas thoroughly before processing; moisture is the main cause of falafel disintegrating.",
+      "Test one falafel first; if it breaks apart in the oil, add more flour to the mixture."
+    ],
+    "substitutions": [
+      {
+        "missing": "chickpea",
+        "alternatives": [
+          "beans",
+          "lentils"
+        ],
+        "note": "White beans or cooked brown lentils work as a base — ensure they are very dry before processing."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve in flatbread with tahini sauce, tomato, and cucumber.",
+      "Serve as part of a mezze with hummus and tabbouleh.",
+      "Dip in yogurt mixed with garlic and lemon."
+    ]
+  },
+  {
+    "id": "baba-ghanoush",
+    "name": "Baba Ghanoush",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "eggplant",
+      "tahini",
+      "lemon",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "paprika",
+      "olive"
+    ],
+    "spices": [
+      "cumin",
+      "paprika"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "2 large eggplants (about 800g total)",
+      "3 tbsp tahini",
+      "Juice of 1.5 lemons",
+      "2 garlic cloves, crushed",
+      "1/2 tsp cumin",
+      "3 tbsp extra virgin olive oil, plus extra for drizzling",
+      "Small handful of flat-leaf parsley, finely chopped",
+      "1/4 tsp paprika",
+      "A few olives for garnish",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Char the eggplants: place them directly on a gas burner flame or under a very hot grill/broiler. Turn every 3–4 minutes with tongs. Cook for 20–25 minutes until the skin is completely charred, blistered, and cracking, and the eggplants have collapsed and feel completely soft when pressed. The heavy charring is essential for the smoky flavour — do not stop early.",
+      "Transfer to a colander over a bowl. Make a slit and let them cool and drain for 10 minutes. This releases bitter liquid — discard it.",
+      "Peel away and discard all the charred skin. The flesh inside will be soft, smoky, and slightly stringy. Chop the flesh roughly, then let it drain in the colander for another 5 minutes to remove any remaining liquid.",
+      "Combine tahini, lemon juice, crushed garlic, cumin, and 1/2 tsp salt in a bowl. Whisk until smooth.",
+      "Add the drained eggplant flesh to the tahini mixture. Mash and mix with a fork — not a blender. The texture should be slightly chunky and rustic, not smooth like hummus. Taste and adjust with more lemon juice, garlic, or salt.",
+      "Spread into a wide shallow bowl. Drizzle with olive oil. Scatter parsley, paprika, and olives over the top. Serve at room temperature."
+    ],
+    "cookTips": [
+      "The eggplant must be charred completely — the smoky depth only comes from direct flame contact with the skin.",
+      "Draining the eggplant twice removes bitter liquid that would make the dip watery and sharp.",
+      "Use a fork, not a blender — baba ghanoush should be coarser and more textured than hummus."
+    ],
+    "substitutions": [
+      {
+        "missing": "tahini",
+        "alternatives": [
+          "yogurt"
+        ],
+        "note": "Plain yogurt produces a lighter, tangier version without the sesame flavour — use the same quantity."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with warm pitta or flatbread.",
+      "Use as a dip in a mezze spread alongside hummus.",
+      "Serve alongside grilled lamb or chicken."
+    ]
+  },
+  {
+    "id": "chicken-shawarma",
+    "name": "Chicken Shawarma",
+    "cuisine": "lebanese",
+    "vegetarian": false,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "chicken",
+      "yogurt",
+      "lemon",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "onion",
+      "tomato",
+      "cucumber"
+    ],
+    "optionalIngredients": [
+      "parsley",
+      "tahini"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "turmeric",
+      "paprika",
+      "cinnamon",
+      "chili powder",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "700g boneless chicken thighs",
+      "1/2 cup plain yogurt",
+      "Juice of 1 lemon",
+      "4 garlic cloves, minced",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1 tsp paprika",
+      "1/4 tsp cinnamon",
+      "1/2 tsp chili powder",
+      "1 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "1 medium onion, thinly sliced",
+      "2 medium tomatoes, sliced",
+      "1 medium cucumber, sliced",
+      "Flatbread for serving",
+      "2 tbsp tahini whisked with 1 tbsp lemon juice and water for sauce"
+    ],
+    "steps": [
+      "Marinate the chicken: combine yogurt, lemon juice, garlic, cumin, coriander powder, turmeric, paprika, cinnamon, chili powder, olive oil, salt, and black pepper in a bowl. Add the chicken thighs and coat thoroughly. Marinate for at least 30 minutes at room temperature, or up to 8 hours in the fridge. Longer marinating produces more flavourful, tender chicken.",
+      "Heat a heavy pan or grill pan over high heat until very hot. Add the marinated chicken in a single layer — do not overcrowd. Cook for 5–6 minutes without moving until deeply charred on the underside.",
+      "Flip the chicken and cook for another 4–5 minutes on the second side. The chicken is done when juices run clear and the exterior is dark, charred at the edges, and caramelised.",
+      "Rest the cooked chicken on a board for 5 minutes. Then slice thinly against the grain into strips. The sliced edges will show the juicy interior against the charred exterior.",
+      "Make the tahini sauce: whisk tahini with lemon juice and enough water (2–3 tbsp) to form a pourable white sauce. Season with salt.",
+      "Warm the flatbreads in a dry pan for 30 seconds per side. Spread tahini sauce on each flatbread. Layer sliced chicken, tomato, cucumber, and onion. Wrap tightly and serve immediately."
+    ],
+    "cookTips": [
+      "Marinating overnight in the fridge produces the most deeply flavoured, tender chicken.",
+      "Cook over very high heat — the char is not just colour, it is essential flavour.",
+      "Resting the chicken before slicing keeps it juicy; cutting immediately loses all the moisture."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": [
+          "cream"
+        ],
+        "note": "Cream works as a marinade base and tenderises the chicken similarly."
+      },
+      {
+        "missing": "tahini",
+        "alternatives": [
+          "yogurt"
+        ],
+        "note": "Plain garlic yogurt sauce is a classic lighter alternative to tahini sauce."
+      }
+    ],
+    "servingSuggestions": [
+      "Wrap in flatbread with tahini sauce, tomato, and pickles.",
+      "Serve over rice with a side of tabbouleh.",
+      "Serve in a bowl with hummus, salad, and flatbread."
+    ]
+  },
+  {
+    "id": "kafta-skewers",
+    "name": "Kafta",
+    "cuisine": "lebanese",
+    "vegetarian": false,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "beef",
+      "onion",
+      "parsley"
+    ],
+    "flexibleIngredients": [
+      "lamb",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "lemon",
+      "yogurt"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "cinnamon",
+      "chili powder",
+      "black pepper",
+      "paprika"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil"
+    ],
+    "displayIngredients": [
+      "500g minced beef (or half beef, half lamb)",
+      "1 medium onion, very finely grated",
+      "Large handful of flat-leaf parsley, very finely chopped",
+      "2 garlic cloves, finely grated",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/4 tsp cinnamon",
+      "1/2 tsp chili powder",
+      "1/2 tsp paprika",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "Oil for greasing"
+    ],
+    "steps": [
+      "Grate the onion on the finest setting of a box grater directly into a sieve or kitchen towel. Squeeze out all the juice — this is important. Wet onion makes the mixture too soft to hold on a skewer.",
+      "Combine the minced meat, squeezed onion, parsley, garlic, cumin, coriander powder, cinnamon, chili powder, paprika, salt, and black pepper in a large bowl. Mix vigorously with your hands for 2–3 minutes until the mixture becomes almost paste-like and slightly sticky. This develops the proteins and is what makes kafta hold together without egg or breadcrumbs.",
+      "Wet your hands and divide the mixture into 8 equal portions. Shape each around a flat metal skewer or a dampened wooden skewer, moulding into an elongated sausage about 12–15cm long. Press firmly so there are no air pockets. If not using skewers, form into flat oval patties.",
+      "Preheat a grill pan or outdoor grill to high heat. Lightly oil the surface. Cook kafta for 3–4 minutes on the first side without moving — a good sear is needed before attempting to turn or they will stick and break.",
+      "Turn carefully and cook for another 3–4 minutes on the second side. The kafta should be cooked through with a charred, slightly smoky exterior and juicy interior. They should feel firm but not hard when pressed.",
+      "Rest for 2–3 minutes before serving. Serve with flatbread, yogurt sauce, and lemon wedges."
+    ],
+    "cookTips": [
+      "Squeezing the grated onion dry is critical — wet onion prevents the mixture from sticking to skewers.",
+      "Mix the meat thoroughly until it becomes tacky; this protein development is the binding agent.",
+      "Do not move the kafta for the first 3–4 minutes; premature turning causes them to break apart."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "lamb"
+        ],
+        "note": "Lamb gives a richer, more aromatic kafta — the traditional choice in many Lebanese households."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve in flatbread with sliced tomato, parsley, and yogurt.",
+      "Serve alongside rice, tabbouleh, and hummus.",
+      "Squeeze lemon juice generously over the kafta just before eating."
+    ]
+  },
+  {
+    "id": "lentil-soup-lebanese",
+    "name": "Lebanese Lentil Soup",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "lentils",
+      "onion",
+      "lemon"
+    ],
+    "flexibleIngredients": [
+      "carrot",
+      "potato",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "cilantro",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "turmeric",
+      "coriander powder",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1.5 cups red lentils, rinsed",
+      "2 medium onions, finely diced",
+      "1 medium carrot, diced",
+      "1 medium potato, diced",
+      "3 garlic cloves, minced",
+      "1.5 tsp cumin",
+      "1/2 tsp turmeric",
+      "1 tsp coriander powder",
+      "Juice of 1.5 lemons",
+      "4 tbsp olive oil",
+      "1.5 litres water",
+      "Salt and black pepper to taste",
+      "Fresh cilantro or parsley to garnish"
+    ],
+    "steps": [
+      "Heat 3 tbsp olive oil in a large pot over medium heat. Add diced onions and cook for 10–12 minutes, stirring regularly, until deeply golden and beginning to caramelise. Take the time here — caramelised onions are the backbone of this soup.",
+      "Add garlic and cook for 1 minute. Add diced carrot and potato and stir for 2 minutes.",
+      "Add rinsed lentils, cumin, turmeric, coriander powder, and 1.5 litres of water. Season with salt. Bring to a boil, skim any foam that rises, then reduce to a steady simmer.",
+      "Cook uncovered for 20–25 minutes, stirring occasionally, until the lentils are completely dissolved and the soup is thick and creamy. The potato and carrot should be fully soft.",
+      "Use a hand blender to partially blend the soup — blend about half of it for a texture that is creamy but retains some body. Alternatively, blend fully for a completely smooth soup.",
+      "Add lemon juice and a generous grind of black pepper. Stir and simmer for 2 more minutes. Taste and adjust salt and lemon. The soup should be savoury, slightly earthy, and brightened by the lemon. Ladle into bowls, drizzle with remaining 1 tbsp olive oil, and garnish with cilantro or parsley."
+    ],
+    "cookTips": [
+      "Deeply caramelised onions are what gives this soup its signature sweetness and depth — do not rush them.",
+      "Red lentils dissolve completely as they cook — no blending is strictly necessary but it improves the texture.",
+      "Add lemon juice at the end of cooking, not earlier, to preserve its bright flavour."
+    ],
+    "substitutions": [
+      {
+        "missing": "lentils",
+        "alternatives": [
+          "chickpea"
+        ],
+        "note": "Use canned chickpeas and simmer for 15 minutes; blend to achieve a similar thick, creamy soup."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with warm flatbread or crusty bread.",
+      "Drizzle extra olive oil and a squeeze of lemon at the table.",
+      "Serve alongside a simple cucumber and tomato salad."
+    ]
+  },
+  {
+    "id": "fattet-hummus",
+    "name": "Fatteh",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "chickpea",
+      "bread",
+      "yogurt",
+      "tahini",
+      "lemon"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "paprika",
+      "sesame seeds"
+    ],
+    "spices": [
+      "cumin",
+      "paprika"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter"
+    ],
+    "displayIngredients": [
+      "2 cans (400g each) chickpeas, drained and warmed in their liquid",
+      "3 pitta breads or flatbreads, torn into 4cm pieces",
+      "1.5 cups plain yogurt",
+      "3 tbsp tahini",
+      "Juice of 1.5 lemons",
+      "2 garlic cloves, finely crushed",
+      "1/2 tsp cumin",
+      "2 tbsp olive oil plus 1 tbsp butter for the bread",
+      "1 tbsp sesame seeds, toasted",
+      "1/4 tsp paprika",
+      "Small handful of flat-leaf parsley, chopped",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Toast the bread: heat 1 tbsp butter and 1 tbsp olive oil together in a pan over medium heat. Add the torn flatbread pieces and toss to coat. Cook for 4–5 minutes, turning regularly, until golden and crispy on all sides. Season with a pinch of salt and set aside.",
+      "Make the yogurt sauce: whisk together yogurt, tahini, lemon juice, crushed garlic, cumin, and 1/2 tsp salt until completely smooth. Taste — it should be tangy, garlicky, and rich. Adjust with more lemon if needed.",
+      "Warm the drained chickpeas in a small pan with 3–4 tbsp of their canning liquid and a pinch of salt until hot. Drain any excess liquid.",
+      "Assemble the fatteh in a wide, deep serving dish. First, spread the crispy toasted bread pieces in a single layer on the base.",
+      "Spoon the hot chickpeas evenly over the bread layer.",
+      "Pour the yogurt-tahini sauce generously over the chickpeas, covering everything. Drizzle with olive oil. Scatter toasted sesame seeds, paprika, and chopped parsley over the top. Serve immediately — the bread begins to soften once the sauce is added, so do not let it sit."
+    ],
+    "cookTips": [
+      "Assembly order matters — bread first, then chickpeas, then sauce. This keeps the bread partially crispy rather than fully soggy.",
+      "Serve immediately after assembly; fatteh is a dish of contrasting textures and it deteriorates quickly.",
+      "The chickpeas should be hot when added — the contrast of hot chickpeas and cool yogurt sauce is part of the dish."
+    ],
+    "substitutions": [
+      {
+        "missing": "tahini",
+        "alternatives": [
+          "peanut butter"
+        ],
+        "note": "Peanut butter gives a nuttier, less sesame-forward sauce but blends smoothly the same way."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a main for a light lunch.",
+      "Add a side of tabbouleh or fattoush.",
+      "Serve as part of a mezze spread."
+    ]
+  },
+  {
+    "id": "mujaddara",
+    "name": "Mujaddara",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 50,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "lentils",
+      "rice",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "yogurt",
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "cilantro",
+      "lemon"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "cinnamon",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1 cup green or brown lentils, rinsed",
+      "3/4 cup long-grain or basmati rice, rinsed",
+      "3 large onions, thinly sliced into half-moons",
+      "1.5 tsp cumin",
+      "1/2 tsp coriander powder",
+      "1/4 tsp cinnamon",
+      "6 tbsp olive oil",
+      "2.5 cups water",
+      "Salt and black pepper to taste",
+      "Plain yogurt to serve",
+      "Fresh parsley to garnish"
+    ],
+    "steps": [
+      "Caramelise the onions: heat 5 tbsp olive oil in a wide heavy pan over medium heat. Add all the sliced onions with a pinch of salt. Cook for 25–30 minutes, stirring every 5 minutes. The onions will gradually soften, then turn golden, then slowly deepen to a rich mahogany brown. Do not rush with high heat — slow caramelisation is the source of the dish's sweetness and complexity. When done, remove half the onions and set aside for topping. Leave the rest in the pan.",
+      "Add the rinsed lentils to the pan with the remaining onions. Add 2 cups of water and bring to a boil over high heat. Add cumin, coriander powder, cinnamon, and 1 tsp salt. Reduce to a simmer, cover, and cook for 15 minutes until the lentils are partially cooked but still hold their shape.",
+      "Add the rinsed rice and remaining 1/2 cup water. Stir once. Bring to a boil, then reduce to the lowest heat. Cover tightly and cook for 15 minutes without lifting the lid.",
+      "Turn off heat. Keep the lid on and rest undisturbed for 10 minutes. The steam will finish cooking both the rice and lentils to a perfectly tender, cohesive mass.",
+      "Remove the lid and fluff gently with a fork. The mujaddara should be thick, cohesive, and slightly moist — not dry. If it feels too dry, stir in 2 tbsp of hot water.",
+      "Season with salt and black pepper. Spoon onto a serving plate. Top with the reserved caramelised onions and garnish with parsley. Serve with cold yogurt on the side."
+    ],
+    "cookTips": [
+      "The caramelised onions are not a garnish — they are the entire flavour system. Do not rush or underdo them.",
+      "If lentils are fully cooked before adding rice, the rice will overcook. The lentils should still have a slight bite at the halfway stage.",
+      "Do not lift the lid during the final steam — the trapped steam is what cooks the rice perfectly."
+    ],
+    "substitutions": [
+      {
+        "missing": "rice",
+        "alternatives": [
+          "bulgur"
+        ],
+        "note": "Bulgur wheat is the traditional variation — add it at the same stage as rice and use the same water quantity."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve warm with cold plain yogurt on the side.",
+      "Serve with a simple tomato and cucumber salad.",
+      "Top with extra caramelised onions drizzled with olive oil."
+    ]
+  },
+  {
+    "id": "labneh-dip",
+    "name": "Labneh with Olive Oil and Zaatar",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "labneh"
+    ],
+    "flexibleIngredients": [
+      "olive"
+    ],
+    "optionalIngredients": [
+      "mint"
+    ],
+    "spices": [
+      "zaatar",
+      "paprika",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "300g labneh (thick strained yogurt)",
+      "1.5 tbsp zaatar",
+      "4 tbsp extra virgin olive oil",
+      "1/4 tsp paprika",
+      "Small handful of fresh mint leaves",
+      "A few olives for serving",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Remove labneh from the fridge 15 minutes before serving — room temperature labneh has significantly better flavour and texture than cold labneh.",
+      "Spoon the labneh onto a wide, shallow plate. Using the back of a spoon, spread it into a thick even layer with a slight well or swirl in the centre.",
+      "Drizzle olive oil generously and evenly over the labneh, pooling slightly in the centre well.",
+      "Sprinkle zaatar evenly over the surface, followed by paprika. Season lightly with salt.",
+      "Arrange fresh mint leaves and olives around the plate. Finish with a final drizzle of olive oil and a grind of black pepper. Serve immediately with warm flatbread."
+    ],
+    "cookTips": [
+      "Serve labneh at room temperature — cold labneh is dense and less flavourful.",
+      "Use a generous amount of zaatar and olive oil; labneh is meant to be well-seasoned and richly dressed.",
+      "Good quality olive oil makes a significant difference on a dish this simple."
+    ],
+    "substitutions": [
+      {
+        "missing": "labneh",
+        "alternatives": [
+          "yogurt"
+        ],
+        "note": "Thick Greek yogurt is the closest substitute — strain overnight through a fine cloth for a firmer result."
+      },
+      {
+        "missing": "zaatar",
+        "alternatives": [
+          "sumac",
+          "oregano"
+        ],
+        "note": "Sumac gives tartness; dried oregano gives a herby flavour — neither replicates zaatar's complexity but both work."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with warm pitta or flatbread.",
+      "Use as a spread in wraps and sandwiches.",
+      "Serve as part of a mezze spread alongside hummus and baba ghanoush."
+    ]
+  },
+  {
+    "id": "spinach-fatayer",
+    "name": "Spinach Fatayer",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 55,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "flour",
+      "spinach",
+      "onion",
+      "lemon"
+    ],
+    "flexibleIngredients": [
+      "parsley",
+      "sumac"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [
+      "sumac",
+      "black pepper",
+      "cumin"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "2 cups all-purpose flour, plus extra for dusting",
+      "7g instant yeast",
+      "1/2 tsp sugar",
+      "1/2 tsp salt",
+      "2 tbsp olive oil",
+      "120ml warm water",
+      "400g fresh spinach, washed and roughly chopped",
+      "1 large onion, finely diced",
+      "1 tbsp sumac",
+      "Juice of 1 lemon",
+      "1/2 tsp cumin",
+      "1/2 tsp black pepper",
+      "1 tbsp sesame seeds for topping",
+      "Olive oil for brushing"
+    ],
+    "steps": [
+      "Make the dough: combine flour, yeast, sugar, and salt. Add olive oil and warm water. Mix and knead on a lightly floured surface for 7–8 minutes until smooth and elastic. Place in a lightly oiled bowl, cover with a damp cloth, and rest for 30 minutes.",
+      "Make the filling: place chopped spinach in a bowl and sprinkle with 1/2 tsp salt. Squeeze firmly with your hands for 1 minute — this removes the excess liquid that would make the pastry soggy. Squeeze in batches in a clean cloth to remove as much water as possible.",
+      "Mix the squeezed spinach with diced onion, sumac, lemon juice, cumin, and black pepper. Taste — the filling should be savoury, tangy, and well-seasoned. Do not add extra water.",
+      "Preheat oven to 200°C / 390°F. Line two baking trays with parchment. Divide the dough into 12 equal balls. On a lightly floured surface, roll each ball into a thin circle about 12cm across.",
+      "Place 1.5 tbsp of filling in the centre of each circle. Bring three sides of the dough up to the centre to form a triangle, pinching the seams firmly together to seal. There should be no gaps — filling that leaks out will burn on the tray.",
+      "Place on the baking trays. Brush the tops with olive oil and scatter sesame seeds over each. Bake for 18–22 minutes until the dough is golden and the bottoms are firm and brown. Rest for 5 minutes before eating — the filling is very hot inside."
+    ],
+    "cookTips": [
+      "Squeezing all moisture from the spinach is the single most important step — wet filling breaks the seal and leaks during baking.",
+      "Pinch the seams very firmly — press and roll between your fingers until completely sealed.",
+      "The dough should be rolled thin; thick dough produces dense, bready fatayer instead of light, crispy ones."
+    ],
+    "substitutions": [
+      {
+        "missing": "spinach",
+        "alternatives": [
+          "cabbage"
+        ],
+        "note": "Finely shredded cabbage salted and squeezed dry works identically to spinach in the filling."
+      },
+      {
+        "missing": "sumac",
+        "alternatives": [
+          "lemon"
+        ],
+        "note": "Increase lemon juice to 2 tbsp as a substitute for sumac's tartness."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve warm as a snack or starter.",
+      "Pair with yogurt for dipping.",
+      "Serve alongside a simple salad for a light meal."
+    ]
+  },
+  {
+    "id": "lamb-rice-hashweh",
+    "name": "Hashweh Rice",
+    "cuisine": "lebanese",
+    "vegetarian": false,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "rice",
+      "lamb",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "beef",
+      "peas",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "cashew",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "cinnamon",
+      "cloves",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "ghee",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "2 cups long-grain rice, rinsed and soaked 20 minutes",
+      "300g minced lamb",
+      "1 large onion, finely diced",
+      "1/2 cup peas",
+      "2 garlic cloves, minced",
+      "1.5 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp cinnamon",
+      "1/4 tsp cloves",
+      "1/2 tsp black pepper",
+      "2 tbsp ghee",
+      "1 tbsp butter",
+      "Handful of cashews",
+      "2.5 cups hot water",
+      "Salt to taste",
+      "Flat-leaf parsley to garnish"
+    ],
+    "steps": [
+      "Heat 1 tbsp ghee in a wide heavy pot over medium-high heat. Add cashews and fry for 2–3 minutes until golden. Remove and set aside.",
+      "In the same pot, add 1 tbsp butter and fry the diced onion over medium heat for 7–8 minutes until golden. Add garlic and cook for 1 minute.",
+      "Add the minced lamb, breaking it up with a wooden spoon. Cook over medium-high heat for 7–8 minutes, stirring regularly, until the meat is fully browned and any liquid has evaporated. The lamb should sizzle in its own fat.",
+      "Add cumin, coriander powder, cinnamon, cloves, black pepper, and salt. Stir for 1 minute so the spices bloom in the fat. Add peas and stir.",
+      "Drain the soaked rice and add to the pot. Stir for 1–2 minutes to coat every grain in the spiced fat. Add 2.5 cups of hot water. Bring to a boil, then reduce to the absolute lowest heat. Cover tightly and cook for 18–20 minutes.",
+      "Turn off heat. Rest covered for 10 minutes. Remove lid and fluff gently with a fork, bringing the meat up through the rice from the bottom. Transfer to a serving platter, scatter fried cashews on top, and garnish with parsley."
+    ],
+    "cookTips": [
+      "Soaking the rice for 20 minutes produces longer, more separate grains after cooking.",
+      "Bloom the spices in the fat for 1 minute before adding liquid — this dramatically deepens their flavour.",
+      "Do not lift the lid during cooking; the trapped steam is what produces evenly cooked rice."
+    ],
+    "substitutions": [
+      {
+        "missing": "lamb",
+        "alternatives": [
+          "beef"
+        ],
+        "note": "Minced beef works identically — the spice profile is the same; the flavour will be milder."
+      },
+      {
+        "missing": "cashew",
+        "alternatives": [
+          "peanut"
+        ],
+        "note": "Toasted peanuts add crunch in the same way, though the flavour is more rustic."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with cold plain yogurt on the side.",
+      "Pair with a fresh tomato and cucumber salad.",
+      "Serve alongside grilled chicken or lamb chops."
+    ]
+  },
+  {
+    "id": "cucumber-yogurt-salad",
+    "name": "Khyar bi Laban",
+    "cuisine": "lebanese",
+    "vegetarian": true,
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "yogurt",
+      "cucumber",
+      "garlic",
+      "mint"
+    ],
+    "flexibleIngredients": [
+      "lemon"
+    ],
+    "optionalIngredients": [
+      "olive oil"
+    ],
+    "spices": [
+      "cumin",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "2 medium cucumbers",
+      "1.5 cups plain yogurt, thick",
+      "2 garlic cloves, finely crushed",
+      "Handful of fresh mint leaves, finely chopped",
+      "Juice of half a lemon",
+      "1/2 tsp cumin",
+      "2 tbsp extra virgin olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Peel the cucumbers. If they are large and seedy, halve lengthways and scoop out the seeds with a spoon — seedy centres add excess water. Dice into small 1cm cubes.",
+      "Sprinkle the diced cucumber with 1/2 tsp salt and toss. Let sit for 5 minutes to draw out moisture. Drain off the liquid and pat the cucumber dry with kitchen towel. This keeps the yogurt from becoming watery.",
+      "In a bowl, combine yogurt, crushed garlic, lemon juice, cumin, and a pinch of salt. Stir until smooth. Taste — it should be tangy, garlicky, and refreshing.",
+      "Add the drained cucumber pieces and chopped mint to the yogurt. Fold gently to combine. Season with black pepper.",
+      "Transfer to a serving bowl. Drizzle olive oil over the top. Scatter a few extra mint leaves to garnish. Serve cold."
+    ],
+    "cookTips": [
+      "Salting and draining the cucumber prevents the salad from becoming watery within minutes of assembly.",
+      "Use thick yogurt — thin, runny yogurt produces a salad that pools on the plate.",
+      "Crush garlic to a paste with salt for a more integrated, less pungent garlic flavour."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": [
+          "labneh"
+        ],
+        "note": "Labneh gives a thicker, tangier version — thin it slightly with 1 tbsp water or lemon juice."
+      },
+      {
+        "missing": "mint",
+        "alternatives": [
+          "parsley"
+        ],
+        "note": "Parsley gives a fresher, less sweet flavour but works well in the same quantity."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve cold as a side with any grilled meat or fish.",
+      "Use as a sauce inside shawarma or kafta wraps.",
+      "Serve as part of a mezze spread."
+    ]
+  },
+  {
+    "id": "shish-tawook",
+    "name": "Shish Tawook",
+    "cuisine": "lebanese",
+    "vegetarian": false,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "chicken",
+      "yogurt",
+      "lemon",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "bell pepper",
+      "onion",
+      "tomato"
+    ],
+    "optionalIngredients": [
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "turmeric",
+      "cinnamon",
+      "chili powder",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "700g boneless chicken breast or thigh, cut into 4cm cubes",
+      "1/2 cup plain yogurt",
+      "Juice of 1.5 lemons",
+      "4 garlic cloves, finely grated",
+      "1 tsp paprika",
+      "1 tsp cumin",
+      "1/4 tsp turmeric",
+      "1/4 tsp cinnamon",
+      "1/2 tsp chili powder",
+      "1/2 tsp black pepper",
+      "2 tbsp olive oil",
+      "Salt to taste",
+      "1 large red bell pepper, cut into 4cm pieces",
+      "1 medium onion, cut into wedges"
+    ],
+    "steps": [
+      "Make the marinade: combine yogurt, lemon juice, grated garlic, paprika, cumin, turmeric, cinnamon, chili powder, black pepper, olive oil, and salt in a bowl. The marinade should be deep orange-red. Add chicken cubes and toss to coat every piece. Cover and marinate for at least 1 hour, or overnight in the fridge for the best result.",
+      "Thread the marinated chicken onto metal or soaked wooden skewers, alternating with bell pepper pieces and onion wedges. Leave a small gap between each piece so heat can circulate.",
+      "Heat a grill pan or outdoor grill to high heat. Lightly oil the surface.",
+      "Cook skewers for 4–5 minutes on the first side without moving until the chicken has clear grill marks and the surface is beginning to char at the edges.",
+      "Turn and cook for another 4–5 minutes. Then turn once more and cook for 2–3 final minutes until the chicken is cooked through — juices run clear when the thickest piece is pierced.",
+      "Rest skewers on a board for 3 minutes. The garlic yogurt marinade will have caramelised into a slightly charred, flavourful crust. Serve with flatbread, garlic yogurt sauce, and parsley."
+    ],
+    "cookTips": [
+      "Marinating for at least 1 hour is essential; the yogurt tenderises the chicken from the outside in.",
+      "Leave small gaps between pieces on the skewer — packed pieces steam rather than grill.",
+      "Let the chicken rest after cooking; cutting immediately releases all the juices."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": [
+          "cream"
+        ],
+        "note": "Cream marinade tenderises the chicken in the same way and gives a richer result."
+      },
+      {
+        "missing": "bell pepper",
+        "alternatives": [
+          "zucchini"
+        ],
+        "note": "Zucchini rounds thread well onto skewers and grill beautifully alongside the chicken."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with garlic yogurt sauce and warm flatbread.",
+      "Serve over rice with tabbouleh on the side.",
+      "Wrap in flatbread with sliced tomato and parsley."
+    ]
+  }
+]

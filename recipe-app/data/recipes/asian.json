@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "chicken-fried-rice",
+    "name": "Chicken Fried Rice",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "rice",
+      "chicken",
+      "egg",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "carrot",
+      "peas",
+      "green onion",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "soy sauce"
+    ],
+    "displayIngredients": [
+      "3 cups cooked rice, day-old and cold (approximately 300g uncooked)",
+      "200g boneless chicken breast or thigh, diced into 1cm pieces",
+      "3 large eggs, lightly beaten",
+      "1 medium onion, finely diced",
+      "1 medium carrot, finely diced",
+      "1/2 cup peas (frozen or fresh)",
+      "3 garlic cloves, minced",
+      "3 green onion stalks, sliced",
+      "3 tbsp soy sauce",
+      "1 tbsp sesame seeds",
+      "3 tbsp oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Use day-old cold rice — fresh rice has too much moisture and turns the dish mushy. Break up any clumps with your hands before cooking.",
+      "Heat 1 tbsp oil in a wok or large wide pan over high heat until it just begins to smoke. Add diced chicken, spread in a single layer, and cook without stirring for 2 minutes until golden on one side. Stir and cook for another 2 minutes until cooked through. Season with a pinch of salt and black pepper. Remove and set aside.",
+      "Add another 1 tbsp oil to the same pan. Add onion and carrot and cook over high heat for 2–3 minutes, stirring constantly, until slightly softened. Add garlic and cook for 30 seconds.",
+      "Push the vegetables to the side of the pan. Add the remaining 1 tbsp oil to the clear side. Pour in the beaten eggs and scramble quickly with a spatula, breaking into small pieces, for about 1 minute until just set but still slightly soft. Mix the egg into the vegetables.",
+      "Add the cold rice to the pan. Press it flat against the hot surface and leave without stirring for 1 minute so the bottom grains crisp up. Then toss everything vigorously. Repeat this press-and-toss motion 2–3 times over 3–4 minutes.",
+      "Return the cooked chicken to the pan. Add peas, soy sauce, and a grind of black pepper. Toss everything together over high heat for 1–2 minutes until the soy sauce coats every grain and the rice is dry and slightly smoky.",
+      "Turn off heat. Add green onion and toss once. Garnish with sesame seeds and serve immediately."
+    ],
+    "cookTips": [
+      "Day-old cold rice is non-negotiable — freshly cooked rice produces a clumpy, wet result.",
+      "High heat throughout is essential for the slightly charred, smoky flavour (wok hei).",
+      "Do not overcrowd the pan — if cooking for more than 2 people, work in batches."
+    ],
+    "substitutions": [
+      {
+        "missing": "chicken",
+        "alternatives": [
+          "shrimp",
+          "tofu",
+          "egg"
+        ],
+        "note": "Shrimp cooks in 2 minutes per side; tofu should be pressed dry and pan-fried first."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a complete meal on its own.",
+      "Pair with a simple cucumber salad dressed with vinegar and sesame seeds.",
+      "Serve with a side of hot sauce."
+    ]
+  },
+  {
+    "id": "pad-thai-noodles",
+    "name": "Pad Thai",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "rice noodles",
+      "egg",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "shrimp",
+      "tofu",
+      "snap peas",
+      "green onion"
+    ],
+    "optionalIngredients": [
+      "peanut",
+      "lemon"
+    ],
+    "spices": [
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "oil",
+      "sugar",
+      "soy sauce",
+      "vinegar"
+    ],
+    "displayIngredients": [
+      "200g dried flat rice noodles",
+      "200g shrimp, peeled and deveined",
+      "150g firm tofu, pressed and cut into 1cm cubes",
+      "3 large eggs",
+      "1 medium onion, thinly sliced",
+      "3 green onion stalks, cut into 3cm pieces",
+      "3 tbsp soy sauce",
+      "1 tbsp vinegar",
+      "1 tbsp sugar",
+      "1 tsp chili flakes",
+      "3 tbsp roasted peanuts, roughly crushed",
+      "Juice of 1 lime or lemon",
+      "3 tbsp oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Soak rice noodles in room-temperature water for 25–30 minutes until pliable but still firm — they will finish cooking in the pan. Drain and set aside. Do not use boiling water; over-softened noodles turn mushy when stir-fried.",
+      "Mix the sauce: combine soy sauce, vinegar, and sugar in a small bowl. Stir until the sugar dissolves. Set aside.",
+      "Heat 1 tbsp oil in a wok or large pan over high heat. Add tofu cubes and cook without moving for 2–3 minutes until golden on one side. Turn and cook for 2 more minutes. Remove and set aside. In the same pan, cook shrimp for 1–2 minutes per side until pink and curled. Remove and set aside.",
+      "Add 1 tbsp oil to the pan. Add sliced onion and cook for 2 minutes over high heat. Push to the side. Add the drained noodles and pour the sauce over them. Toss everything together and cook for 2–3 minutes, using tongs to separate any clumps.",
+      "Push noodles to one side. Add the remaining 1 tbsp oil. Crack in the eggs and scramble quickly for 30–45 seconds until barely set. Fold the egg into the noodles.",
+      "Return the shrimp and tofu to the pan. Add green onion and chili flakes. Toss over high heat for 1–2 minutes until everything is combined and the noodles are coated in sauce. If the noodles feel dry or stick, add 1–2 tbsp water.",
+      "Transfer to plates. Top with crushed peanuts, squeeze of lemon or lime, and extra chili flakes. Serve immediately."
+    ],
+    "cookTips": [
+      "Pre-soaked noodles should still feel firm before going into the pan — they soften fully in the sauce.",
+      "Work quickly over high heat; the entire stir-fry should take under 8 minutes once everything is prepped.",
+      "Squeeze lemon or lime at the table just before eating — it transforms the dish."
+    ],
+    "substitutions": [
+      {
+        "missing": "shrimp",
+        "alternatives": [
+          "chicken",
+          "tofu"
+        ],
+        "note": "Chicken breast diced small cooks in 3–4 minutes on high heat; tofu should be pan-fried until golden first."
+      },
+      {
+        "missing": "rice noodles",
+        "alternatives": [
+          "noodles"
+        ],
+        "note": "Regular wheat noodles can be used — cook per packet instructions and add to the pan drained."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with lime or lemon wedges, extra peanuts, and chili flakes on the side.",
+      "Add sliced cucumber on the plate for freshness.",
+      "Goes well with a simple clear broth soup."
+    ]
+  },
+  {
+    "id": "miso-soup",
+    "name": "Miso Soup",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "miso paste",
+      "tofu"
+    ],
+    "flexibleIngredients": [
+      "seaweed",
+      "green onion",
+      "mushroom"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [],
+    "pantryStaples": [
+      "salt",
+      "water"
+    ],
+    "displayIngredients": [
+      "150g firm or silken tofu, cut into 1.5cm cubes",
+      "3 tbsp white or red miso paste",
+      "1 sheet dried seaweed (nori or wakame), scissors-cut into small pieces or crumbled",
+      "4 mushrooms, thinly sliced",
+      "2 green onion stalks, thinly sliced",
+      "1 tbsp sesame seeds (optional)",
+      "800ml water"
+    ],
+    "steps": [
+      "Bring 800ml water to a boil in a medium pot over medium-high heat. Add sliced mushrooms and cook for 3 minutes.",
+      "Reduce heat to low — the water should be steaming but not boiling. Boiling miso destroys its flavour and probiotic properties.",
+      "Place miso paste in a small bowl. Ladle 3–4 tbsp of the hot broth into the bowl and whisk until the miso is completely dissolved and smooth with no lumps.",
+      "Pour the dissolved miso mixture back into the pot. Stir gently. Do not boil after this point.",
+      "Add tofu cubes gently and stir. Add the seaweed pieces. Heat for 1–2 minutes until the tofu is warmed through — it does not need to cook, only heat.",
+      "Ladle into bowls. Top with sliced green onion and sesame seeds. Serve immediately."
+    ],
+    "cookTips": [
+      "Never boil miso once it is added — high heat kills its delicate flavour and beneficial bacteria.",
+      "Dissolve miso in a little broth first; adding it directly to the pot results in undissolved lumps.",
+      "White miso is milder and slightly sweet; red miso is stronger and saltier — adjust quantity to taste."
+    ],
+    "substitutions": [
+      {
+        "missing": "seaweed",
+        "alternatives": [
+          "spinach"
+        ],
+        "note": "Add a small handful of spinach leaves in the last minute of cooking as a substitute."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a starter before any Asian meal.",
+      "Serve alongside steamed rice and grilled fish.",
+      "Drink as a warming morning broth."
+    ]
+  },
+  {
+    "id": "tofu-stir-fry",
+    "name": "Tofu and Vegetable Stir-Fry",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "tofu",
+      "bell pepper",
+      "broccoli",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "snap peas",
+      "carrot",
+      "mushroom",
+      "ginger"
+    ],
+    "optionalIngredients": [
+      "sesame seeds",
+      "green onion"
+    ],
+    "spices": [
+      "black pepper",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce",
+      "sugar",
+      "vinegar"
+    ],
+    "displayIngredients": [
+      "400g firm tofu, pressed dry and cut into 2cm cubes",
+      "1 large red bell pepper, cut into 2cm pieces",
+      "200g broccoli, cut into small florets",
+      "1 medium carrot, cut into thin matchsticks",
+      "100g snap peas",
+      "4 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "3 tbsp soy sauce",
+      "1 tbsp vinegar",
+      "1 tsp sugar",
+      "1/2 tsp chili flakes",
+      "1 tsp sesame seeds",
+      "2 green onion stalks, sliced",
+      "3 tbsp oil",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Press tofu between two plates with a heavy object on top for 15 minutes to remove as much moisture as possible. Pat dry with kitchen towel. Cut into 2cm cubes. Wet tofu will not crisp up.",
+      "Mix the sauce: stir together soy sauce, vinegar, sugar, and 2 tbsp water until sugar dissolves. Set aside.",
+      "Heat 2 tbsp oil in a wok or wide pan over high heat until shimmering. Add tofu cubes in a single layer without crowding. Cook for 3 minutes without moving until the base is deep golden. Flip each cube and cook for another 2–3 minutes until golden on two sides. Remove and set aside.",
+      "Add the remaining 1 tbsp oil. Add broccoli and carrot first — they need the most time. Stir-fry over high heat for 2–3 minutes.",
+      "Add bell pepper and snap peas. Stir-fry for 2 more minutes. All vegetables should be tender-crisp — cooked through but still with a definite bite.",
+      "Add garlic and ginger. Toss for 30 seconds. Pour in the sauce and toss everything to coat. Cook for 1 minute until the sauce reduces slightly and begins to glaze the vegetables.",
+      "Return the golden tofu to the pan and toss gently. Cook for 1 minute. Turn off heat. Top with sesame seeds and green onion. Serve immediately over steamed rice."
+    ],
+    "cookTips": [
+      "Pressing and drying tofu is the most important step — moisture is the enemy of a crispy crust.",
+      "Do not move tofu once it is in the pan; patience creates the golden crust.",
+      "High heat throughout gives vegetables texture; medium heat will steam them soft."
+    ],
+    "substitutions": [
+      {
+        "missing": "tofu",
+        "alternatives": [
+          "chicken",
+          "shrimp"
+        ],
+        "note": "Chicken breast diced and cooked over high heat for 4–5 minutes; shrimp cooks in 2 minutes per side."
+      },
+      {
+        "missing": "broccoli",
+        "alternatives": [
+          "cauliflower",
+          "snap peas"
+        ],
+        "note": "Cauliflower florets work identically; snap peas cook faster so add 1 minute later."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over steamed rice.",
+      "Serve with noodles tossed in a little soy sauce and sesame seeds.",
+      "Top with extra chili flakes for more heat."
+    ]
+  },
+  {
+    "id": "beef-noodle-stir-fry",
+    "name": "Beef and Noodle Stir-Fry",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 25,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "beef",
+      "noodles",
+      "onion",
+      "bell pepper"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "ginger",
+      "mushroom",
+      "broccoli"
+    ],
+    "optionalIngredients": [
+      "green onion",
+      "sesame seeds"
+    ],
+    "spices": [
+      "black pepper",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce",
+      "sugar",
+      "vinegar"
+    ],
+    "displayIngredients": [
+      "300g beef sirloin or flank, very thinly sliced against the grain",
+      "200g dried egg noodles or wheat noodles",
+      "1 medium onion, thinly sliced into half-moons",
+      "1 red bell pepper, thinly sliced",
+      "200g mushrooms, sliced",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "3 tbsp soy sauce",
+      "1 tsp vinegar",
+      "1 tsp sugar",
+      "1/2 tsp chili flakes",
+      "2 green onion stalks, sliced",
+      "1 tsp sesame seeds",
+      "3 tbsp oil",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Slice beef very thinly — about 3mm — against the grain. If the beef is slightly frozen (15 minutes in the freezer), it slices much more easily. Season with soy sauce and a grind of black pepper. Let sit for 10 minutes.",
+      "Cook noodles per packet instructions until just al dente. Drain, rinse under cold water, and toss with 1 tsp oil to prevent sticking. Set aside.",
+      "Mix the stir-fry sauce: combine remaining soy sauce, vinegar, and sugar in a small bowl. Set aside.",
+      "Heat 2 tbsp oil in a wok or large pan over the highest heat. When the oil just smokes, add the beef in a single layer. Do not stir for 1 minute until well-browned on one side. Toss and cook for 30 more seconds — the beef should be just cooked through. Remove immediately and set aside.",
+      "Add 1 tbsp oil to the same pan. Add onion and mushrooms over high heat. Cook for 3 minutes until the mushrooms are browned and the onion is translucent. Add bell pepper, garlic, and ginger. Stir-fry for 2 more minutes.",
+      "Add the cooked noodles to the pan. Pour in the sauce and toss vigorously for 1–2 minutes until the noodles are coated and slightly caramelised at the edges.",
+      "Return the beef to the pan. Add chili flakes and toss for 30 seconds. Plate immediately and top with green onion and sesame seeds."
+    ],
+    "cookTips": [
+      "Slicing beef very thinly against the grain is essential for tender, not chewy, results.",
+      "Cook beef in a very hot pan and remove quickly — overcooked beef turns tough and dry.",
+      "Rinsing noodles in cold water stops them cooking and prevents clumping in the pan."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "chicken",
+          "tofu"
+        ],
+        "note": "Chicken breast sliced thin cooks in 3–4 minutes; tofu should be pressed and pan-fried until golden first."
+      },
+      {
+        "missing": "noodles",
+        "alternatives": [
+          "rice noodles"
+        ],
+        "note": "Soak rice noodles in cold water for 25 minutes, then stir-fry from soaked — they work identically."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately straight from the wok.",
+      "Add a soft-boiled egg halved on top.",
+      "Serve with extra chili flakes and soy sauce on the side."
+    ]
+  },
+  {
+    "id": "shrimp-fried-noodles",
+    "name": "Shrimp Chow Mein",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 25,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "shrimp",
+      "noodles",
+      "cabbage",
+      "carrot"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "ginger",
+      "green onion",
+      "snap peas"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "300g shrimp, peeled and deveined",
+      "200g dried egg noodles",
+      "2 cups cabbage, finely shredded",
+      "1 medium carrot, cut into thin matchsticks",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "3 green onion stalks, sliced into 3cm pieces",
+      "3 tbsp soy sauce",
+      "1 tsp sugar",
+      "1 tbsp sesame seeds",
+      "3 tbsp oil",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Cook noodles in boiling water for 2 minutes less than the packet instructions — they should be slightly underdone. Drain and rinse under cold water. Toss with 1 tsp oil and set aside.",
+      "Mix soy sauce and sugar in a small bowl until sugar dissolves. Set aside.",
+      "Heat 1 tbsp oil in a wok or large pan over high heat. Add shrimp in a single layer and cook for 1.5 minutes without touching until pink and slightly charred underneath. Flip and cook for 1 more minute. Season with salt and black pepper. Remove and set aside.",
+      "Add 2 tbsp oil to the same pan over high heat. Add carrot and cabbage and stir-fry for 2–3 minutes until slightly wilted but still with crunch. Add garlic and ginger and toss for 30 seconds.",
+      "Add the noodles to the pan. Pour the sauce over them. Using tongs, toss everything vigorously for 2–3 minutes over high heat. Spread noodles flat and press against the pan between tosses to create slightly crispy bits.",
+      "Return the shrimp to the pan. Add green onion and toss for 30 seconds. The noodles should be glossy, lightly charred at the edges, and completely coated in sauce.",
+      "Plate and top with sesame seeds. Serve immediately."
+    ],
+    "cookTips": [
+      "Undercooking noodles slightly before stir-frying prevents mushiness — they finish in the sauce.",
+      "Shrimp overcook quickly; remove them from the pan the moment they curl and turn pink.",
+      "Press noodles against the hot pan briefly to create lightly charred, crispy edges."
+    ],
+    "substitutions": [
+      {
+        "missing": "shrimp",
+        "alternatives": [
+          "chicken",
+          "tofu"
+        ],
+        "note": "Diced chicken needs 4–5 minutes over high heat; tofu must be pressed dry and pan-fried until golden."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with chili sauce on the side.",
+      "Add a fried egg on top for extra richness.",
+      "Pair with a simple cucumber salad dressed with vinegar."
+    ]
+  },
+  {
+    "id": "vietnamese-pho",
+    "name": "Simple Beef Pho",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "beef",
+      "rice noodles",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "ginger",
+      "green onion",
+      "snap peas"
+    ],
+    "optionalIngredients": [
+      "lemon",
+      "cilantro",
+      "mint",
+      "chili flakes"
+    ],
+    "spices": [
+      "cinnamon",
+      "cloves",
+      "black pepper",
+      "soy sauce"
+    ],
+    "pantryStaples": [
+      "salt",
+      "water",
+      "oil"
+    ],
+    "displayIngredients": [
+      "300g beef sirloin or ribeye, very thinly sliced",
+      "200g dried flat rice noodles",
+      "1 large onion, halved",
+      "3 inch piece of ginger, halved lengthways",
+      "1 cinnamon stick",
+      "4 cloves",
+      "1.5 litres water",
+      "3 tbsp soy sauce",
+      "3 green onion stalks, thinly sliced",
+      "Large handful of cilantro",
+      "Handful of mint leaves",
+      "1 tsp chili flakes",
+      "Juice of 1 lemon or lime",
+      "Salt and black pepper to taste",
+      "1 tbsp oil"
+    ],
+    "steps": [
+      "Char the onion and ginger for depth of flavour: heat 1 tbsp oil in a dry pan or hold directly over a gas flame. Cook the onion halves and ginger cut-side down for 4–5 minutes until deeply caramelised and blackened in spots. This is the step that gives pho its complex, aromatic base.",
+      "In a large pot, bring 1.5 litres of water to a boil. Add the charred onion, ginger, cinnamon stick, cloves, soy sauce, and 1 tsp salt. Reduce to a steady simmer and cook uncovered for 30 minutes. The broth should smell fragrant and spiced.",
+      "While broth simmers, soak rice noodles in cold water for 20 minutes until pliable. Drain and set aside.",
+      "Slice beef as thinly as possible — partially freezing it for 15 minutes helps. The slices should be translucent when held to light. Set aside on a plate.",
+      "Strain the broth through a sieve, discarding the solids. Return to the pot and bring back to a rolling boil. Taste and adjust with salt and soy sauce.",
+      "Blanch the soaked noodles in the boiling broth for 1–2 minutes until just tender. Divide noodles into bowls using tongs.",
+      "Arrange the raw beef slices on top of the hot noodles. Ladle the boiling hot broth over the beef immediately — the heat will cook the thin slices within seconds. Top with green onion, cilantro, mint, and chili flakes. Squeeze lemon over the top and serve."
+    ],
+    "cookTips": [
+      "Charring the onion and ginger is what gives the broth its signature depth — do not skip this step.",
+      "The beef must be sliced paper-thin so the boiling broth cooks it instantly when poured over.",
+      "Taste and season the broth carefully before serving — the final seasoning makes or breaks pho."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "chicken"
+        ],
+        "note": "Use chicken pieces to simmer the broth for 30 minutes; shred the cooked chicken and add to bowls."
+      },
+      {
+        "missing": "rice noodles",
+        "alternatives": [
+          "noodles"
+        ],
+        "note": "Regular wheat noodles cooked separately and added to the bowl work as a substitute."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with lemon or lime wedges, chili flakes, and fresh herbs on the side.",
+      "Add hot sauce to the broth for extra spice.",
+      "Top with a soft-boiled egg."
+    ]
+  },
+  {
+    "id": "japanese-teriyaki-chicken",
+    "name": "Teriyaki Chicken",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "chicken",
+      "garlic",
+      "ginger"
+    ],
+    "flexibleIngredients": [
+      "green onion",
+      "sesame seeds"
+    ],
+    "optionalIngredients": [
+      "green onion",
+      "sesame seeds"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "600g boneless chicken thighs, skin on if possible",
+      "3 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "4 tbsp soy sauce",
+      "2 tbsp sugar",
+      "1 tbsp oil",
+      "2 green onion stalks, thinly sliced",
+      "1 tsp sesame seeds",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Mix teriyaki sauce: combine soy sauce, sugar, garlic, and ginger in a small bowl. Stir until the sugar fully dissolves. Set aside.",
+      "Pat chicken thighs completely dry with kitchen towel. Season lightly with black pepper. Dry chicken browns better — moisture creates steam and prevents colour.",
+      "Heat 1 tbsp oil in a wide pan over medium-high heat. Place chicken thighs skin-side down (or smooth side down if skinless). Cook without moving for 6–8 minutes until the surface is deep golden brown. Press down lightly with a spatula if the edges curl up.",
+      "Flip the chicken. Cook the second side for 4–5 minutes until cooked through — juices run clear when pierced at the thickest point.",
+      "Reduce heat to medium-low. Pour the teriyaki sauce over the chicken. It will bubble immediately. Spoon the sauce over the chicken continuously as it reduces for 2–3 minutes. The sauce is ready when it is thick, glossy, and coats the chicken in a dark, sticky glaze. Watch carefully — the sugar can burn quickly.",
+      "Remove from heat. Rest the chicken for 3 minutes. Slice and plate. Spoon any remaining glaze from the pan over the slices. Top with green onion and sesame seeds."
+    ],
+    "cookTips": [
+      "Dry the chicken thoroughly before cooking — moisture prevents browning.",
+      "Add the sauce only after the chicken is fully cooked; adding it too early causes the sugar to burn.",
+      "Watch the sauce carefully once it goes in — it reduces from a liquid to a glaze in under 3 minutes."
+    ],
+    "substitutions": [
+      {
+        "missing": "chicken",
+        "alternatives": [
+          "tofu",
+          "fish"
+        ],
+        "note": "Firm tofu pressed and pan-fried on each side; fish fillets need only 2 minutes per side."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over steamed rice with a side of steamed broccoli.",
+      "Slice and serve in a lettuce cup with cucumber.",
+      "Serve with a simple shredded cabbage salad."
+    ]
+  },
+  {
+    "id": "spring-rolls-veg",
+    "name": "Vegetable Spring Rolls",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "flour",
+      "cabbage",
+      "carrot",
+      "mushroom"
+    ],
+    "flexibleIngredients": [
+      "tofu",
+      "noodles",
+      "garlic",
+      "ginger"
+    ],
+    "optionalIngredients": [
+      "green onion"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce"
+    ],
+    "displayIngredients": [
+      "12–16 spring roll wrappers (made from flour and water, or store-bought rice paper)",
+      "2 cups cabbage, very finely shredded",
+      "1 medium carrot, finely grated",
+      "150g mushrooms, finely diced",
+      "100g thin noodles, cooked and roughly chopped",
+      "150g firm tofu, crumbled",
+      "2 garlic cloves, minced",
+      "1 inch ginger, grated",
+      "2 green onion stalks, finely sliced",
+      "2 tbsp soy sauce",
+      "Oil for shallow or deep frying",
+      "Black pepper to taste",
+      "2 tbsp flour mixed with 2 tbsp water (for sealing)"
+    ],
+    "steps": [
+      "If making wrappers: mix 1 cup flour with enough water (about 120ml) to form a smooth, thin batter. Cook crepe-thin rounds in a lightly oiled non-stick pan for 1 minute each side. Stack and set aside. Alternatively, use store-bought wrappers.",
+      "Make the filling: heat 1 tbsp oil in a pan over high heat. Add garlic and ginger, cook 30 seconds. Add mushrooms and tofu. Cook for 3–4 minutes until the mushrooms are cooked and any moisture has evaporated.",
+      "Add shredded cabbage and carrot. Stir-fry for 2–3 minutes until wilted. Add noodles, soy sauce, green onion, and black pepper. Toss and cook for 1 minute. Transfer filling to a plate and cool completely — hot filling makes the wrappers tear.",
+      "Place 2–3 tbsp of cooled filling in a horizontal line near the bottom third of a wrapper. Fold the bottom edge over the filling, fold in both sides tightly, then roll upward firmly into a cylinder. Brush the top edge with flour-water paste and press to seal. Repeat with remaining wrappers.",
+      "For shallow-frying: heat 1.5cm of oil in a wide pan over medium-high heat until a small piece of wrapper sizzles immediately on contact. Fry spring rolls in batches, turning every 2 minutes, for 6–8 minutes total until evenly golden and crispy.",
+      "Drain on a plate lined with paper towel for 1 minute. Serve immediately — spring rolls lose their crispiness quickly."
+    ],
+    "cookTips": [
+      "Cool the filling completely before rolling — hot filling creates steam that makes wrappers soggy.",
+      "Roll tightly with no air pockets — loose rolling causes spring rolls to unravel during frying.",
+      "Do not overcrowd the frying pan; too many at once drops the oil temperature and creates greasy rolls."
+    ],
+    "substitutions": [
+      {
+        "missing": "mushroom",
+        "alternatives": [
+          "bell pepper"
+        ],
+        "note": "Finely diced bell pepper adds sweetness and texture; reduce cooking time slightly."
+      },
+      {
+        "missing": "tofu",
+        "alternatives": [
+          "shrimp"
+        ],
+        "note": "Finely chopped shrimp can be used; add it raw to the filling and it will cook during frying."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with soy sauce and a dash of vinegar for dipping.",
+      "Serve with sweet chili sauce.",
+      "Pair with a simple cucumber salad."
+    ]
+  },
+  {
+    "id": "korean-egg-rice",
+    "name": "Korean Egg Rice",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "rice",
+      "egg",
+      "butter"
+    ],
+    "flexibleIngredients": [
+      "green onion",
+      "sesame seeds"
+    ],
+    "optionalIngredients": [
+      "hot sauce"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "butter",
+      "soy sauce",
+      "salt"
+    ],
+    "displayIngredients": [
+      "2 cups steamed hot rice",
+      "2 large eggs",
+      "1 tbsp butter",
+      "1.5 tbsp soy sauce",
+      "1 tsp sesame seeds",
+      "2 green onion stalks, thinly sliced",
+      "1 tsp hot sauce (optional)",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Ensure the rice is freshly cooked and hot — this dish relies on hot rice melting the butter and warming the egg.",
+      "Heat a non-stick pan over medium heat. Add 1 tbsp butter and let it melt until it foams. Crack in the eggs and cook sunny-side up without flipping for 2–3 minutes until the whites are fully set but the yolks remain runny and bright orange.",
+      "Divide the hot steamed rice into two bowls.",
+      "Add 1/2 tbsp soy sauce to each bowl and mix roughly through the rice.",
+      "Slide one fried egg onto each bowl of rice. Add a small knob of butter on top of the hot egg — it will melt immediately.",
+      "Drizzle remaining soy sauce over the egg. Season with black pepper. Top with green onion and sesame seeds. Add hot sauce if using. Break the yolk and mix everything together just before eating."
+    ],
+    "cookTips": [
+      "The yolk must be runny — it mixes into the rice and butter to create a creamy sauce.",
+      "Hot, freshly cooked rice is essential; cold rice does not absorb the butter and soy properly.",
+      "A small extra knob of butter on the hot egg just before serving is what makes this truly rich."
+    ],
+    "substitutions": [
+      {
+        "missing": "butter",
+        "alternatives": [
+          "ghee",
+          "oil"
+        ],
+        "note": "Ghee gives a very similar richness; oil works but the dish will be less creamy."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a quick weekday meal.",
+      "Add sliced cucumber on the side.",
+      "Top with more hot sauce for extra heat."
+    ]
+  },
+  {
+    "id": "congee-rice-porridge",
+    "name": "Rice Congee",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "rice",
+      "ginger"
+    ],
+    "flexibleIngredients": [
+      "tofu",
+      "mushroom",
+      "green onion",
+      "egg"
+    ],
+    "optionalIngredients": [
+      "sesame seeds",
+      "cilantro"
+    ],
+    "spices": [
+      "black pepper",
+      "soy sauce"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1 cup jasmine or short-grain rice",
+      "8 cups water",
+      "2 inch piece of ginger, peeled and thinly sliced",
+      "150g firm tofu, cubed",
+      "6 mushrooms, sliced",
+      "2 green onion stalks, thinly sliced",
+      "2 tsp soy sauce",
+      "1 tsp sesame seeds",
+      "1 tsp oil",
+      "Salt and black pepper to taste",
+      "Cilantro to garnish"
+    ],
+    "steps": [
+      "Rinse the rice under cold water twice. Add to a medium-large pot with 8 cups of water and the sliced ginger. Bring to a boil over high heat.",
+      "Once boiling, reduce to a medium simmer. Cook uncovered for 30–35 minutes, stirring every 5 minutes to prevent sticking on the bottom. The rice will gradually break down and the mixture will thicken into a creamy porridge. It is ready when the grains have burst and the porridge coats a spoon.",
+      "While the congee cooks, heat 1 tsp oil in a small pan over medium-high heat. Add sliced mushrooms and cook for 3–4 minutes until golden. Season with a pinch of salt. Set aside.",
+      "Add tofu cubes to the nearly finished congee and stir gently. Simmer for 3 more minutes to heat through.",
+      "Season the congee with soy sauce and salt. Add a generous grind of black pepper. The consistency should be thick and creamy — if too thick, stir in a little hot water.",
+      "Ladle into bowls. Top each bowl with sautéed mushrooms, green onion, sesame seeds, a drizzle of oil, and cilantro. Serve hot."
+    ],
+    "cookTips": [
+      "Stir regularly during cooking to prevent the starch from sticking and burning on the base.",
+      "The longer you cook, the creamier and thicker the congee — adjust water for your preferred consistency.",
+      "Toppings are key; congee is mild by itself and comes alive with soy sauce, oil, and toppings."
+    ],
+    "substitutions": [
+      {
+        "missing": "tofu",
+        "alternatives": [
+          "egg",
+          "chicken"
+        ],
+        "note": "Poach an egg in the congee for the last 5 minutes; shred poached chicken and stir in."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with crispy spring rolls on the side.",
+      "Add a soft-boiled egg on top.",
+      "Drizzle generously with soy sauce and sesame seeds at the table."
+    ]
+  },
+  {
+    "id": "peanut-noodles",
+    "name": "Cold Peanut Noodles",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "noodles",
+      "peanut butter",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "cucumber",
+      "carrot",
+      "green onion",
+      "tofu"
+    ],
+    "optionalIngredients": [
+      "sesame seeds",
+      "cilantro"
+    ],
+    "spices": [
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "soy sauce",
+      "vinegar",
+      "sugar",
+      "oil"
+    ],
+    "displayIngredients": [
+      "300g dried noodles (wheat or soba)",
+      "4 tbsp peanut butter (smooth)",
+      "3 tbsp soy sauce",
+      "2 tbsp vinegar",
+      "1 tbsp sugar",
+      "2 garlic cloves, finely grated",
+      "2 tbsp warm water",
+      "1 tsp chili flakes",
+      "1 medium cucumber, peeled, seeded, and julienned",
+      "1 medium carrot, finely grated",
+      "2 green onion stalks, thinly sliced",
+      "2 tbsp sesame seeds",
+      "Small handful of cilantro",
+      "2 tbsp oil",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Make the peanut sauce: combine peanut butter, soy sauce, vinegar, sugar, grated garlic, and chili flakes in a bowl. Add 2 tbsp warm water and whisk until completely smooth. Taste — it should be rich, salty, tangy, and slightly spicy. Adjust with more soy sauce or vinegar as needed.",
+      "Cook noodles per packet instructions until just tender. Drain immediately and rinse thoroughly under cold running water to stop cooking and remove starch. This is key for cold noodles — toss with 1 tbsp oil so they do not clump.",
+      "Julienne the cucumber by cutting it into thin sticks. Grate the carrot coarsely. Slice green onion. Set all garnishes in small piles ready to add.",
+      "Pour three-quarters of the peanut sauce over the cold noodles and toss until every strand is evenly coated. Add more sauce to taste.",
+      "Arrange cucumber and carrot on top of the noodles. Scatter green onion, sesame seeds, and cilantro over the top.",
+      "Serve cold or at room temperature. Drizzle remaining peanut sauce on top at the table. Toss just before eating."
+    ],
+    "cookTips": [
+      "Rinsing noodles in cold water is essential — warm noodles will absorb all the sauce and taste stodgy.",
+      "Warm water thins peanut butter smoothly without changing the flavour — do not use cold water.",
+      "The sauce can be made up to 3 days ahead and stored in the fridge."
+    ],
+    "substitutions": [
+      {
+        "missing": "peanut butter",
+        "alternatives": [
+          "tahini"
+        ],
+        "note": "Tahini makes an equally delicious sesame-based cold noodle sauce with a slightly more bitter, nutty flavour."
+      },
+      {
+        "missing": "cucumber",
+        "alternatives": [
+          "snap peas",
+          "bell pepper"
+        ],
+        "note": "Both provide a fresh, crunchy raw element; slice thinly and use the same way."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve cold as a summer meal.",
+      "Add sliced tofu or a boiled egg for extra protein.",
+      "Top with extra chili flakes for heat."
+    ]
+  },
+  {
+    "id": "green-curry-tofu",
+    "name": "Thai-Style Green Curry with Tofu",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "tofu",
+      "coconut milk",
+      "bell pepper",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "zucchini",
+      "snap peas",
+      "garlic",
+      "ginger",
+      "lemon"
+    ],
+    "optionalIngredients": [
+      "cilantro",
+      "basil"
+    ],
+    "spices": [
+      "cumin",
+      "coriander powder",
+      "turmeric",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "oil",
+      "soy sauce",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "400g firm tofu, pressed dry and cubed",
+      "400ml coconut milk",
+      "1 large bell pepper, sliced",
+      "1 medium onion, sliced",
+      "1 medium zucchini, sliced into half-moons",
+      "100g snap peas",
+      "4 garlic cloves, minced",
+      "1.5 inch ginger, grated",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1 tsp chili flakes",
+      "1 tbsp soy sauce",
+      "1 tsp sugar",
+      "Juice of half a lemon or lime",
+      "3 tbsp oil",
+      "Fresh cilantro and basil to garnish"
+    ],
+    "steps": [
+      "Press tofu between plates for 15 minutes. Pat dry and cut into 2cm cubes. Heat 2 tbsp oil in a wide pan over high heat. Add tofu in a single layer and cook for 3 minutes undisturbed until golden. Flip and cook 2 more minutes. Remove and set aside.",
+      "Add 1 tbsp oil to the pan over medium heat. Add sliced onion and cook for 4–5 minutes until soft. Add garlic and ginger and cook for 1 minute.",
+      "Add cumin, coriander powder, turmeric, and chili flakes. Stir continuously for 1 minute until the spices are fragrant and coat the onion.",
+      "Add bell pepper and zucchini. Stir-fry for 2 minutes over medium-high heat.",
+      "Pour in the coconut milk. Add soy sauce and sugar. Stir and bring to a gentle simmer. Cook for 5–6 minutes until the sauce is slightly thickened and the vegetables are tender.",
+      "Add snap peas and tofu. Stir gently and simmer for 3 more minutes. Squeeze in lemon or lime juice and stir.",
+      "Season with salt if needed. Garnish with cilantro and basil leaves. Serve hot over steamed rice."
+    ],
+    "cookTips": [
+      "Press and dry tofu thoroughly — crispy golden tofu holds its texture in the sauce instead of falling apart.",
+      "Toast the spices in the oil for at least 1 minute before adding liquids; raw spices produce a flat-tasting curry.",
+      "Do not boil the coconut milk hard — gentle simmering keeps it creamy rather than breaking into oil and water."
+    ],
+    "substitutions": [
+      {
+        "missing": "tofu",
+        "alternatives": [
+          "chicken",
+          "shrimp"
+        ],
+        "note": "Chicken breast cubed and pan-seared; shrimp added directly to the simmering sauce and cooked for 3 minutes."
+      },
+      {
+        "missing": "coconut milk",
+        "alternatives": [
+          "cream"
+        ],
+        "note": "Cream produces a richer, less tropical sauce — reduce the lemon juice slightly to balance."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over steamed jasmine rice.",
+      "Serve with flatbread on the side.",
+      "Garnish generously with fresh basil and cilantro."
+    ]
+  },
+  {
+    "id": "egg-drop-soup",
+    "name": "Egg Drop Soup",
+    "cuisine": "asian",
+    "vegetarian": false,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "egg",
+      "onion",
+      "mushroom"
+    ],
+    "flexibleIngredients": [
+      "green onion",
+      "tofu"
+    ],
+    "optionalIngredients": [
+      "sesame seeds",
+      "cilantro"
+    ],
+    "spices": [
+      "black pepper",
+      "soy sauce"
+    ],
+    "pantryStaples": [
+      "salt",
+      "water",
+      "oil"
+    ],
+    "displayIngredients": [
+      "3 large eggs, beaten well",
+      "4 mushrooms, thinly sliced",
+      "1 small onion, finely diced",
+      "150g soft tofu, cubed (optional)",
+      "1 tbsp soy sauce",
+      "1 tsp oil",
+      "2 green onion stalks, thinly sliced",
+      "1 tsp sesame seeds",
+      "800ml water or light stock",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Bring 800ml water or stock to a boil in a medium pot. Add diced onion and sliced mushrooms. Cook for 4–5 minutes until mushrooms are cooked through.",
+      "Add soy sauce, 1 tsp oil, and season with salt and black pepper. Add tofu if using and simmer for 2 minutes.",
+      "Reduce heat to medium so the soup is at a steady but not rolling boil. The surface should be gently bubbling, not churning.",
+      "Hold the bowl of beaten egg in one hand. With a fork or chopstick in the other hand, stir the soup in a slow circular motion to create a gentle whirlpool. While stirring, pour the beaten egg in a thin, steady stream from a height — this creates the characteristic long, silky egg ribbons. Pour slowly over 15–20 seconds.",
+      "Stop stirring immediately once the egg is poured. Leave undisturbed for 30 seconds. The egg will set into wispy, floating ribbons.",
+      "Ladle into bowls. Top with sliced green onion, sesame seeds, and a grind of black pepper. Serve immediately."
+    ],
+    "cookTips": [
+      "Pour the egg in a thin stream while stirring slowly — this creates long ribbons instead of clumps.",
+      "Stop stirring the moment egg hits the soup; continued stirring breaks the ribbons into small bits.",
+      "The soup should be at a steady simmer, not a rolling boil, when you add the egg."
+    ],
+    "substitutions": [
+      {
+        "missing": "mushroom",
+        "alternatives": [
+          "spinach"
+        ],
+        "note": "Add a small handful of spinach in the last 2 minutes; it wilts quickly and adds colour."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a starter before fried rice or noodles.",
+      "Drink from a bowl as a warming light meal.",
+      "Add a few drops of sesame seeds on top just before serving."
+    ]
+  },
+  {
+    "id": "sesame-cucumber-salad",
+    "name": "Sesame Cucumber Salad",
+    "cuisine": "asian",
+    "vegetarian": true,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "cucumber",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "green onion",
+      "sesame seeds",
+      "chili flakes"
+    ],
+    "optionalIngredients": [
+      "cilantro"
+    ],
+    "spices": [
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "soy sauce",
+      "vinegar",
+      "sugar",
+      "oil"
+    ],
+    "displayIngredients": [
+      "2 medium cucumbers",
+      "2 garlic cloves, finely grated",
+      "2 tbsp soy sauce",
+      "1.5 tbsp vinegar",
+      "1 tsp sugar",
+      "1/2 tsp chili flakes",
+      "2 tbsp sesame seeds, toasted",
+      "2 green onion stalks, thinly sliced",
+      "1 tbsp oil",
+      "Small handful of cilantro",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Prepare cucumbers: place them on a cutting board and use the flat of a wide knife or a rolling pin to smash each cucumber gently with a firm press — this creates irregular cracks that absorb dressing better than slicing. Cut smashed cucumbers into 3–4cm pieces and transfer to a bowl.",
+      "Sprinkle cucumbers with 1 tsp salt and toss. Let sit for 10 minutes — they will release liquid. Drain the liquid completely and pat the cucumbers dry with kitchen towel. This step removes bitterness and excess water.",
+      "Make the dressing: combine soy sauce, vinegar, sugar, and grated garlic in a small bowl. Stir until the sugar dissolves. Heat 1 tbsp oil in a tiny pan until it just starts to shimmer. Pour the hot oil over the chili flakes in a separate bowl — it will sizzle and bloom their flavour. Add to the dressing.",
+      "Toss the drained cucumbers with the dressing. Mix well so every piece is coated.",
+      "Add sesame seeds, green onion, and cilantro. Toss once more. Taste for salt and vinegar — adjust as needed.",
+      "Serve immediately for maximum crunch or rest for 5 minutes at room temperature for the flavours to meld."
+    ],
+    "cookTips": [
+      "Smashing the cucumbers creates jagged surfaces that hold dressing far better than clean-cut slices.",
+      "Salting and draining removes excess water that would otherwise dilute the dressing.",
+      "Blooming chili flakes in hot oil dramatically intensifies their flavour and aroma."
+    ],
+    "substitutions": [
+      {
+        "missing": "cucumber",
+        "alternatives": [
+          "radish",
+          "carrot"
+        ],
+        "note": "Thinly sliced or julienned radish gives a peppery crunch; carrot adds sweetness — both work well."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a side dish with fried rice or noodles.",
+      "Serve as a starter or palate cleanser.",
+      "Goes well alongside any grilled meat or tofu."
+    ]
+  }
+]

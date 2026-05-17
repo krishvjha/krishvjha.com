@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "turkish-lentil-soup",
+    "name": "Mercimek Çorbası",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "lentils",
+      "onion",
+      "carrot"
+    ],
+    "flexibleIngredients": [
+      "potato",
+      "garlic",
+      "tomato"
+    ],
+    "optionalIngredients": [
+      "lemon",
+      "mint"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "1.5 cups red lentils, rinsed",
+      "2 medium onions, diced",
+      "2 medium carrots, diced",
+      "1 medium potato, diced",
+      "3 garlic cloves, minced",
+      "1 medium tomato, chopped",
+      "1.5 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp chili flakes",
+      "1.5 litres water",
+      "3 tbsp olive oil",
+      "1 tbsp butter",
+      "Salt and black pepper to taste",
+      "Lemon wedges and dried mint to serve"
+    ],
+    "steps": [
+      "Heat 3 tbsp olive oil in a large pot over medium heat. Add diced onion and cook for 7–8 minutes until soft and lightly golden. Add garlic and cook for 1 minute.",
+      "Add diced carrot, potato, and chopped tomato. Stir and cook for 3–4 minutes until the tomato breaks down slightly.",
+      "Add rinsed lentils, cumin, paprika, and 1.5 litres water. Season with salt. Bring to a boil, skim any foam, then reduce to a steady simmer. Cook uncovered for 22–25 minutes until lentils and vegetables are completely soft.",
+      "Use a hand blender to blend the soup completely smooth. It should be a thick, velvety, deep orange puree. If it is too thick, stir in a splash of hot water to reach a pourable, creamy consistency.",
+      "For the paprika butter topping: melt 1 tbsp butter in a very small pan over medium heat until it foams. Add 1/2 tsp paprika and a pinch of chili flakes. Stir for 20 seconds until fragrant and vivid red. Remove from heat immediately.",
+      "Ladle soup into bowls. Drizzle the red paprika butter decoratively over the surface. Finish with a grind of black pepper and crumbled dried mint. Serve with lemon wedges on the side — a squeeze of lemon at the table is traditional and essential."
+    ],
+    "cookTips": [
+      "Blend the soup very thoroughly — any unblended lentil or vegetable chunk changes the silky texture.",
+      "The paprika butter must be made fresh just before serving; it loses its vivid colour and aroma quickly.",
+      "Squeeze lemon generously into the bowl before eating — the acidity transforms the flavour completely."
+    ],
+    "substitutions": [
+      {
+        "missing": "potato",
+        "alternatives": [
+          "carrot"
+        ],
+        "note": "Use an extra carrot instead; the soup will be slightly sweeter and lighter in body."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with warm crusty bread.",
+      "Squeeze lemon juice into each bowl at the table.",
+      "Pair with a simple tomato and cucumber salad."
+    ]
+  },
+  {
+    "id": "adana-kebab",
+    "name": "Adana Kebab",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 30,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "lamb",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "beef",
+      "green chili",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "parsley",
+      "sumac"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper",
+      "cinnamon"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil"
+    ],
+    "displayIngredients": [
+      "500g minced lamb (fatty cut, 20–25% fat)",
+      "1 medium onion, grated and squeezed dry",
+      "2 green chilies, very finely minced",
+      "2 garlic cloves, finely grated",
+      "1.5 tsp paprika",
+      "1 tsp cumin",
+      "1/2 tsp chili flakes",
+      "1/4 tsp cinnamon",
+      "1/2 tsp black pepper",
+      "1 tsp salt",
+      "Flat-leaf parsley, chopped, to serve",
+      "Sumac-dusted onion rings to serve",
+      "Oil for greasing"
+    ],
+    "steps": [
+      "Grate the onion on the finest grater setting directly into a clean cloth. Squeeze out every drop of liquid — wet onion prevents the meat from binding to skewers. Discard the juice.",
+      "Combine minced lamb, squeezed onion, minced green chili, garlic, paprika, cumin, chili flakes, cinnamon, black pepper, and salt in a large bowl. Knead vigorously with both hands for 3–4 minutes. The mixture should become dense, slightly sticky, and paste-like. This protein development is what holds the kebab together without any binders.",
+      "Wet your hands. Take a portion of meat roughly the size of a large egg. Mould it around a flat metal skewer, squeezing firmly along its length to form a long, thin sausage about 15cm long. Press any cracks closed. Refrigerate shaped kebabs for 10 minutes if the mixture feels soft.",
+      "Heat a grill pan or outdoor grill to high heat. Lightly oil the grate. Lay skewers on the grill and cook for 3–4 minutes without touching until the underside is charred and the kebab releases cleanly from the surface.",
+      "Turn carefully and cook for another 3–4 minutes on the second side. Turn once more and cook for 2 minutes. The finished kebab should be charred at the edges, juicy in the centre, and fully cooked through.",
+      "Rest for 2 minutes. Slide off skewers onto flatbread. Serve with parsley, sumac-dusted raw onion rings, and lemon wedges."
+    ],
+    "cookTips": [
+      "Fat content is critical — lean mince dries out. Ask a butcher for shoulder mince or add 100g of minced pork fat if available.",
+      "Knead the meat mixture until it almost resembles a paste — this is what makes it hold on the skewer.",
+      "Do not move the kebab for the first 3–4 minutes; it needs to sear and firm before it can be turned without breaking."
+    ],
+    "substitutions": [
+      {
+        "missing": "lamb",
+        "alternatives": [
+          "beef"
+        ],
+        "note": "Use fatty minced beef — 80/20 ratio. Mix well; it needs slightly longer kneading than lamb."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve on flatbread with parsley, grilled tomato, and sumac onions.",
+      "Accompany with yogurt and a green salad.",
+      "Serve alongside pilaf rice and grilled vegetables."
+    ]
+  },
+  {
+    "id": "imam-bayildi",
+    "name": "İmam Bayıldı",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 55,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "eggplant",
+      "onion",
+      "tomato",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "green chili",
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "lemon"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "black pepper",
+      "cinnamon"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "sugar",
+      "water"
+    ],
+    "displayIngredients": [
+      "3 medium eggplants",
+      "3 medium onions, thinly sliced into half-moons",
+      "4 medium tomatoes, finely diced",
+      "5 garlic cloves, thinly sliced",
+      "2 green chilies, thinly sliced",
+      "Large handful of flat-leaf parsley, chopped",
+      "1 tsp cumin",
+      "1/2 tsp paprika",
+      "1/4 tsp cinnamon",
+      "1 tsp sugar",
+      "6 tbsp olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Peel the eggplants in alternating vertical strips to create a striped pattern. Halve each eggplant lengthways. Score the flesh deeply in a crosshatch pattern without cutting through the skin. Salt the cut surfaces generously and rest cut-side down on a rack for 20 minutes to draw out bitterness. Rinse and pat dry.",
+      "Heat 3 tbsp olive oil in a wide pan over medium heat. Place eggplants cut-side down and cook for 4–5 minutes until deep golden. Flip and cook the skin side for 2 minutes. Transfer to a baking dish cut-side up.",
+      "In the same pan, heat 3 tbsp olive oil over medium heat. Add sliced onion and cook for 10–12 minutes until very soft and lightly golden. Add garlic and green chili and cook for 2 minutes.",
+      "Add diced tomatoes, cumin, paprika, cinnamon, sugar, salt, and black pepper. Cook for 8–10 minutes until the tomatoes collapse into a thick, jammy sauce. Stir in chopped parsley.",
+      "Preheat oven to 180°C / 355°F. Open the scored eggplant flesh with a spoon to create a cavity. Spoon the onion-tomato filling generously into each half, pressing it into the scored cuts.",
+      "Add 4 tbsp water to the baking dish. Cover tightly with foil and bake for 30 minutes. Remove foil and bake for a further 10 minutes until the eggplants are completely soft and slightly collapsed. Cool to room temperature before serving — this dish is traditionally served warm or at room temperature, never piping hot."
+    ],
+    "cookTips": [
+      "Serve at room temperature — the flavours fully develop as the dish cools and the eggplant absorbs the filling.",
+      "Salting and resting the eggplant is essential to remove bitterness and excess moisture.",
+      "Use good quality olive oil generously — it is the defining flavour of this dish."
+    ],
+    "substitutions": [
+      {
+        "missing": "eggplant",
+        "alternatives": [
+          "zucchini"
+        ],
+        "note": "Halved zucchini filled and baked the same way make a lighter version; reduce oven time to 20 minutes."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve at room temperature with crusty bread.",
+      "Serve with plain yogurt and a squeeze of lemon.",
+      "Pairs beautifully with pilaf rice."
+    ]
+  },
+  {
+    "id": "turkish-beef-pide",
+    "name": "Kıymalı Pide",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 50,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "flour",
+      "beef",
+      "onion",
+      "tomato"
+    ],
+    "flexibleIngredients": [
+      "green chili",
+      "garlic",
+      "bell pepper"
+    ],
+    "optionalIngredients": [
+      "egg",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "2.5 cups all-purpose flour, plus extra for dusting",
+      "7g instant yeast",
+      "1 tsp sugar",
+      "1 tsp salt",
+      "2 tbsp olive oil",
+      "150ml warm water",
+      "400g minced beef",
+      "2 medium onions, finely diced",
+      "2 medium tomatoes, finely diced",
+      "1 green chili, finely chopped",
+      "1 small green bell pepper, finely diced",
+      "2 garlic cloves, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp chili flakes",
+      "Salt and black pepper to taste",
+      "2 eggs (optional — one cracked onto each pide in last 5 minutes)",
+      "Olive oil for brushing",
+      "Flat-leaf parsley to garnish"
+    ],
+    "steps": [
+      "Make the dough: combine flour, yeast, sugar, and salt. Add olive oil and warm water. Mix and knead on a lightly floured surface for 8–10 minutes until smooth and elastic. Place in an oiled bowl, cover with a damp cloth, and rest for 30 minutes.",
+      "Make the topping: heat 2 tbsp olive oil in a pan over medium-high heat. Add onion and cook for 5 minutes until soft. Add garlic, green chili, and bell pepper. Cook for 2 minutes. Add minced beef and break up with a spoon. Cook for 6–8 minutes over high heat until all moisture evaporates and the meat is well-browned and sizzling.",
+      "Add diced tomatoes, cumin, paprika, chili flakes, salt, and black pepper. Cook for 5 minutes until the tomato is mostly absorbed and the mixture is dry but not crumbly. It should hold together when pressed. Let cool completely.",
+      "Preheat oven to its highest temperature, at least 240°C / 465°F, with a baking tray inside. Divide dough into 4 balls. On a lightly floured surface, roll each into a long oval about 30cm × 12cm, roughly 3mm thin.",
+      "Spread a quarter of the meat topping over each dough oval, leaving a 2cm border all around. Fold and crimp the long sides upward and pinch the pointed ends to form the traditional boat shape. Brush the exposed dough edges with olive oil.",
+      "Carefully transfer pides onto the preheated tray. Bake for 12–14 minutes until the base is crisp and the dough edges are deep golden. If using egg, crack one onto each pide 5 minutes before the end of baking.",
+      "Remove from oven. Scatter chopped parsley over the top. Serve immediately — pide loses its crispiness as it cools."
+    ],
+    "cookTips": [
+      "The meat mixture must be completely dry before going onto the dough — excess moisture makes the base soggy.",
+      "A screaming hot oven is essential for crispy base and blistered edges.",
+      "Pinch the ends firmly into points — the boat shape holds the topping in during baking."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "lamb"
+        ],
+        "note": "Minced lamb gives a richer, more aromatic topping — the traditional choice in many regions."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately out of the oven.",
+      "Squeeze lemon juice over the top just before eating.",
+      "Accompany with a simple tomato and parsley salad."
+    ]
+  },
+  {
+    "id": "cacik",
+    "name": "Cacık",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "yogurt",
+      "cucumber",
+      "garlic",
+      "mint"
+    ],
+    "flexibleIngredients": [
+      "lemon"
+    ],
+    "optionalIngredients": [
+      "olive oil"
+    ],
+    "spices": [
+      "cumin",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "2 cups thick plain yogurt",
+      "1 large cucumber, peeled and finely grated or finely diced",
+      "2 garlic cloves, finely crushed to a paste with salt",
+      "Handful of fresh mint leaves, finely chopped",
+      "1/2 tsp cumin",
+      "2 tbsp extra virgin olive oil",
+      "Juice of half a lemon",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Grate the cucumber on the coarse side of a box grater. Place in a clean cloth and squeeze firmly to remove all excess water. This is the most important step — wet cucumber dilutes the yogurt completely.",
+      "Crush the garlic cloves with the flat of a knife, then sprinkle with a pinch of salt and work into a smooth paste by pressing and dragging with the knife blade. This technique removes harshness and ensures the garlic disperses evenly.",
+      "Combine yogurt, squeezed cucumber, garlic paste, chopped mint, cumin, and lemon juice in a bowl. Stir thoroughly. Season with salt and black pepper.",
+      "Taste and adjust — cacık should be cool, tangy, garlicky, and refreshing. Add more garlic or lemon if needed.",
+      "Transfer to a serving bowl. Drizzle olive oil generously over the top. Sprinkle a pinch of cumin and scatter a few extra mint leaves to garnish. Serve cold."
+    ],
+    "cookTips": [
+      "Squeezing all water from the cucumber is non-negotiable — un-drained cucumber makes watery, thin cacık.",
+      "Garlic paste integrates more smoothly than minced garlic, which can leave sharp raw bits.",
+      "Use thick, full-fat yogurt — low-fat yogurt produces a runny result."
+    ],
+    "substitutions": [
+      {
+        "missing": "yogurt",
+        "alternatives": [
+          "labneh"
+        ],
+        "note": "Labneh gives a thicker, tangier cacık — thin it slightly with 1 tbsp water and use the same way."
+      },
+      {
+        "missing": "mint",
+        "alternatives": [
+          "parsley"
+        ],
+        "note": "Parsley gives a fresher, more herby flavour; use the same quantity."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve cold alongside grilled meats or kebabs.",
+      "Use as a sauce inside flatbread wraps.",
+      "Serve as part of a mezze spread with olives and bread."
+    ]
+  },
+  {
+    "id": "menemen",
+    "name": "Menemen",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "egg",
+      "tomato",
+      "green chili",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "bell pepper",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "feta",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter"
+    ],
+    "displayIngredients": [
+      "4 large eggs",
+      "3 medium tomatoes, finely chopped",
+      "2 green chilies, thinly sliced",
+      "1 medium onion, finely diced",
+      "1 green bell pepper, finely diced",
+      "2 garlic cloves, minced",
+      "1/2 tsp cumin",
+      "1 tsp paprika",
+      "1/4 tsp chili flakes",
+      "50g feta, crumbled (optional)",
+      "Small handful of flat-leaf parsley, chopped",
+      "2 tbsp olive oil",
+      "1 tbsp butter",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Heat 2 tbsp olive oil and 1 tbsp butter together in a wide, preferably cast-iron pan over medium heat. Add diced onion and green bell pepper. Cook for 5–6 minutes until soft and the onion is translucent.",
+      "Add green chili and garlic. Cook for 1 minute. Add paprika, cumin, and chili flakes. Stir for 30 seconds.",
+      "Add chopped tomatoes and a generous pinch of salt. Cook over medium heat for 6–8 minutes, stirring occasionally, until the tomatoes fully collapse and release their juice into a loose, saucy base. The mixture should look like a chunky tomato sauce.",
+      "Reduce heat to low. Crack the eggs directly into the tomato mixture — space them out around the pan. Do not scramble them; instead use a spatula to gently fold the whites slowly into the tomato sauce while leaving the yolks partially intact. The goal is soft, custardy egg curds suspended in red tomato sauce.",
+      "Cook on low heat for 3–4 minutes, gently folding every 30 seconds, until the eggs are just set but still visibly soft and slightly runny. Menemen should be creamy and loose — not dry or scrambled.",
+      "Season with black pepper. Scatter crumbled feta and chopped parsley over the top. Serve immediately directly in the pan with crusty bread for scooping."
+    ],
+    "cookTips": [
+      "Low heat and gentle folding — never high heat and constant stirring — produce the signature soft, custardy texture.",
+      "Remove from heat when the eggs look slightly underdone; residual heat will finish them perfectly.",
+      "Use ripe, flavourful tomatoes — they form the body of the dish."
+    ],
+    "substitutions": [
+      {
+        "missing": "green chili",
+        "alternatives": [
+          "chili flakes"
+        ],
+        "note": "Add an extra 1/2 tsp chili flakes to the pan if fresh green chilies are unavailable."
+      },
+      {
+        "missing": "feta",
+        "alternatives": [
+          "parmesan",
+          "cheddar"
+        ],
+        "note": "Any crumbly, salty cheese works as a finishing garnish."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve directly in the pan at the table with crusty bread.",
+      "Serve as a weekend breakfast or brunch.",
+      "Pair with olives, fresh tomatoes, and cheese for a full Turkish breakfast spread."
+    ]
+  },
+  {
+    "id": "kofte-yogurt",
+    "name": "Kadınbudu Köfte",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "beef",
+      "egg",
+      "onion",
+      "rice"
+    ],
+    "flexibleIngredients": [
+      "lamb",
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "yogurt"
+    ],
+    "spices": [
+      "cumin",
+      "black pepper",
+      "cinnamon",
+      "paprika"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "flour"
+    ],
+    "displayIngredients": [
+      "400g minced beef",
+      "1/2 cup rice, boiled until just tender and cooled",
+      "1 medium onion, very finely grated and squeezed dry",
+      "2 eggs (1 for the mixture, 1 for coating)",
+      "Large handful of flat-leaf parsley, finely chopped",
+      "1 tsp cumin",
+      "1/2 tsp cinnamon",
+      "1/2 tsp paprika",
+      "1/2 tsp black pepper",
+      "1 tsp salt",
+      "3 tbsp flour for coating",
+      "Oil for shallow frying",
+      "Plain yogurt to serve"
+    ],
+    "steps": [
+      "Cook the rice in boiling salted water for 10 minutes until just cooked through. Drain, spread on a plate, and cool completely. The rice adds texture and extends the mixture without making it dense.",
+      "Combine minced beef, cooled rice, grated squeezed onion, 1 egg, parsley, cumin, cinnamon, paprika, black pepper, and salt in a large bowl. Knead for 2–3 minutes until thoroughly combined and slightly sticky.",
+      "Shape the mixture into oval patties about 7cm long and 3cm thick — these are larger and flatter than standard meatballs. Press firmly to compact them so they do not crack during frying.",
+      "Beat the remaining egg in a shallow bowl. Spread flour on a plate. Dip each patty first in flour, coat evenly, then dip in beaten egg. Let any excess drip off.",
+      "Heat 1cm of oil in a wide pan over medium-high heat. When a pinch of flour sizzles immediately on contact, add patties in a single layer without crowding. Cook for 4–5 minutes on the first side until deep golden brown. Flip carefully and cook for 3–4 minutes on the second side.",
+      "Drain on paper towel for 1–2 minutes. Serve immediately with cold yogurt on the side and a crisp green salad."
+    ],
+    "cookTips": [
+      "Cooked rice mixed into the meat keeps the kofte moist inside while the outside crisps up beautifully.",
+      "Compact each patty firmly when shaping — loose patties crack and fall apart during frying.",
+      "Do not move the kofte during the first 4 minutes; they need an uninterrupted sear to form a crust before turning."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "lamb"
+        ],
+        "note": "Minced lamb gives a richer, more aromatic kofte — reduce cinnamon slightly as lamb already has natural sweetness."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with cold plain yogurt and a cucumber salad.",
+      "Serve alongside rice pilaf and grilled vegetables.",
+      "Squeeze lemon over the kofte just before eating."
+    ]
+  },
+  {
+    "id": "ezme-salad",
+    "name": "Ezme",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 15,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "tomato",
+      "onion",
+      "green chili",
+      "parsley"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "lemon",
+      "cucumber"
+    ],
+    "optionalIngredients": [
+      "mint"
+    ],
+    "spices": [
+      "sumac",
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "4 large ripe tomatoes",
+      "1 large onion",
+      "2–3 green chilies",
+      "Large bunch of flat-leaf parsley",
+      "2 garlic cloves",
+      "1 small cucumber",
+      "Juice of 1 lemon",
+      "1 tsp sumac",
+      "1/2 tsp cumin",
+      "1/2 tsp paprika",
+      "1/2 tsp chili flakes",
+      "3 tbsp extra virgin olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Finely chop all vegetables — the key to ezme is a very fine, almost paste-like texture achieved through hand-chopping rather than blending. Start with the tomatoes: dice as finely as possible, then gather and chop further until almost minced.",
+      "Finely chop the onion, green chili, garlic, cucumber, and parsley to a similar fine consistency. Combine everything in a bowl.",
+      "Add lemon juice, sumac, cumin, paprika, chili flakes, olive oil, salt, and black pepper. Mix thoroughly.",
+      "Taste and adjust — ezme should be spicy, tangy, herby, and intense. Add more lemon, sumac, or chili flakes as needed.",
+      "Let the assembled ezme rest for 10 minutes before serving so the tomatoes release some juice and the flavours meld. The salad will become slightly looser and more saucy — this is correct. Serve at room temperature."
+    ],
+    "cookTips": [
+      "Fine hand-chopping rather than blending gives the correct rustic texture with just enough bite.",
+      "Use the ripest tomatoes available — the quality of the tomatoes determines the quality of the ezme.",
+      "Resting for 10 minutes allows the tomatoes to release juice that combines with the olive oil into a natural dressing."
+    ],
+    "substitutions": [
+      {
+        "missing": "sumac",
+        "alternatives": [
+          "lemon"
+        ],
+        "note": "Add an extra squeeze of lemon for tartness without sumac's fruity complexity."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve alongside any kebab as a relish.",
+      "Serve with flatbread as a starter.",
+      "Use as a sauce spread in wraps and pide."
+    ]
+  },
+  {
+    "id": "chicken-pilaf",
+    "name": "Tavuk Pilavı",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 45,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "rice",
+      "chicken",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "carrot",
+      "garlic",
+      "tomato"
+    ],
+    "optionalIngredients": [
+      "lemon",
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "cinnamon",
+      "paprika",
+      "bay leaf",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "butter",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1.5 cups long-grain or basmati rice, rinsed and soaked 20 minutes",
+      "500g bone-in chicken pieces",
+      "1 large onion, finely diced",
+      "1 medium carrot, diced",
+      "3 garlic cloves, minced",
+      "2 bay leaves",
+      "1 tsp cumin",
+      "1/2 tsp cinnamon",
+      "1 tsp paprika",
+      "2 tbsp butter",
+      "2 tbsp olive oil",
+      "2.5 cups water",
+      "Salt and black pepper to taste",
+      "Flat-leaf parsley to garnish"
+    ],
+    "steps": [
+      "Heat 2 tbsp olive oil in a heavy pot over medium-high heat. Season chicken pieces with salt, black pepper, and paprika. Brown on all sides for 4–5 minutes per side until deep golden. Remove and set aside.",
+      "Add 2 tbsp butter to the same pot over medium heat. Add diced onion and carrot and cook for 6–7 minutes until the onion is soft and golden. Add garlic and cook for 1 minute.",
+      "Add cumin, cinnamon, and bay leaves. Stir for 30 seconds. Return the browned chicken to the pot.",
+      "Add 2.5 cups water and season with salt. Bring to a boil, then reduce to a gentle simmer. Cover and cook for 20 minutes until the chicken is cooked through and the broth is flavourful.",
+      "Remove the chicken pieces and set aside to cool slightly. Drain and measure the broth — you need 2.5 cups. Add water if short.",
+      "Drain the soaked rice. Add it to the pot with the broth and vegetables. Bring to a boil, then reduce to the lowest heat. Cover tightly and cook for 15 minutes. Turn off heat and rest covered for 10 minutes.",
+      "Shred the cooked chicken off the bone into large pieces. Fluff the rice gently with a fork and fold in the shredded chicken. Remove bay leaves. Garnish with parsley and serve."
+    ],
+    "cookTips": [
+      "Brown the chicken deeply before adding liquid — this step creates the flavour base for the entire broth.",
+      "Measure the broth carefully; too much water makes the rice mushy, too little leaves it undercooked.",
+      "Do not lift the lid during the final rice cooking — trapped steam is essential."
+    ],
+    "substitutions": [
+      {
+        "missing": "chicken",
+        "alternatives": [
+          "lamb"
+        ],
+        "note": "Use bone-in lamb pieces and extend the broth-simmering step to 35–40 minutes until tender."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with cacık and a simple green salad.",
+      "Squeeze lemon juice over the rice just before eating.",
+      "Pairs well with ezme as a spicy contrast."
+    ]
+  },
+  {
+    "id": "kisir",
+    "name": "Kısır",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "bulgur",
+      "tomato",
+      "onion",
+      "parsley"
+    ],
+    "flexibleIngredients": [
+      "green onion",
+      "cucumber",
+      "mint",
+      "lemon"
+    ],
+    "optionalIngredients": [],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "sumac",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1.5 cups fine bulgur wheat",
+      "1.5 cups boiling water",
+      "3 medium ripe tomatoes, finely diced",
+      "1 large onion, very finely diced",
+      "4 green onion stalks, finely sliced",
+      "Large bunch of flat-leaf parsley, finely chopped",
+      "Small handful of fresh mint, finely chopped",
+      "1 medium cucumber, finely diced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp chili flakes",
+      "1 tsp sumac",
+      "Juice of 2 lemons",
+      "5 tbsp extra virgin olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Place bulgur in a large heatproof bowl. Add 1 tsp salt and pour over 1.5 cups of boiling water. Stir once, then cover tightly with a plate or plastic wrap. Leave undisturbed for 15 minutes until the bulgur has absorbed all the water and is tender.",
+      "Uncover the bulgur and fluff with a fork. Spread it out and let it cool to room temperature — 5–10 minutes. Do not add the vegetables while hot or they will wilt.",
+      "Add cumin, paprika, chili flakes, and sumac to the cooled bulgur. Add the olive oil and lemon juice and mix thoroughly so the spices and dressing coat every grain.",
+      "Add finely diced tomato, onion, green onion, cucumber, parsley, and mint. Toss everything together well.",
+      "Taste and adjust with more lemon juice, salt, or chili flakes — kısır should be bold, tangy, and well-seasoned. Unlike tabbouleh, the bulgur is the hero here and should be prominent.",
+      "Let rest for 10 minutes before serving to allow the grains to absorb the dressing. Serve at room temperature."
+    ],
+    "cookTips": [
+      "Boiling water — not cold water — is required to properly hydrate fine bulgur without cooking it.",
+      "The spices should be added directly to the warm bulgur before the vegetables to bloom slightly in the residual heat.",
+      "Kısır improves significantly after 30 minutes of resting as the bulgur fully absorbs the dressing."
+    ],
+    "substitutions": [
+      {
+        "missing": "bulgur",
+        "alternatives": [
+          "semolina",
+          "rice"
+        ],
+        "note": "Fine semolina can be hydrated the same way; cooked and cooled rice produces a different texture but similar flavour profile."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as part of a meze spread.",
+      "Wrap spoonfuls in lettuce leaves to eat.",
+      "Pair alongside grilled meat or kebabs."
+    ]
+  },
+  {
+    "id": "simit-style-bread",
+    "name": "Simit",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 50,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "flour",
+      "sesame seeds"
+    ],
+    "flexibleIngredients": [],
+    "optionalIngredients": [],
+    "spices": [],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "water",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "3 cups all-purpose flour, plus extra for dusting",
+      "7g instant yeast",
+      "1 tsp sugar",
+      "1 tsp salt",
+      "1 tbsp oil",
+      "180ml warm water",
+      "1 cup sesame seeds",
+      "3 tbsp molasses or treacle mixed with 3 tbsp water (or 3 tbsp grape juice with 1 tsp sugar as substitute)"
+    ],
+    "steps": [
+      "Combine flour, yeast, sugar, and salt. Add oil and warm water. Knead on a lightly floured surface for 8–10 minutes until the dough is smooth, slightly elastic, and just a little tacky. Place in an oiled bowl, cover, and rest for 25–30 minutes until risen slightly.",
+      "Spread sesame seeds in a wide flat tray. In a shallow bowl, combine the molasses mixture (or sugar-sweetened grape juice) with an equal amount of water to make the dipping liquid.",
+      "Divide the dough into 8 equal balls. Roll each ball into a rope about 50cm long. Fold the rope in half and twist the two strands around each other 4–5 times. Join the ends firmly by pressing and rolling to form a ring shape.",
+      "Preheat oven to 210°C / 410°F. Line two baking trays with parchment.",
+      "Dip each ring into the molasses water for 3 seconds on each side so it is fully coated — this gives simit its distinctive shiny, mahogany surface and helps the sesame adhere. Then press firmly into the sesame seeds on both sides so the ring is completely coated.",
+      "Place on lined trays. Bake for 18–20 minutes until deep golden brown and the sesame seeds are toasted. Tap the bottom — it should sound hollow. Cool on a rack for 5 minutes. Simit is best eaten within 2 hours of baking."
+    ],
+    "cookTips": [
+      "Dipping in the molasses water before seeding is the technique that gives simit its glossy dark crust and helps the sesame seeds adhere without falling off.",
+      "Twist the two strands tightly — loose twisting unravels during baking.",
+      "Bake until genuinely deep golden; under-baked simit has a soft, doughy crust instead of the characteristic crunch."
+    ],
+    "substitutions": [],
+    "servingSuggestions": [
+      "Serve with white cheese, olives, and tea for a classic Turkish breakfast.",
+      "Eat with yogurt or labneh for a simple snack.",
+      "Serve alongside menemen for a full Turkish breakfast."
+    ]
+  },
+  {
+    "id": "stuffed-peppers-dolma",
+    "name": "Biber Dolması",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 60,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "bell pepper",
+      "rice",
+      "onion",
+      "tomato"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "mint",
+      "parsley"
+    ],
+    "optionalIngredients": [
+      "lemon",
+      "yogurt"
+    ],
+    "spices": [
+      "cumin",
+      "cinnamon",
+      "paprika",
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "6 medium bell peppers (mixed colours)",
+      "1 cup short-grain or medium-grain rice, rinsed",
+      "2 medium onions, finely diced",
+      "3 medium tomatoes (2 finely diced for the filling, 1 blended for the cooking liquid)",
+      "3 garlic cloves, minced",
+      "Large handful of flat-leaf parsley, finely chopped",
+      "Handful of fresh mint leaves, finely chopped",
+      "1 tsp cumin",
+      "1/2 tsp cinnamon",
+      "1 tsp paprika",
+      "1/4 tsp chili flakes",
+      "1 tsp sugar",
+      "6 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "1 cup water"
+    ],
+    "steps": [
+      "Slice the tops off the peppers to create lids. Remove seeds and white membranes carefully without breaking the walls. Set peppers and lids aside.",
+      "Make the filling: heat 3 tbsp olive oil in a pan over medium heat. Add diced onion and cook for 7–8 minutes until soft and golden. Add garlic and cook for 1 minute.",
+      "Add the rinsed rice to the pan and stir for 2 minutes to coat every grain in the oil. Add diced tomato, cumin, cinnamon, paprika, chili flakes, sugar, salt, and black pepper. Stir and cook for 3 minutes until the tomato softens. The rice should be half-cooked and the mixture barely moist. Remove from heat and stir in parsley and mint.",
+      "Fill each pepper about three-quarters full with the rice mixture — do not overfill since the rice expands significantly during cooking. Replace the lids.",
+      "Make the cooking liquid: blend 1 tomato with 1 cup water and 3 tbsp olive oil. Season with salt and sugar.",
+      "Stand the stuffed peppers upright in a deep pot that fits them snugly. Pour the tomato-water liquid around and between the peppers — it should come about halfway up their sides. Bring to a gentle boil over medium heat, then reduce to the lowest heat. Cover tightly and cook for 35–40 minutes until the rice is fully cooked and the peppers are completely tender.",
+      "Rest for 10 minutes with the lid on before serving. Serve warm with cold yogurt on the side."
+    ],
+    "cookTips": [
+      "Fill peppers only three-quarters full — the rice more than doubles in volume and will burst the peppers if overfilled.",
+      "Pack peppers snugly in the pot so they support each other upright during cooking.",
+      "Resting with the lid on after cooking allows the rice to finish steaming without drying out."
+    ],
+    "substitutions": [
+      {
+        "missing": "bell pepper",
+        "alternatives": [
+          "zucchini",
+          "eggplant"
+        ],
+        "note": "Hollow out zucchini or small eggplants lengthways and fill the same way; reduce cooking time to 25 minutes."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve warm with cold plain yogurt alongside.",
+      "Squeeze lemon juice over the peppers just before serving.",
+      "Serve as a main dish with crusty bread to absorb the sauce."
+    ]
+  },
+  {
+    "id": "turkish-green-beans",
+    "name": "Zeytinyağlı Fasulye",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "beans",
+      "onion",
+      "tomato",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "potato"
+    ],
+    "optionalIngredients": [
+      "lemon"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "500g green beans, trimmed and cut into 5cm pieces",
+      "2 medium onions, thinly sliced",
+      "4 medium tomatoes, finely diced (or 1 can 400g crushed tomatoes)",
+      "4 garlic cloves, thinly sliced",
+      "1 medium potato, diced (optional)",
+      "1/2 tsp cumin",
+      "1 tsp paprika",
+      "1 tsp sugar",
+      "5 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "Lemon wedges to serve"
+    ],
+    "steps": [
+      "Heat 5 tbsp olive oil in a wide heavy pot over medium heat. Add sliced onion and cook for 8–10 minutes until very soft and lightly golden. Add sliced garlic and cook for 1 minute.",
+      "Add diced tomatoes, cumin, paprika, sugar, salt, and black pepper. Cook for 5 minutes until the tomatoes break down and the mixture becomes saucy.",
+      "Add the trimmed green beans and diced potato if using. Stir to coat everything in the tomato and oil base.",
+      "Add 1/2 cup water, stir, cover the pot, and cook on medium-low heat for 20–25 minutes, stirring gently once halfway through, until the beans are completely soft and the sauce is thick and glossy.",
+      "Remove the lid and cook uncovered for 5 minutes to reduce any remaining liquid. The dish should be coated in a thick, olive-oil-rich sauce with barely any excess liquid.",
+      "Remove from heat and cool to room temperature — this dish is traditionally served warm or at room temperature, never hot. The flavours improve significantly as it cools. Serve with lemon wedges."
+    ],
+    "cookTips": [
+      "This is a zeytinyağlı dish, meaning it is cooked in abundant olive oil — do not reduce the olive oil quantity.",
+      "Turkish green beans are cooked until very tender, not al dente — they should be completely soft and yielding.",
+      "Serving at room temperature is traditional; the olive oil and tomato sauce become richer and more cohesive as the dish cools."
+    ],
+    "substitutions": [
+      {
+        "missing": "beans",
+        "alternatives": [
+          "zucchini",
+          "eggplant"
+        ],
+        "note": "Diced zucchini or eggplant can be cooked the same way; reduce cooking time to 15 minutes as they soften faster."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve at room temperature with crusty bread.",
+      "Serve with a dollop of yogurt on the side.",
+      "Pairs well alongside grilled fish or chicken."
+    ]
+  },
+  {
+    "id": "spinach-borek",
+    "name": "Ispanaklı Börek",
+    "cuisine": "turkish",
+    "vegetarian": true,
+    "timeMinutes": 55,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "flour",
+      "spinach",
+      "onion",
+      "egg"
+    ],
+    "flexibleIngredients": [
+      "feta",
+      "yogurt"
+    ],
+    "optionalIngredients": [
+      "sesame seeds"
+    ],
+    "spices": [
+      "black pepper",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "salt",
+      "oil",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "3 cups all-purpose flour, plus extra for dusting",
+      "1 tsp salt",
+      "1 tbsp oil",
+      "150–170ml warm water",
+      "400g fresh spinach, washed and roughly chopped",
+      "1 large onion, finely diced",
+      "200g feta, crumbled",
+      "2 large eggs",
+      "1/2 tsp black pepper",
+      "1/4 tsp chili flakes",
+      "3 tbsp butter, melted",
+      "2 tbsp oil",
+      "1 tbsp sesame seeds"
+    ],
+    "steps": [
+      "Make the dough: combine flour and salt. Add oil and warm water gradually, mixing until a smooth, firm dough forms. Knead for 5 minutes. Divide into 4 balls, cover with a damp cloth, and rest for 20 minutes.",
+      "Make the filling: heat 2 tbsp oil in a pan over medium heat. Add diced onion and cook for 6–7 minutes until golden. Add chopped spinach in batches and cook for 3–4 minutes until completely wilted and all moisture has evaporated — the pan should look dry. Transfer to a bowl and cool. Mix in crumbled feta, 1 egg, black pepper, and chili flakes.",
+      "Preheat oven to 190°C / 375°F. Roll one dough ball on a lightly floured surface into a very thin rectangle, roughly 40cm × 30cm. Brush with melted butter.",
+      "Spread a quarter of the filling across the lower third of the rectangle. Fold the bottom edge up over the filling. Fold in the sides. Roll tightly upward into a long log. Coil the log into a spiral in the centre of a greased round or square baking dish. Repeat with remaining dough balls, continuing to coil each log around the previous one in the dish.",
+      "Beat the remaining egg with 2 tbsp water. Brush generously over the entire surface of the börek. Scatter sesame seeds over the top.",
+      "Bake for 30–35 minutes until the surface is deep golden brown and the pastry layers are crispy. Rest for 5 minutes before slicing. The inner layers should be soft and flaky while the exterior is golden and crisp."
+    ],
+    "cookTips": [
+      "Remove all moisture from the spinach before making the filling — wet filling creates soggy pastry.",
+      "Roll the dough very thin — thick dough produces heavy, stodgy börek.",
+      "The egg wash and sesame seed topping must go on just before baking; the wash gives the essential glossy golden crust."
+    ],
+    "substitutions": [
+      {
+        "missing": "feta",
+        "alternatives": [
+          "parmesan",
+          "cheddar"
+        ],
+        "note": "Any crumbly or semi-hard cheese works as a substitute — reduce salt slightly as feta is particularly salty."
+      },
+      {
+        "missing": "spinach",
+        "alternatives": [
+          "cabbage"
+        ],
+        "note": "Finely shredded cabbage cooked until very soft and dry can replace spinach with a milder flavour."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve warm cut into wedges.",
+      "Serve with yogurt or cacık on the side.",
+      "Pairs well with a simple tomato and onion salad."
+    ]
+  },
+  {
+    "id": "tavuk-sote",
+    "name": "Tavuk Sote",
+    "cuisine": "turkish",
+    "vegetarian": false,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "chicken",
+      "onion",
+      "tomato",
+      "bell pepper"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "mushroom",
+      "green chili"
+    ],
+    "optionalIngredients": [
+      "parsley"
+    ],
+    "spices": [
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "black pepper",
+      "oregano"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter"
+    ],
+    "displayIngredients": [
+      "600g boneless chicken breast or thigh, cut into 3cm chunks",
+      "2 medium onions, thinly sliced",
+      "3 medium tomatoes, diced",
+      "2 green bell peppers, cut into 2cm pieces",
+      "1 red bell pepper, cut into 2cm pieces",
+      "200g mushrooms, quartered",
+      "3 garlic cloves, minced",
+      "1 green chili, sliced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/4 tsp chili flakes",
+      "1/2 tsp oregano",
+      "2 tbsp olive oil",
+      "1 tbsp butter",
+      "Salt and black pepper to taste",
+      "Flat-leaf parsley to garnish"
+    ],
+    "steps": [
+      "Heat 2 tbsp olive oil in a wide heavy pan over high heat. Season chicken pieces with salt, black pepper, and paprika. Add to the hot pan in a single layer and cook without stirring for 3–4 minutes until well-browned. Flip and cook for 2 more minutes. Remove and set aside — the chicken does not need to be fully cooked through at this stage.",
+      "Add 1 tbsp butter to the same pan over medium-high heat. Add sliced onion and cook for 5 minutes until softened. Add garlic and green chili and cook for 1 minute.",
+      "Add bell peppers and mushrooms. Cook over high heat for 4–5 minutes, stirring occasionally, until the peppers soften and the mushrooms are golden.",
+      "Add diced tomatoes, cumin, chili flakes, and oregano. Stir and cook for 5–6 minutes until the tomatoes break down and the sauce becomes thick and coats the vegetables.",
+      "Return the browned chicken to the pan. Stir to combine with the sauce. Reduce heat to medium-low, cover, and cook for 8–10 minutes until the chicken is completely cooked through.",
+      "Uncover and cook on medium heat for 2–3 minutes to reduce any excess liquid. The dish should be saucy but not watery. Season with salt and black pepper. Garnish with parsley and serve."
+    ],
+    "cookTips": [
+      "Searing the chicken over high heat before adding vegetables develops flavour and prevents the chicken from steaming and going rubbery in the sauce.",
+      "Do not add the chicken back until the sauce has developed — finishing it in the sauce keeps it juicy.",
+      "Cook mushrooms over high heat so they brown rather than steam."
+    ],
+    "substitutions": [
+      {
+        "missing": "chicken",
+        "alternatives": [
+          "lamb",
+          "beef"
+        ],
+        "note": "Use thinly sliced lamb or beef; brown quickly over high heat and extend the covered cooking to 15 minutes."
+      },
+      {
+        "missing": "mushroom",
+        "alternatives": [
+          "zucchini"
+        ],
+        "note": "Diced zucchini adds bulk and absorbs the sauce flavours just as well; add it with the bell peppers."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve over rice pilaf.",
+      "Serve with flatbread to scoop up the sauce.",
+      "Accompany with cacık and a simple salad."
+    ]
+  }
+]

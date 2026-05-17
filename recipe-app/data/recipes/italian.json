@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "spaghetti-pomodoro",
+    "name": "Spaghetti al Pomodoro",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "pasta",
+      "tomato",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "basil",
+      "parmesan"
+    ],
+    "optionalIngredients": [
+      "chili flakes"
+    ],
+    "spices": [
+      "black pepper",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "400g spaghetti",
+      "6 ripe medium tomatoes, roughly chopped (or 1 can 400g crushed tomatoes)",
+      "4 garlic cloves, thinly sliced",
+      "Small bunch of fresh basil, leaves torn",
+      "40g parmesan, finely grated",
+      "1/4 tsp chili flakes",
+      "5 tbsp olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Bring a large pot of water to a rolling boil. Add 2 tsp salt — the water should taste noticeably salty. Add spaghetti and cook for 1 minute less than the packet instructions, stirring for the first 2 minutes to prevent sticking.",
+      "While pasta cooks, heat 5 tbsp olive oil in a wide pan over medium-low heat. Add sliced garlic and cook gently for 2–3 minutes until it turns light gold at the edges. Do not let it brown fully or it will turn bitter.",
+      "Add chili flakes and stir for 30 seconds. Add chopped tomatoes and a pinch of salt. Increase heat to medium and cook for 10–12 minutes, pressing the tomatoes with a spoon until they break down into a loose, chunky sauce. The oil should bubble at the edges.",
+      "Before draining the pasta, scoop out 1 cup of the starchy pasta water. Drain the pasta.",
+      "Add the drained spaghetti directly into the sauce. Add a splash of pasta water and toss vigorously over medium heat for 1–2 minutes. Add more pasta water gradually until the sauce coats every strand and looks glossy rather than dry.",
+      "Turn off heat. Tear in fresh basil and toss once. Divide into bowls and top with grated parmesan and a drizzle of olive oil."
+    ],
+    "cookTips": [
+      "The starchy pasta water is the key to making the sauce cling to the pasta — never skip saving it.",
+      "Cook garlic slowly over low heat; burned garlic ruins the entire sauce.",
+      "Use the best quality tomatoes you can find — the simplicity of this dish means ingredients are everything."
+    ],
+    "substitutions": [
+      {
+        "missing": "parmesan",
+        "alternatives": [
+          "cheddar"
+        ],
+        "note": "Cheddar melts differently but adds a savoury, cheesy finish if parmesan is unavailable."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately in warmed bowls.",
+      "Add extra chili flakes at the table for more heat.",
+      "Pair with crusty bread to mop up the sauce."
+    ]
+  },
+  {
+    "id": "pasta-carbonara",
+    "name": "Pasta Carbonara",
+    "cuisine": "italian",
+    "vegetarian": false,
+    "timeMinutes": 25,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "pasta",
+      "egg",
+      "parmesan"
+    ],
+    "flexibleIngredients": [
+      "pork"
+    ],
+    "optionalIngredients": [
+      "black pepper"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "400g rigatoni or spaghetti",
+      "150g pancetta, guanciale, or streaky bacon (pork), diced",
+      "4 large egg yolks plus 1 whole egg",
+      "80g parmesan, very finely grated",
+      "1 tsp freshly cracked black pepper",
+      "1 tbsp olive oil",
+      "Salt for pasta water"
+    ],
+    "steps": [
+      "In a bowl, whisk together egg yolks, the whole egg, grated parmesan, and black pepper until combined into a thick, pale yellow mixture. Set aside at room temperature.",
+      "Bring a large pot of heavily salted water to a boil. Cook pasta according to packet instructions until al dente. Reserve 1.5 cups pasta water before draining.",
+      "While pasta cooks, heat 1 tbsp olive oil in a wide pan over medium heat. Add diced pork and cook for 6–8 minutes, stirring occasionally, until the fat is rendered and the pieces are golden and slightly crispy. Remove pan from heat.",
+      "Drain pasta and immediately add it to the pan with the pork. Toss to coat. Let the pan cool for 30 seconds — this step is critical. The pasta must not be steaming hot when the eggs go in or they will scramble.",
+      "Pour the egg and parmesan mixture over the pasta. Add 4 tbsp of the reserved pasta water. Toss rapidly and continuously with tongs or a fork for 1–2 minutes. The heat from the pasta will cook the eggs into a creamy sauce. Add more pasta water a little at a time if the sauce looks too thick or begins to stick.",
+      "The finished carbonara should be creamy and glossy, coating every piece of pasta. Serve immediately in warmed bowls with extra cracked black pepper and parmesan."
+    ],
+    "cookTips": [
+      "Never add eggs over direct heat — residual heat from the pasta is all you need. Patience here is everything.",
+      "Use the finest grater for parmesan so it melts fully into the egg mixture without clumping.",
+      "Work quickly when adding the egg mixture and keep tossing — stopping creates scrambled egg patches."
+    ],
+    "substitutions": [
+      {
+        "missing": "pork",
+        "alternatives": [
+          "mushroom"
+        ],
+        "note": "Fry mushrooms until deeply browned and slightly crispy for a vegetarian carbonara with a similar savoury depth."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately — carbonara does not reheat well.",
+      "Add an extra generous grind of black pepper at the table.",
+      "Pair with a simple green salad."
+    ]
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 35,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "flour",
+      "tomato",
+      "mozzarella"
+    ],
+    "flexibleIngredients": [
+      "basil"
+    ],
+    "optionalIngredients": [
+      "olive"
+    ],
+    "spices": [
+      "oregano",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water",
+      "sugar"
+    ],
+    "displayIngredients": [
+      "300g strong bread flour or all-purpose flour, plus extra for dusting",
+      "7g instant yeast",
+      "1/2 tsp sugar",
+      "180ml warm water",
+      "2 tbsp olive oil plus extra for drizzling",
+      "1 tsp salt",
+      "3 medium tomatoes, blended or crushed (or 200g passata)",
+      "150g mozzarella, torn into pieces",
+      "1/2 tsp dried oregano",
+      "Fresh basil leaves",
+      "Black pepper to taste"
+    ],
+    "steps": [
+      "Combine flour, yeast, sugar, and salt in a large bowl. Make a well in the centre. Pour in warm water and olive oil. Mix to a shaggy dough, then turn onto a lightly floured surface and knead for 8–10 minutes until smooth and elastic. The dough should spring back when poked. Place in a lightly oiled bowl, cover with a damp cloth, and rest for 20 minutes at minimum (or 1 hour for a better crust).",
+      "Meanwhile, make the sauce: blend or crush tomatoes with a pinch of salt, oregano, and 1 tbsp olive oil. The sauce should be raw — do not cook it. It will cook in the oven.",
+      "Place a large baking tray or pizza stone in the oven. Preheat oven to its maximum temperature (220–250°C / 425–480°F) for at least 15 minutes. A very hot oven is essential.",
+      "Divide dough into 2 balls. On a floured surface, stretch or roll each ball into a thin round roughly 25–28cm across. Transfer to a sheet of parchment paper.",
+      "Spread a thin layer of tomato sauce over the dough, leaving a 1.5cm border. Scatter torn mozzarella pieces evenly. Drizzle with olive oil and add a grind of black pepper.",
+      "Slide the pizza (on the parchment) onto the hot tray in the oven. Bake for 10–13 minutes until the crust is golden and puffed at the edges and the cheese is bubbling and lightly browned in spots.",
+      "Remove from oven. Immediately scatter fresh basil leaves on top — the residual heat will wilt them gently. Slice and serve."
+    ],
+    "cookTips": [
+      "A scorching hot oven and a preheated tray are the two most important factors for a crispy base at home.",
+      "Use raw tomato sauce — cooking it before adding risks a soggy base.",
+      "Tear mozzarella rather than slicing it to get irregular pools of cheese."
+    ],
+    "substitutions": [
+      {
+        "missing": "mozzarella",
+        "alternatives": [
+          "cheddar",
+          "parmesan"
+        ],
+        "note": "Cheddar melts well and gives a slightly sharper flavour; parmesan alone produces a crispier, drier result."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately out of the oven.",
+      "Drizzle with a little extra olive oil before serving.",
+      "Add sliced olives or basil leaves as extra toppings."
+    ]
+  },
+  {
+    "id": "penne-arrabbiata",
+    "name": "Penne Arrabbiata",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "chili flakes"
+    ],
+    "flexibleIngredients": [
+      "parsley",
+      "parmesan"
+    ],
+    "optionalIngredients": [
+      "basil"
+    ],
+    "spices": [
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "400g penne pasta",
+      "5 medium tomatoes, finely chopped (or 1 can 400g crushed tomatoes)",
+      "4 garlic cloves, finely sliced",
+      "1 tsp chili flakes, or more to taste",
+      "Small handful of flat-leaf parsley, finely chopped",
+      "30g parmesan, grated (optional)",
+      "5 tbsp olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil. Add penne and cook until al dente per packet instructions.",
+      "While the pasta cooks, heat 5 tbsp olive oil in a wide pan over medium heat. Add sliced garlic and cook for 2–3 minutes until pale golden. Watch carefully — this sauce depends on perfectly cooked, not burned, garlic.",
+      "Add chili flakes and stir for 30 seconds. Add the chopped tomatoes and a generous pinch of salt. Increase heat to medium-high and cook for 10–12 minutes until the tomatoes collapse into a chunky, vivid red sauce and the oil pools at the edges.",
+      "Taste the sauce — arrabbiata should be notably spicy. Add more chili flakes if needed and cook for 1 more minute.",
+      "Reserve 1 cup pasta water. Drain the pasta and add it directly to the sauce. Toss over medium heat for 1–2 minutes, adding splashes of pasta water to loosen and gloss the sauce.",
+      "Turn off heat. Add chopped parsley and toss. Serve immediately with parmesan if using and a crack of black pepper."
+    ],
+    "cookTips": [
+      "Arrabbiata means 'angry' — it should be genuinely spicy. Be bold with the chili flakes.",
+      "Save pasta water before draining — it emulsifies the sauce and helps it coat the pasta.",
+      "Do not drown the pasta in sauce; arrabbiata should lightly coat each piece, not sit in a pool."
+    ],
+    "substitutions": [
+      {
+        "missing": "parsley",
+        "alternatives": [
+          "basil"
+        ],
+        "note": "Basil gives a sweeter, more fragrant finish compared to the sharp freshness of parsley."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately in warmed bowls.",
+      "Pair with crusty bread.",
+      "Top with grated parmesan or leave it off for a purer tomato flavour."
+    ]
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": "Mushroom Risotto",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "rice",
+      "mushroom",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "parmesan",
+      "butter"
+    ],
+    "optionalIngredients": [
+      "parsley",
+      "thyme"
+    ],
+    "spices": [
+      "black pepper",
+      "thyme"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "300g risotto rice (arborio)",
+      "400g mushrooms, cleaned and sliced",
+      "1 medium onion, finely diced",
+      "2 garlic cloves, minced",
+      "150ml dry white wine (or extra stock)",
+      "1 litre vegetable or chicken stock, kept hot in a separate pot",
+      "2 sprigs thyme, leaves stripped",
+      "50g parmesan, finely grated",
+      "3 tbsp butter",
+      "2 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "Flat-leaf parsley, chopped, to garnish"
+    ],
+    "steps": [
+      "Keep the stock warm in a small pot over low heat throughout cooking — adding cold stock slows the process and changes the texture.",
+      "Heat 2 tbsp olive oil and 1 tbsp butter in a wide heavy pan over medium-high heat. Add sliced mushrooms in a single layer. Do not stir for 2–3 minutes until deeply browned on one side. Then toss and cook for another 2–3 minutes. Season with salt, add thyme, and remove mushrooms from the pan. Set aside.",
+      "Reduce heat to medium. In the same pan, add 1 tbsp butter and the diced onion. Cook for 5–6 minutes until soft and translucent. Add garlic and cook for 1 minute.",
+      "Add rice and stir for 2 minutes until every grain turns slightly translucent at the edges and smells faintly toasted.",
+      "Add wine (or a ladleful of stock) and stir constantly until fully absorbed. Then add the hot stock one ladleful at a time, stirring after each addition and waiting until the liquid is absorbed before adding the next. Continue this process for 18–20 minutes. Taste at 18 minutes — the rice should be tender but have a very slight bite in the very centre.",
+      "Return the cooked mushrooms to the pan in the last 3 minutes of cooking. Stir to combine.",
+      "Remove from heat. Add the remaining 1 tbsp cold butter and grated parmesan. Stir vigorously for 1–2 minutes — this is called mantecatura and is what makes risotto creamy. The risotto should flow slowly like lava when the pan is tilted. Season with salt and black pepper and serve immediately, garnished with parsley."
+    ],
+    "cookTips": [
+      "Never stop stirring — constant movement releases starch and creates the creamy consistency.",
+      "Hot stock is essential; cold stock shocks the rice and produces a gluey texture.",
+      "The final butter-and-cheese stirring off heat is what makes risotto creamy — always do this step."
+    ],
+    "substitutions": [
+      {
+        "missing": "parmesan",
+        "alternatives": [
+          "cheddar"
+        ],
+        "note": "Sharp cheddar gives richness and salinity, though the flavour profile will differ from the classic."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately — risotto thickens rapidly as it cools.",
+      "Serve in warmed wide bowls.",
+      "Finish with an extra drizzle of olive oil and black pepper at the table."
+    ]
+  },
+  {
+    "id": "pasta-bolognese",
+    "name": "Pasta Bolognese",
+    "cuisine": "italian",
+    "vegetarian": false,
+    "timeMinutes": 60,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "pasta",
+      "beef",
+      "tomato",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "carrot",
+      "celery",
+      "garlic",
+      "milk"
+    ],
+    "optionalIngredients": [
+      "parmesan",
+      "basil"
+    ],
+    "spices": [
+      "black pepper",
+      "bay leaf"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "400g tagliatelle or pappardelle pasta",
+      "500g minced beef",
+      "1 large onion, finely diced",
+      "1 medium carrot, finely diced",
+      "2 celery stalks, finely diced",
+      "3 garlic cloves, minced",
+      "4 medium tomatoes, blended (or 1 can 400g crushed tomatoes)",
+      "100ml whole milk",
+      "2 bay leaves",
+      "50g parmesan, grated",
+      "2 tbsp olive oil",
+      "1 tbsp butter",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Heat 2 tbsp olive oil and 1 tbsp butter in a large heavy pot over medium heat. Add diced onion, carrot, and celery. Cook for 10–12 minutes, stirring regularly, until completely softened and the onion is translucent. Do not brown them — this is a soffritto and should be sweet and gentle.",
+      "Add garlic and cook for 1 minute. Increase heat to medium-high. Add the minced beef, breaking it up with a wooden spoon into very small pieces. Cook for 10–12 minutes, stirring regularly, until every bit of meat has changed colour and any liquid has fully evaporated. The meat should start to sizzle in its own fat.",
+      "Add the blended or crushed tomatoes and bay leaves. Stir well. Season with salt and a generous amount of black pepper.",
+      "Reduce heat to the lowest setting. Simmer uncovered for 30 minutes, stirring every 8–10 minutes. The sauce will deepen in colour and flavour.",
+      "Add the milk, stir, and simmer for a further 10 minutes. The milk softens any acidity and makes the sauce silky.",
+      "Bring a large pot of heavily salted water to a boil. Cook pasta until just al dente. Reserve 1 cup pasta water, then drain.",
+      "Add pasta to the bolognese sauce with a splash of pasta water. Toss over medium heat for 2 minutes until the sauce coats the pasta. Serve with grated parmesan and black pepper."
+    ],
+    "cookTips": [
+      "A proper bolognese needs time — do not rush the soffritto or the final simmer.",
+      "Adding milk at the end is a traditional Bolognese step that rounds out the acidity and richness.",
+      "Break the mince into very small pieces while it cooks — large chunks make the sauce uneven."
+    ],
+    "substitutions": [
+      {
+        "missing": "beef",
+        "alternatives": [
+          "lamb",
+          "pork"
+        ],
+        "note": "Lamb gives a richer, more gamey sauce; pork produces a sweeter, fattier bolognese."
+      },
+      {
+        "missing": "milk",
+        "alternatives": [
+          "cream"
+        ],
+        "note": "Cream adds richness in the same way as milk but with a slightly heavier finish."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with tagliatelle or pappardelle — flat pasta holds bolognese better than spaghetti.",
+      "Finish generously with grated parmesan.",
+      "Serve with crusty bread on the side."
+    ]
+  },
+  {
+    "id": "minestrone-soup",
+    "name": "Minestrone Soup",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 45,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "tomato",
+      "onion",
+      "carrot",
+      "celery",
+      "beans",
+      "pasta"
+    ],
+    "flexibleIngredients": [
+      "zucchini",
+      "potato",
+      "spinach",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "parmesan",
+      "basil",
+      "pesto"
+    ],
+    "spices": [
+      "bay leaf",
+      "black pepper",
+      "oregano"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "1 large onion, diced",
+      "2 medium carrots, diced",
+      "3 celery stalks, diced",
+      "3 garlic cloves, minced",
+      "3 medium tomatoes, chopped (or 1 can 400g)",
+      "1 can (400g) white beans, drained",
+      "1 medium zucchini, diced",
+      "1 medium potato, diced",
+      "2 large handfuls spinach",
+      "100g small pasta (ditalini or broken spaghetti)",
+      "2 bay leaves",
+      "1/2 tsp dried oregano",
+      "4 tbsp olive oil",
+      "1.5 litres water or vegetable stock",
+      "Salt and black pepper to taste",
+      "Parmesan rind (if available) and grated parmesan to serve",
+      "1 tbsp pesto to serve (optional)"
+    ],
+    "steps": [
+      "Heat 4 tbsp olive oil in a large heavy pot over medium heat. Add onion, carrot, and celery. Cook for 8–10 minutes until softened. Add garlic and cook for 1 minute.",
+      "Add chopped tomatoes, bay leaves, and oregano. Stir and cook for 5 minutes until the tomatoes soften.",
+      "Add potato, zucchini, water or stock, and a parmesan rind if you have one. Season with salt. Bring to a boil, then reduce to a steady simmer. Cook for 15 minutes.",
+      "Add the drained beans and pasta. Stir and cook for a further 10–12 minutes until the pasta is tender and the potato is cooked through. The soup will thicken as the starch from the pasta is released.",
+      "Add spinach and stir. Cook for 2 minutes until wilted. Remove bay leaves and parmesan rind.",
+      "Taste and adjust salt and pepper. Ladle into bowls and finish each portion with a drizzle of olive oil, grated parmesan, and a spoonful of pesto if using."
+    ],
+    "cookTips": [
+      "A parmesan rind added during cooking imparts extraordinary depth — save them in the freezer whenever you finish a block.",
+      "Do not add pasta too early; it will turn mushy if simmered more than 12 minutes.",
+      "Minestrone improves significantly the next day as all the flavours meld."
+    ],
+    "substitutions": [
+      {
+        "missing": "beans",
+        "alternatives": [
+          "chickpea",
+          "lentils"
+        ],
+        "note": "Chickpeas give a firmer, nuttier result; lentils dissolve slightly and thicken the soup naturally."
+      },
+      {
+        "missing": "zucchini",
+        "alternatives": [
+          "broccoli",
+          "peas"
+        ],
+        "note": "Both work well — add broccoli at the same time as zucchini; add peas in the last 5 minutes only."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with crusty bread.",
+      "Add a spoonful of pesto on top just before serving.",
+      "Finish with plenty of grated parmesan."
+    ]
+  },
+  {
+    "id": "eggplant-parmigiana",
+    "name": "Eggplant Parmigiana",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 60,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "eggplant",
+      "tomato",
+      "mozzarella",
+      "parmesan"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "basil"
+    ],
+    "optionalIngredients": [
+      "basil"
+    ],
+    "spices": [
+      "black pepper",
+      "oregano"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "2 large eggplants (about 800g total), sliced into 5mm rounds",
+      "5 medium tomatoes, blended (or 1 can 400g crushed tomatoes)",
+      "250g mozzarella, thinly sliced",
+      "60g parmesan, finely grated",
+      "3 garlic cloves, minced",
+      "1/2 tsp dried oregano",
+      "Large handful of fresh basil",
+      "5 tbsp olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Arrange eggplant slices in a single layer on a tray and sprinkle generously with salt. Rest for 30 minutes — this draws out excess moisture and bitterness. Rinse thoroughly under cold water and pat completely dry with kitchen towels.",
+      "Heat a griddle pan or wide frying pan over high heat. Brush eggplant slices lightly with olive oil on both sides. Cook in batches for 2–3 minutes per side until marked with deep grill lines or well-browned. Set aside on a plate.",
+      "Make the tomato sauce: heat 2 tbsp olive oil in a pan over medium heat. Add garlic and cook for 1 minute. Add blended tomatoes, oregano, salt, and pepper. Simmer for 15 minutes until the sauce thickens and the raw tomato smell cooks off.",
+      "Preheat oven to 190°C / 375°F. Spoon a thin layer of tomato sauce onto the base of a baking dish. Arrange a single layer of eggplant slices over the sauce. Add more sauce, scatter basil leaves, then a layer of mozzarella and a sprinkle of parmesan.",
+      "Repeat the layers — eggplant, sauce, basil, mozzarella, parmesan — until all ingredients are used, finishing with a top layer of sauce, mozzarella, and a generous covering of parmesan.",
+      "Bake for 25–30 minutes until the top is bubbling and the cheese is golden and slightly crispy at the edges. Rest for 10 minutes before serving — this helps the layers set and makes it easier to cut."
+    ],
+    "cookTips": [
+      "Salting and drying the eggplant thoroughly before cooking is essential — moisture makes the dish watery.",
+      "Do not skip the resting period after baking; hot parmigiana falls apart when cut, but a 10-minute rest firms it.",
+      "Brown the eggplant aggressively — pale, under-browned slices produce a bland, oily result."
+    ],
+    "substitutions": [
+      {
+        "missing": "mozzarella",
+        "alternatives": [
+          "cheddar"
+        ],
+        "note": "Cheddar melts well and gives a golden crust, though it's sharper than mozzarella."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a main dish with crusty bread.",
+      "Serve alongside a simple green salad.",
+      "Excellent the next day — the flavours deepen overnight."
+    ]
+  },
+  {
+    "id": "pasta-e-fagioli",
+    "name": "Pasta e Fagioli",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 40,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "pasta",
+      "beans",
+      "tomato",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "carrot",
+      "celery",
+      "thyme"
+    ],
+    "optionalIngredients": [
+      "parmesan",
+      "parsley"
+    ],
+    "spices": [
+      "black pepper",
+      "bay leaf",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "200g small pasta (ditalini, small elbow, or broken spaghetti)",
+      "2 cans (400g each) white beans or borlotti beans, drained",
+      "2 medium tomatoes, chopped",
+      "1 large onion, finely diced",
+      "1 medium carrot, finely diced",
+      "2 celery stalks, finely diced",
+      "3 garlic cloves, minced",
+      "2 bay leaves",
+      "1/4 tsp chili flakes",
+      "1 litre water or vegetable stock",
+      "5 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "Parmesan to serve",
+      "Flat-leaf parsley, chopped"
+    ],
+    "steps": [
+      "Heat 4 tbsp olive oil in a large heavy pot over medium heat. Add onion, carrot, and celery. Cook for 8–10 minutes until completely softened. Add garlic and chili flakes and cook for 1 minute.",
+      "Add chopped tomatoes and bay leaves. Cook for 5 minutes until the tomatoes soften and blend into the vegetables.",
+      "Add the drained beans and stir. Take approximately one-third of the beans and mash them with a fork or the back of a spoon directly in the pot — this thickens the broth naturally without any additional thickener.",
+      "Add 1 litre water or stock. Season with salt and bring to a boil. Reduce to a steady simmer and cook for 15 minutes so the flavours develop fully.",
+      "Add the pasta directly into the simmering pot. Cook for the time specified on the pasta packet, stirring frequently to prevent sticking on the bottom.",
+      "The dish should be thick and stew-like — halfway between a soup and a pasta dish. If too thick, add a splash of water. Remove bay leaves. Season with salt and generous black pepper. Serve in deep bowls with olive oil, parmesan, and parsley."
+    ],
+    "cookTips": [
+      "Mashing some beans into the broth is the technique that gives this dish its creamy, thick body.",
+      "Pasta e fagioli thickens quickly as it sits — stir in a little hot water when reheating.",
+      "The dish is meant to be thicker than a soup but looser than a pasta — find the balance with water."
+    ],
+    "substitutions": [
+      {
+        "missing": "beans",
+        "alternatives": [
+          "chickpea",
+          "lentils"
+        ],
+        "note": "Chickpeas hold their shape well; lentils dissolve and produce a richer, more integrated broth."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with crusty bread.",
+      "Drizzle generously with good olive oil just before serving.",
+      "Finish with grated parmesan and a crack of black pepper."
+    ]
+  },
+  {
+    "id": "gnocchi-tomato",
+    "name": "Gnocchi al Pomodoro",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 50,
+    "difficulty": "hard",
+    "requiredIngredients": [
+      "potato",
+      "flour",
+      "tomato"
+    ],
+    "flexibleIngredients": [
+      "parmesan",
+      "basil",
+      "garlic"
+    ],
+    "optionalIngredients": [
+      "egg"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "700g floury potatoes (e.g. Maris Piper or Russet)",
+      "150–180g all-purpose flour, plus extra for dusting",
+      "1 egg yolk (optional but helps binding)",
+      "1 tsp salt",
+      "4 large tomatoes, blended (or 1 can 400g crushed tomatoes)",
+      "2 garlic cloves, thinly sliced",
+      "Large handful of fresh basil",
+      "4 tbsp olive oil",
+      "30g parmesan, grated",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Boil potatoes whole and unpeeled until completely tender — about 25–30 minutes. Drain, cool for 5 minutes, then peel. Pass through a ricer or mash very thoroughly until completely smooth with no lumps. Spread onto a clean surface and let steam dry for 5 minutes. Wet, warm potato is the enemy of good gnocchi.",
+      "Add flour, salt, and egg yolk (if using) to the potato. Work together with your hands using a light folding motion until a soft dough forms. Do not knead — overworking makes gnocchi dense and rubbery. Use the minimum flour needed; the dough should be soft and slightly tacky but not sticky.",
+      "Divide dough into 6 pieces. On a lightly floured surface, roll each piece into a 2cm-thick rope. Cut into 2.5cm pieces. For texture, roll each piece gently down the back of a fork. Place on a lightly floured tray.",
+      "Make the sauce: heat 4 tbsp olive oil over medium-low heat. Add garlic and cook for 2 minutes until golden. Add blended tomatoes and a pinch of salt. Simmer for 12–15 minutes until slightly thickened. Tear in basil and taste for seasoning.",
+      "Bring a large pot of heavily salted water to a rolling boil. Add gnocchi in batches. They are cooked when they float to the surface — this takes about 2–3 minutes. Scoop out with a slotted spoon immediately when they float.",
+      "Add cooked gnocchi directly into the sauce. Toss gently over low heat for 1 minute so each piece is coated. Serve with grated parmesan and black pepper."
+    ],
+    "cookTips": [
+      "Dry, starchy potatoes make the lightest gnocchi — avoid waxy varieties.",
+      "Add only as much flour as needed; over-flouring makes gnocchi heavy.",
+      "Gnocchi are ready the instant they float — even 30 seconds too long makes them waterlogged."
+    ],
+    "substitutions": [
+      {
+        "missing": "egg",
+        "alternatives": [],
+        "note": "Egg yolk is optional — gnocchi can be made with just potato and flour, though they are slightly more fragile."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately with plenty of parmesan.",
+      "Toss with pesto and parmesan as an alternative to tomato sauce.",
+      "Pair with a simple arugula and tomato salad."
+    ]
+  },
+  {
+    "id": "insalata-caprese",
+    "name": "Insalata Caprese",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 10,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "tomato",
+      "mozzarella"
+    ],
+    "flexibleIngredients": [
+      "basil"
+    ],
+    "optionalIngredients": [
+      "olive"
+    ],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil"
+    ],
+    "displayIngredients": [
+      "4 large ripe tomatoes, sliced 5mm thick",
+      "250g fresh mozzarella, sliced 5mm thick",
+      "Large handful of fresh basil leaves",
+      "A few olives (optional)",
+      "4 tbsp good quality extra virgin olive oil",
+      "Flaky sea salt and black pepper to taste"
+    ],
+    "steps": [
+      "Slice the tomatoes into 5mm rounds. Slice the mozzarella to the same thickness. Both should be at room temperature — cold mozzarella from the fridge has no flavour.",
+      "On a large plate or platter, alternate overlapping slices of tomato and mozzarella, leaning them against each other in a single line or circle.",
+      "Tuck fresh basil leaves between the slices, distributing them evenly. Scatter olives around the plate if using.",
+      "Season generously with flaky salt and freshly cracked black pepper directly over everything.",
+      "Drizzle with 4 tbsp of your best extra virgin olive oil in a slow, even stream over the entire platter. Serve immediately at room temperature."
+    ],
+    "cookTips": [
+      "Never refrigerate assembled caprese — cold kills the flavour of tomatoes and mozzarella.",
+      "Use the ripest, most flavourful tomatoes available; the salad has nowhere to hide poor ingredients.",
+      "A great olive oil makes this dish; use the best you have."
+    ],
+    "substitutions": [
+      {
+        "missing": "mozzarella",
+        "alternatives": [
+          "feta"
+        ],
+        "note": "Feta is saltier and crumblier but pairs beautifully with ripe tomatoes and basil."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a starter or light lunch.",
+      "Serve with crusty bread to absorb the olive oil and tomato juices.",
+      "Goes well alongside grilled fish or chicken."
+    ]
+  },
+  {
+    "id": "ribollita",
+    "name": "Ribollita",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 55,
+    "difficulty": "medium",
+    "requiredIngredients": [
+      "beans",
+      "onion",
+      "carrot",
+      "celery",
+      "tomato",
+      "spinach",
+      "bread"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "potato",
+      "zucchini"
+    ],
+    "optionalIngredients": [
+      "parmesan",
+      "parsley"
+    ],
+    "spices": [
+      "bay leaf",
+      "black pepper",
+      "thyme"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "2 cans (400g each) cannellini beans, drained",
+      "1 large onion, diced",
+      "2 medium carrots, diced",
+      "3 celery stalks, diced",
+      "3 garlic cloves, minced",
+      "2 medium tomatoes, chopped",
+      "200g spinach or cavolo nero, roughly chopped",
+      "1 medium potato, diced",
+      "1 medium zucchini, diced",
+      "3–4 thick slices of stale bread, torn",
+      "2 bay leaves",
+      "3 sprigs thyme",
+      "1.5 litres vegetable stock or water",
+      "6 tbsp olive oil",
+      "Salt and black pepper to taste",
+      "Parmesan to serve"
+    ],
+    "steps": [
+      "Heat 4 tbsp olive oil in a large pot over medium heat. Add onion, carrot, and celery. Cook for 10–12 minutes until completely softened. Add garlic and cook for 1 minute.",
+      "Add tomatoes, bay leaves, and thyme. Cook for 5 minutes. Add potato, zucchini, and the stock or water. Bring to a boil, then reduce to a simmer.",
+      "Add half the beans whole. Mash the other half in a bowl with a fork until roughly pureed and add to the pot. This creates the signature thick, rustic texture.",
+      "Add the chopped spinach. Stir and simmer for 20 minutes until all vegetables are very tender and the soup has thickened substantially.",
+      "Add the torn bread and stir it into the soup. Cook for 5 more minutes. The bread should dissolve partially into the broth, creating a very thick, porridge-like consistency. This is the defining texture of ribollita.",
+      "Remove bay leaves and thyme sprigs. Season generously with salt and black pepper. Ladle into deep bowls, drizzle with the remaining 2 tbsp olive oil, and scatter parmesan on top."
+    ],
+    "cookTips": [
+      "Stale bread is not optional — fresh bread turns gummy. Use bread that is at least a day old.",
+      "Ribollita should be very thick, almost like a porridge. Add less water for a thicker result.",
+      "The name means 're-boiled' — leftovers reheated the next day are considered even better."
+    ],
+    "substitutions": [
+      {
+        "missing": "beans",
+        "alternatives": [
+          "chickpea"
+        ],
+        "note": "Chickpeas give a nuttier, firmer result but work beautifully in this rustic soup."
+      },
+      {
+        "missing": "spinach",
+        "alternatives": [
+          "cabbage"
+        ],
+        "note": "Shredded cabbage is the traditional substitute — add it 5 minutes earlier as it takes longer to soften."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve with an extra drizzle of olive oil and grated parmesan.",
+      "Serve with crusty bread on the side.",
+      "Reheat leftovers the next day with a splash of water — traditionally called the best version."
+    ]
+  },
+  {
+    "id": "aglio-e-olio",
+    "name": "Spaghetti Aglio e Olio",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "pasta",
+      "garlic"
+    ],
+    "flexibleIngredients": [
+      "parsley",
+      "parmesan"
+    ],
+    "optionalIngredients": [
+      "chili flakes"
+    ],
+    "spices": [
+      "chili flakes",
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "water"
+    ],
+    "displayIngredients": [
+      "400g spaghetti",
+      "6 garlic cloves, very thinly sliced",
+      "1 tsp chili flakes",
+      "Large handful of flat-leaf parsley, finely chopped",
+      "30g parmesan, grated (optional)",
+      "7 tbsp good quality extra virgin olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Bring a large pot of heavily salted water to a rolling boil. Cook spaghetti until al dente, 1 minute less than packet instructions.",
+      "While pasta cooks, heat 7 tbsp olive oil in a wide pan over the lowest possible heat. Add sliced garlic. Cook very slowly for 4–6 minutes, stirring, until the garlic turns very pale gold. This is the most critical step — even 30 seconds too long will turn the garlic brown and bitter and ruin the dish.",
+      "Add chili flakes and stir for 30 seconds. Remove the pan from heat.",
+      "Reserve 1.5 cups pasta water before draining. Drain the pasta.",
+      "Add drained spaghetti to the pan with the garlic oil. Return to medium heat. Add 6–7 tbsp of pasta water and toss vigorously for 1–2 minutes. The pasta water and oil will emulsify into a light, glossy, coating sauce. Add more pasta water if needed — the final dish should look silky, not dry or greasy.",
+      "Add chopped parsley and toss. Season with salt and black pepper. Serve immediately with parmesan if using."
+    ],
+    "cookTips": [
+      "Perfect garlic colour is pale gold — watch it continuously. Brown garlic tastes bitter and harsh.",
+      "The emulsification of pasta water and oil is the sauce — toss vigorously and do not stop.",
+      "This dish is entirely dependent on the quality of your olive oil; use the best you have."
+    ],
+    "substitutions": [
+      {
+        "missing": "parsley",
+        "alternatives": [
+          "basil"
+        ],
+        "note": "Basil is sweeter and less herby than parsley but works as a fresh finish."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately in warmed bowls.",
+      "Top with grated parmesan or leave plain for the purist version.",
+      "A glass of white wine is the classic pairing."
+    ]
+  },
+  {
+    "id": "spinach-ricotta-pasta",
+    "name": "Spinach and Ricotta Pasta",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 25,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "pasta",
+      "spinach",
+      "cream"
+    ],
+    "flexibleIngredients": [
+      "garlic",
+      "parmesan",
+      "lemon"
+    ],
+    "optionalIngredients": [
+      "basil",
+      "chili flakes"
+    ],
+    "spices": [
+      "black pepper",
+      "chili flakes"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "butter",
+      "water"
+    ],
+    "displayIngredients": [
+      "400g pasta (rigatoni, penne, or shells)",
+      "300g fresh spinach, washed",
+      "200ml cream",
+      "3 garlic cloves, minced",
+      "30g parmesan, grated",
+      "Zest of 1 lemon",
+      "1/4 tsp chili flakes",
+      "Pinch of nutmeg",
+      "1 tbsp butter",
+      "1 tbsp olive oil",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Cook pasta in heavily salted boiling water until al dente. Reserve 1 cup pasta water before draining.",
+      "Heat 1 tbsp olive oil and 1 tbsp butter in a wide pan over medium heat. Add garlic and chili flakes. Cook for 1–2 minutes until the garlic is soft and fragrant — not browned.",
+      "Add the fresh spinach in large handfuls, turning each addition with tongs. Cook for 2–3 minutes until all the spinach has wilted completely and most of the moisture has evaporated from the pan. If the pan becomes too wet, increase heat to medium-high for 1–2 minutes to drive off excess liquid.",
+      "Pour in the cream and add a pinch of nutmeg. Stir and simmer for 3–4 minutes until the cream reduces slightly and coats the back of a spoon.",
+      "Add drained pasta to the sauce. Toss over medium heat for 1–2 minutes, adding splashes of pasta water to loosen if needed. The sauce should cling to each piece of pasta without pooling.",
+      "Turn off heat. Add lemon zest and half the parmesan. Toss once. Season with salt and black pepper. Serve with remaining parmesan on top."
+    ],
+    "cookTips": [
+      "Evaporate excess water from spinach before adding cream — watery spinach dilutes the sauce.",
+      "Lemon zest added at the end lifts the richness of the cream significantly.",
+      "Do not boil the cream hard or it will separate — a gentle simmer is all it needs."
+    ],
+    "substitutions": [
+      {
+        "missing": "cream",
+        "alternatives": [
+          "milk",
+          "yogurt"
+        ],
+        "note": "Milk produces a lighter sauce; yogurt adds tang but must be added off the heat to avoid splitting."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve immediately with extra parmesan.",
+      "Add a squeeze of fresh lemon at the table.",
+      "Pair with a simple tomato and basil salad."
+    ]
+  },
+  {
+    "id": "panzanella",
+    "name": "Panzanella",
+    "cuisine": "italian",
+    "vegetarian": true,
+    "timeMinutes": 20,
+    "difficulty": "easy",
+    "requiredIngredients": [
+      "bread",
+      "tomato",
+      "cucumber",
+      "onion"
+    ],
+    "flexibleIngredients": [
+      "basil",
+      "olive",
+      "bell pepper"
+    ],
+    "optionalIngredients": [],
+    "spices": [
+      "black pepper"
+    ],
+    "pantryStaples": [
+      "salt",
+      "olive oil",
+      "vinegar"
+    ],
+    "displayIngredients": [
+      "250g stale crusty bread (ciabatta or sourdough), torn into 3cm chunks",
+      "5 large ripe tomatoes, roughly chopped",
+      "1 medium cucumber, peeled, seeded, and roughly chopped",
+      "1 medium red onion, very thinly sliced",
+      "1 red bell pepper, deseeded and chopped",
+      "Large handful of fresh basil, torn",
+      "A handful of black olives",
+      "6 tbsp extra virgin olive oil",
+      "2 tbsp red wine vinegar",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Tear the stale bread into irregular 3cm chunks. Spread on a baking tray and toast in an oven at 180°C / 350°F for 8–10 minutes until golden and crispy on the outside but not completely dried through. Alternatively, leave out overnight to dry. The bread should absorb dressing without falling apart.",
+      "Place the thinly sliced red onion in a small bowl of cold water for 10 minutes. This removes the harsh raw onion bite. Drain and pat dry.",
+      "Combine chopped tomatoes, cucumber, bell pepper, and drained onion in a large bowl. Season with salt and toss. Let the vegetables sit for 5 minutes — they will release some juice, which becomes part of the dressing.",
+      "Add the toasted bread chunks to the vegetables. Add olive oil and vinegar. Toss well and press some bread pieces into the tomato juices at the bottom of the bowl.",
+      "Add torn basil and olives. Toss again. Season with black pepper.",
+      "Rest for at least 10 minutes before serving so the bread absorbs the dressing and becomes slightly soft on the inside while staying crisp on the outside. Serve at room temperature."
+    ],
+    "cookTips": [
+      "Stale, crispy bread is essential — fresh bread turns to mush within minutes.",
+      "Let the salad rest 10 minutes before serving; the bread needs time to absorb the dressing.",
+      "Use the ripest, juiciest tomatoes available — their juice forms the base of the dressing."
+    ],
+    "substitutions": [
+      {
+        "missing": "cucumber",
+        "alternatives": [
+          "zucchini"
+        ],
+        "note": "Raw zucchini sliced very thin provides a similar fresh crunch."
+      }
+    ],
+    "servingSuggestions": [
+      "Serve as a starter or a light main in summer.",
+      "Goes well alongside grilled fish or chicken.",
+      "Add more olive oil and vinegar at the table to individual taste."
+    ]
+  }
+]

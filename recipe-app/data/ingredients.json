@@ -1,0 +1,716 @@
+[
+  {
+    "value": "vegetables",
+    "label": "Mixed Vegetables",
+    "category": "vegetable",
+    "aliases": ["mixed vegetables", "vegetable mix", "frozen vegetables", "assorted vegetables"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "tomato",
+    "label": "Tomato",
+    "category": "vegetable",
+    "aliases": ["tomatoes", "tamatar", "crushed tomato", "crushed tomatoes", "tomato puree", "tomato sauce"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "onion",
+    "label": "Onion",
+    "category": "vegetable",
+    "aliases": ["onions", "red onion", "white onion", "yellow onion", "pyaaz", "pyaz"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "potato",
+    "label": "Potato / Aloo",
+    "category": "vegetable",
+    "aliases": ["potatoes", "aloo", "alu"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cauliflower",
+    "label": "Cauliflower / Gobi",
+    "category": "vegetable",
+    "aliases": ["gobi", "phool gobi", "cauliflower florets"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "spinach",
+    "label": "Spinach / Palak",
+    "category": "vegetable",
+    "aliases": ["palak", "baby spinach", "frozen spinach"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "carrot",
+    "label": "Carrot",
+    "category": "vegetable",
+    "aliases": ["carrots", "gajar"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "peas",
+    "label": "Peas",
+    "category": "vegetable",
+    "aliases": ["green peas", "frozen peas", "matar"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "mushroom",
+    "label": "Mushroom",
+    "category": "vegetable",
+    "aliases": ["mushrooms", "button mushrooms", "shiitake", "portobello"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "broccoli",
+    "label": "Broccoli",
+    "category": "vegetable",
+    "aliases": ["broccoli florets"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "bell pepper",
+    "label": "Bell Pepper / Capsicum",
+    "category": "vegetable",
+    "aliases": ["bell peppers", "capsicum", "green pepper", "red pepper", "yellow pepper", "shimla mirch"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "snap peas",
+    "label": "Snap Peas",
+    "category": "vegetable",
+    "aliases": ["sugar snap peas", "snow peas"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "celery",
+    "label": "Celery",
+    "category": "vegetable",
+    "aliases": ["celery stalk", "celery stalks"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "zucchini",
+    "label": "Zucchini",
+    "category": "vegetable",
+    "aliases": ["courgette"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "eggplant",
+    "label": "Eggplant / Aubergine",
+    "category": "vegetable",
+    "aliases": ["aubergine", "brinjal", "baingan", "patlıcan", "patlican"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cucumber",
+    "label": "Cucumber",
+    "category": "vegetable",
+    "aliases": ["kheera"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "lettuce",
+    "label": "Lettuce",
+    "category": "vegetable",
+    "aliases": ["romaine", "romaine lettuce"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "radish",
+    "label": "Radish",
+    "category": "vegetable",
+    "aliases": ["radishes", "mooli"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cabbage",
+    "label": "Cabbage",
+    "category": "vegetable",
+    "aliases": ["patta gobi", "shredded cabbage"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "corn",
+    "label": "Corn",
+    "category": "vegetable",
+    "aliases": ["sweet corn", "corn kernels"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "avocado",
+    "label": "Avocado",
+    "category": "fruit",
+    "aliases": ["avocados"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "garlic",
+    "label": "Garlic",
+    "category": "aromatic",
+    "aliases": ["garlic cloves", "lehsun", "lasun"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "ginger",
+    "label": "Ginger",
+    "category": "aromatic",
+    "aliases": ["adrak", "fresh ginger"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "green chili",
+    "label": "Green Chili",
+    "category": "aromatic",
+    "aliases": ["green chilli", "hari mirch", "chili pepper"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "green onion",
+    "label": "Green Onion / Spring Onion",
+    "category": "aromatic",
+    "aliases": ["spring onion", "scallion", "scallions", "green onions"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "curry leaves",
+    "label": "Curry Leaves",
+    "category": "herb",
+    "aliases": ["kadi patta", "kari patta"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "paneer",
+    "label": "Paneer",
+    "category": "protein",
+    "aliases": ["cottage cheese", "indian cottage cheese"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "lentils",
+    "label": "Lentils / Dal",
+    "category": "protein",
+    "aliases": ["lentil", "dal", "toor dal", "moong dal", "masoor dal", "yellow dal", "red lentils", "mercimek"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "chickpea",
+    "label": "Chickpea / Chole",
+    "category": "protein",
+    "aliases": ["chickpeas", "chole", "garbanzo beans", "kabuli chana", "chana"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "beans",
+    "label": "Beans / Rajma",
+    "category": "protein",
+    "aliases": ["mixed beans", "kidney beans", "rajma", "cannellini beans", "white beans", "cooked beans"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "black beans",
+    "label": "Black Beans",
+    "category": "protein",
+    "aliases": ["black bean", "cooked black beans"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "tofu",
+    "label": "Tofu",
+    "category": "protein",
+    "aliases": ["firm tofu", "soft tofu"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "egg",
+    "label": "Egg",
+    "category": "protein",
+    "aliases": ["eggs", "anda"],
+    "dietaryTags": ["egg"]
+  },
+  {
+    "value": "chicken",
+    "label": "Chicken",
+    "category": "meat",
+    "aliases": ["boneless chicken", "chicken breast", "chicken thigh", "chicken pieces"],
+    "dietaryTags": ["meat", "poultry"]
+  },
+  {
+    "value": "lamb",
+    "label": "Lamb / Mutton",
+    "category": "meat",
+    "aliases": ["mutton", "goat", "lamb pieces", "ground lamb", "minced lamb"],
+    "dietaryTags": ["meat", "redMeat"]
+  },
+  {
+    "value": "beef",
+    "label": "Beef",
+    "category": "meat",
+    "aliases": ["ground beef", "beef mince", "beef pieces", "steak"],
+    "dietaryTags": ["meat", "beef", "redMeat"]
+  },
+  {
+    "value": "pork",
+    "label": "Pork",
+    "category": "meat",
+    "aliases": ["bacon", "ham", "pancetta", "pork belly", "ground pork"],
+    "dietaryTags": ["meat", "pork"]
+  },
+  {
+    "value": "fish",
+    "label": "Fish",
+    "category": "seafood",
+    "aliases": ["white fish", "salmon", "cod", "fish fillet"],
+    "dietaryTags": ["fish", "seafood"]
+  },
+  {
+    "value": "shrimp",
+    "label": "Shrimp / Prawn",
+    "category": "seafood",
+    "aliases": ["prawns", "prawn", "shrimp"],
+    "dietaryTags": ["seafood"]
+  },
+  {
+    "value": "rice",
+    "label": "Rice",
+    "category": "grain",
+    "aliases": ["basmati rice", "cooked rice", "leftover rice", "short grain rice", "arborio rice"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "pasta",
+    "label": "Pasta",
+    "category": "grain",
+    "aliases": ["penne", "spaghetti", "macaroni", "fusilli", "small pasta"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "noodles",
+    "label": "Noodles",
+    "category": "grain",
+    "aliases": ["noodle", "egg noodles", "wheat noodles", "ramen noodles"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "rice noodles",
+    "label": "Rice Noodles",
+    "category": "grain",
+    "aliases": ["vermicelli noodles", "flat rice noodles"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "flour",
+    "label": "Flour",
+    "category": "grain",
+    "aliases": ["all purpose flour", "maida", "plain flour", "wheat flour"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "bread",
+    "label": "Bread / Pita",
+    "category": "grain",
+    "aliases": ["pita", "pita bread", "flatbread", "toast", "sourdough"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "bulgur",
+    "label": "Bulgur",
+    "category": "grain",
+    "aliases": ["bulgur wheat", "burghul"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "semolina",
+    "label": "Semolina / Sooji",
+    "category": "grain",
+    "aliases": ["sooji", "suji", "rava"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "flattened rice",
+    "label": "Flattened Rice / Poha",
+    "category": "grain",
+    "aliases": ["poha", "aval", "beaten rice"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "oats",
+    "label": "Oats",
+    "category": "grain",
+    "aliases": ["rolled oats", "quick oats"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "tortilla",
+    "label": "Tortilla",
+    "category": "grain",
+    "aliases": ["wrap", "wheat wrap", "flour tortilla"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cream",
+    "label": "Cream",
+    "category": "dairy",
+    "aliases": ["heavy cream", "fresh cream", "cooking cream"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "mozzarella",
+    "label": "Mozzarella",
+    "category": "dairy",
+    "aliases": ["fresh mozzarella", "pizza cheese"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "parmesan",
+    "label": "Parmesan",
+    "category": "dairy",
+    "aliases": ["parmigiano", "grated parmesan"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "cheddar",
+    "label": "Cheddar",
+    "category": "dairy",
+    "aliases": ["cheddar cheese", "shredded cheese"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "butter",
+    "label": "Butter",
+    "category": "dairy",
+    "aliases": ["unsalted butter", "salted butter"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "ghee",
+    "label": "Ghee",
+    "category": "fat",
+    "aliases": ["clarified butter"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "feta",
+    "label": "Feta",
+    "category": "dairy",
+    "aliases": ["feta cheese"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "yogurt",
+    "label": "Yogurt",
+    "category": "dairy",
+    "aliases": ["curd", "dahi", "plain yogurt", "yoğurt", "yoghurt"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "labneh",
+    "label": "Labneh",
+    "category": "dairy",
+    "aliases": ["strained yogurt"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "milk",
+    "label": "Milk",
+    "category": "dairy",
+    "aliases": ["whole milk", "low fat milk"],
+    "dietaryTags": ["vegetarian", "dairy"]
+  },
+  {
+    "value": "coconut milk",
+    "label": "Coconut Milk",
+    "category": "pantry",
+    "aliases": ["coconut cream"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cilantro",
+    "label": "Cilantro / Coriander Leaves",
+    "category": "herb",
+    "aliases": ["coriander leaves", "fresh coriander", "dhaniya", "dhania leaves"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "parsley",
+    "label": "Parsley",
+    "category": "herb",
+    "aliases": ["fresh parsley"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "basil",
+    "label": "Basil",
+    "category": "herb",
+    "aliases": ["fresh basil"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "mint",
+    "label": "Mint",
+    "category": "herb",
+    "aliases": ["fresh mint", "pudina"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "lemon",
+    "label": "Lemon",
+    "category": "fruit",
+    "aliases": ["lime", "nimbu"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cashew",
+    "label": "Cashew",
+    "category": "nut",
+    "aliases": ["cashews", "kaju"],
+    "dietaryTags": ["vegetarian", "nut"]
+  },
+  {
+    "value": "peanut",
+    "label": "Peanut",
+    "category": "nut",
+    "aliases": ["peanuts", "groundnut", "moongfali"],
+    "dietaryTags": ["vegetarian", "nut"]
+  },
+  {
+    "value": "sesame seeds",
+    "label": "Sesame Seeds",
+    "category": "seed",
+    "aliases": ["sesame", "til"],
+    "dietaryTags": ["vegetarian", "seed"]
+  },
+  {
+    "value": "seaweed",
+    "label": "Seaweed",
+    "category": "seaweed",
+    "aliases": ["wakame", "nori"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "olive",
+    "label": "Olive",
+    "category": "condiment",
+    "aliases": ["olives", "black olives", "green olives"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cumin",
+    "label": "Cumin / Jeera",
+    "category": "spice",
+    "aliases": ["jeera", "cumin seeds", "ground cumin"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "turmeric",
+    "label": "Turmeric / Haldi",
+    "category": "spice",
+    "aliases": ["haldi", "turmeric powder"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "garam masala",
+    "label": "Garam Masala",
+    "category": "spice",
+    "aliases": ["garam masala powder"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "coriander powder",
+    "label": "Coriander Powder / Dhania",
+    "category": "spice",
+    "aliases": ["dhania", "dhania powder", "ground coriander", "coriander"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "chili powder",
+    "label": "Chili Powder",
+    "category": "spice",
+    "aliases": ["chilli powder", "red chili powder", "red chilli powder", "lal mirch"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "chili flakes",
+    "label": "Chili Flakes",
+    "category": "spice",
+    "aliases": ["chilli flakes", "red pepper flakes"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "black pepper",
+    "label": "Black Pepper",
+    "category": "spice",
+    "aliases": ["pepper", "ground pepper", "kali mirch"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "oregano",
+    "label": "Oregano",
+    "category": "spice",
+    "aliases": ["dried oregano"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "bay leaf",
+    "label": "Bay Leaf",
+    "category": "spice",
+    "aliases": ["bay leaves", "tej patta", "tejpatta"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "thyme",
+    "label": "Thyme",
+    "category": "spice",
+    "aliases": ["dried thyme", "fresh thyme"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "paprika",
+    "label": "Paprika",
+    "category": "spice",
+    "aliases": ["sweet paprika", "smoked paprika"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "sumac",
+    "label": "Sumac",
+    "category": "spice",
+    "aliases": ["sumak"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "zaatar",
+    "label": "Zaatar",
+    "category": "spice",
+    "aliases": ["za'atar", "zaatar spice"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "mustard seeds",
+    "label": "Mustard Seeds",
+    "category": "spice",
+    "aliases": ["rai", "sarson", "black mustard seeds"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "asafoetida",
+    "label": "Asafoetida / Hing",
+    "category": "spice",
+    "aliases": ["hing"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cinnamon",
+    "label": "Cinnamon",
+    "category": "spice",
+    "aliases": ["dalchini"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cardamom",
+    "label": "Cardamom",
+    "category": "spice",
+    "aliases": ["elaichi"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "cloves",
+    "label": "Cloves",
+    "category": "spice",
+    "aliases": ["laung"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "saffron",
+    "label": "Saffron",
+    "category": "spice",
+    "aliases": ["kesar"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "soy sauce",
+    "label": "Soy Sauce",
+    "category": "sauce",
+    "aliases": ["soy", "light soy sauce", "dark soy sauce"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "miso paste",
+    "label": "Miso Paste",
+    "category": "sauce",
+    "aliases": ["miso", "white miso", "red miso"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "tahini",
+    "label": "Tahini",
+    "category": "sauce",
+    "aliases": ["sesame paste"],
+    "dietaryTags": ["vegetarian", "seed"]
+  },
+  {
+    "value": "vinegar",
+    "label": "Vinegar",
+    "category": "sauce",
+    "aliases": ["rice vinegar", "white vinegar"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "hot sauce",
+    "label": "Hot Sauce",
+    "category": "sauce",
+    "aliases": ["chili sauce", "sriracha"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "peanut butter",
+    "label": "Peanut Butter",
+    "category": "sauce",
+    "aliases": ["smooth peanut butter"],
+    "dietaryTags": ["vegetarian", "nut"]
+  },
+  {
+    "value": "pesto",
+    "label": "Pesto",
+    "category": "sauce",
+    "aliases": ["basil pesto"],
+    "dietaryTags": ["vegetarian", "nut"]
+  },
+  {
+    "value": "salt",
+    "label": "Salt",
+    "category": "pantry",
+    "aliases": ["table salt", "sea salt", "rock salt", "namak"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "water",
+    "label": "Water",
+    "category": "pantry",
+    "aliases": ["plain water"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "oil",
+    "label": "Cooking Oil",
+    "category": "pantry",
+    "aliases": ["neutral oil", "vegetable oil", "sunflower oil", "canola oil"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "olive oil",
+    "label": "Olive Oil",
+    "category": "pantry",
+    "aliases": ["extra virgin olive oil", "extra-virgin olive oil", "evoo"],
+    "dietaryTags": ["vegetarian"]
+  },
+  {
+    "value": "sugar",
+    "label": "Sugar",
+    "category": "pantry",
+    "aliases": ["white sugar", "brown sugar"],
+    "dietaryTags": ["vegetarian"]
+  }
+]
