@@ -1060,3 +1060,88 @@ select:focus {
     grid-template-columns: 40px 1fr;
   }
 }
+
+/* Missing ingredient actions */
+
+.missing-chip-actionable {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.missing-chip-actionable::after {
+  content: "＋";
+  font-size: 0.72rem;
+  opacity: 0.85;
+}
+
+.missing-chip-actionable:hover,
+.missing-chip-actionable.is-open {
+  border-color: rgba(255, 191, 105, 0.65);
+  background: rgba(255, 159, 28, 0.18);
+}
+
+.missing-chip-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 80;
+  display: flex;
+  gap: 7px;
+  min-width: 230px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  background: #11131b;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.missing-chip-actionable.is-open .missing-chip-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.missing-action-btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 11px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.have-btn {
+  color: #07130e;
+  background: var(--success);
+}
+
+.blinkit-btn {
+  color: #1a1000;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.have-btn:hover,
+.blinkit-btn:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 820px) {
+  .missing-chip-menu {
+    left: auto;
+    right: 0;
+    min-width: 220px;
+    flex-direction: column;
+  }
+
+  .missing-action-btn {
+    width: 100%;
+  }
+}

@@ -203,13 +203,57 @@ searchInput.addEventListener("keydown", event => {
 });
 
 document.addEventListener("click", event => {
-  const clickedInside =
+  const missingActionButton = event.target.closest(".missing-action-btn");
+
+  if (missingActionButton) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const ingredient = missingActionButton.dataset.ingredient;
+    const action = missingActionButton.dataset.action;
+
+    if (!ingredient || !action) return;
+
+    if (action === "have") {
+      addIngredientToPantry(ingredient);
+    }
+
+    if (action === "blinkit") {
+      openBlinkitSearch(ingredient);
+    }
+
+    return;
+  }
+
+  const missingChip = event.target.closest(".missing-chip-actionable");
+
+  if (missingChip) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    document
+      .querySelectorAll(".missing-chip-actionable.is-open")
+      .forEach(chip => {
+        if (chip !== missingChip) {
+          chip.classList.remove("is-open");
+        }
+      });
+
+    missingChip.classList.toggle("is-open");
+    return;
+  }
+
+  const clickedInsideTypeahead =
     searchInput.contains(event.target) ||
     searchResultsContainer.contains(event.target);
 
-  if (!clickedInside) {
+  if (!clickedInsideTypeahead) {
     closeTypeahead();
   }
+
+  document
+    .querySelectorAll(".missing-chip-actionable.is-open")
+    .forEach(chip => chip.classList.remove("is-open"));
 });
 
 form.addEventListener("submit", event => {
@@ -265,11 +309,16 @@ function selectDish(recipeId) {
   closeTypeahead();
 
   renderSingleRecipe(resultsContainer, recipe);
+  enhanceMissingIngredientActions();
   scrollToResults();
 }
 
 function selectIngredient(value) {
-  selectedIngredients.add(value);
+  const normalizedIngredient = normalizeIngredientValue(value);
+
+  if (!normalizedIngredient) return;
+
+  selectedIngredients.add(normalizedIngredient);
 
   searchInput.value = "";
   closeTypeahead();
@@ -285,7 +334,9 @@ function selectIngredient(value) {
 }
 
 function removeIngredient(value) {
-  selectedIngredients.delete(value);
+  const normalizedIngredient = normalizeIngredientValue(value);
+
+  selectedIngredients.delete(normalizedIngredient || value);
 
   renderSelectedIngredients(
     selectedIngredientsContainer,
@@ -296,6 +347,12 @@ function removeIngredient(value) {
 
   if (selectedIngredients.size > 0) {
     refreshRecommendations();
+  } else {
+    renderEmptyState(
+      resultsContainer,
+      "Your pantry is empty",
+      "Add ingredients like rice, chicken, paneer, tomato, onion, lentils, pasta, or egg to start getting recommendations."
+    );
   }
 }
 
@@ -324,6 +381,157 @@ function refreshRecommendations() {
       getIngredientByValue
     }
   );
+
+  enhanceMissingIngredientActions();
+}
+
+function addIngredientToPantry(ingredient) {
+  const normalizedIngredient = normalizeIngredientValue(ingredient);
+
+  if (!normalizedIngredient) {
+    console.warn("Could not add unknown ingredient:", ingredient);
+    return;
+  }
+
+  selectedIngredients.add(normalizedIngredient);
+
+  renderSelectedIngredients(
+    selectedIngredientsContainer,
+    selectedIngredients,
+    getIngredientByValue,
+    removeIngredient
+  );
+
+  refreshRecommendations();
+}
+
+function openBlinkitSearch(ingredient) {
+  const normalizedIngredient = normalizeIngredientValue(ingredient) || ingredient;
+  const displayName = getIngredientDisplayName(normalizedIngredient);
+  const query = encodeURIComponent(displayName);
+  const url = `https://blinkit.com/s/?q=${query}`;
+
+  window.open(url, "_blank", "noopener,noreferrer");
+}
+
+function enhanceMissingIngredientActions() {
+  const missingChips = resultsContainer.querySelectorAll(".missing-chip");
+
+  missingChips.forEach(chip => {
+    if (chip.classList.contains("missing-chip-actionable")) return;
+
+    const rawIngredient = chip.dataset.ingredient || chip.textContent.trim();
+    const normalizedIngredient = normalizeIngredientValue(rawIngredient);
+
+    if (!normalizedIngredient) return;
+
+    const displayName = getIngredientDisplayName(normalizedIngredient);
+
+    chip.classList.add("missing-chip-actionable");
+    chip.dataset.ingredient = normalizedIngredient;
+    chip.setAttribute("role", "button");
+    chip.setAttribute("tabindex", "0");
+    chip.setAttribute("aria-label", `Actions for missing ingredient ${displayName}`);
+
+    chip.innerHTML = `
+      <span class="missing-chip-label">${escapeHtml(displayName)}</span>
+      <span class="missing-chip-menu" aria-hidden="true">
+        <button
+          type="button"
+          class="missing-action-btn have-btn"
+          data-action="have"
+          data-ingredient="${escapeHtmlAttribute(normalizedIngredient)}"
+        >
+          I have this
+        </button>
+        <button
+          type="button"
+          class="missing-action-btn blinkit-btn"
+          data-action="blinkit"
+          data-ingredient="${escapeHtmlAttribute(normalizedIngredient)}"
+        >
+          Buy on Blinkit
+        </button>
+      </span>
+    `;
+  });
+}
+
+function normalizeIngredientValue(ingredient) {
+  const rawValue = String(ingredient || "").trim();
+
+  if (!rawValue) return "";
+
+  const exactMatch = getIngredientByValue(rawValue);
+
+  if (exactMatch) {
+    return rawValue;
+  }
+
+  const lowerValue = rawValue.toLowerCase();
+
+  const valueMatch = appState.ingredients.find(item => {
+    return String(item.value || "").toLowerCase() === lowerValue;
+  });
+
+  if (valueMatch) {
+    return valueMatch.value;
+  }
+
+  const labelMatch = appState.ingredients.find(item => {
+    return String(item.label || "").toLowerCase() === lowerValue;
+  });
+
+  if (labelMatch) {
+    return labelMatch.value;
+  }
+
+  const normalizedFallback = lowerValue
+    .replaceAll("_", " ")
+    .replaceAll("-", " ")
+    .trim();
+
+  const fallbackMatch = appState.ingredients.find(item => {
+    const itemValue = String(item.value || "").toLowerCase();
+    const itemLabel = String(item.label || "").toLowerCase();
+
+    return itemValue === normalizedFallback || itemLabel === normalizedFallback;
+  });
+
+  if (fallbackMatch) {
+    return fallbackMatch.value;
+  }
+
+  return "";
+}
+
+function getIngredientDisplayName(ingredient) {
+  const normalizedIngredient = normalizeIngredientValue(ingredient);
+  const ingredientRecord = getIngredientByValue(normalizedIngredient);
+
+  if (ingredientRecord && ingredientRecord.label) {
+    return ingredientRecord.label;
+  }
+
+  return String(normalizedIngredient || ingredient)
+    .replaceAll("-", " ")
+    .replaceAll("_", " ")
+    .replace(/\b\w/g, character => character.toUpperCase());
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+function escapeHtmlAttribute(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
 }
 
 function closeTypeahead() {
