@@ -6,6 +6,7 @@
     <title>Krishv Jha</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" href="favicon.png">
+    <script src="tracker.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
 
@@ -368,6 +369,108 @@
             transform: translateY(0);
         }
 
+        /* Easter Egg */
+        .ee-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 9999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .ee-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .ee-box {
+            text-align: center;
+            padding: 48px;
+            max-width: 520px;
+            transform: scale(0.8);
+            transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .ee-overlay.active .ee-box {
+            transform: scale(1);
+        }
+
+        .ee-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            background: linear-gradient(135deg, #5de0d8, #4facfe, #ff8c32);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+            animation: gradientShift 3s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .ee-text {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+            margin-bottom: 32px;
+            font-size: 16px;
+        }
+
+        .ee-link {
+            display: inline-block;
+            padding: 14px 36px;
+            border: 1px solid #5de0d8;
+            border-radius: 50px;
+            color: #5de0d8;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            transition: all 0.3s;
+        }
+
+        .ee-link:hover {
+            background: #5de0d8;
+            color: #0a0a0a;
+            box-shadow: 0 0 40px rgba(93, 224, 216, 0.5);
+        }
+
+        .ee-close {
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 24px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .ee-close:hover {
+            color: #fff;
+        }
+
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(0deg) scale(1); }
+            25% { transform: rotate(-15deg) scale(1.2); }
+            75% { transform: rotate(15deg) scale(1.2); }
+        }
+
+        .wiggle {
+            display: inline-block;
+            animation: wiggle 0.4s ease;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             nav {
@@ -430,8 +533,8 @@
                         <h3>2</h3>
                         <p>Technologies</p>
                     </div>
-                    <div class="stat">
-                        <h3>&infin;</h3>
+                    <div class="stat" id="easter-egg-stat" title="...">
+                        <h3 style="cursor: pointer; user-select: none;">&infin;</h3>
                         <p>Curiosity</p>
                     </div>
                 </div>
@@ -453,11 +556,6 @@
                     <div class="app-icon">&#9670;</div>
                     <h3>Math Olympiad Trainer</h3>
                     <p>Built to solve real problems with elegant, user-friendly interfaces.</p>
-                </a>
-                <a href="https://krishvjha.com/recipe-app/index.html" class="app-card" style="text-decoration: none; color: inherit;">
-                    <div class="app-icon">&#9670;</div>
-                    <h3>Recipe AI</h3>
-                    <p>Create fun dishes with ingredients you have. Enjoy Cooking!</p>
                 </a>
             </div>
         </div>
@@ -485,7 +583,20 @@
         &copy; 2026 Krishv Jha. All rights reserved.
     </footer>
 
+    <!-- Easter Egg Modal -->
+    <div class="ee-overlay" id="ee-overlay">
+        <button class="ee-close" id="ee-close" aria-label="Close">&times;</button>
+        <div class="ee-box">
+            <h2 class="ee-title">You found it! &#10024;</h2>
+            <p class="ee-text">Curiosity unlocked. You clicked the infinity 5 times &mdash; the mark of a true explorer. Here's a little secret just for you:</p>
+            <a href="roblox://" target="_blank" rel="noopener" class="ee-link">Claim Your Reward</a>
+            <p style="color: rgba(255,255,255,0.25); font-size: 11px; letter-spacing: 2px; margin-top: 32px; text-transform: uppercase;">Built with &hearts; by Krishv</p>
+        </div>
+    </div>
+
     <script>
+        // Visitor tracking + admin panel live in tracker.js (loaded via <script> in <head>).
+
         // ========== 3D Wireframe Vortex Canvas ==========
         const canvas = document.getElementById('hero-canvas');
         const ctx = canvas.getContext('2d');
@@ -689,6 +800,40 @@
         }, { threshold: 0.15 });
 
         reveals.forEach(el => observer.observe(el));
+
+        // ========== Easter Egg: Click ∞ five times ==========
+        const eggStat = document.getElementById('easter-egg-stat');
+        const eggSymbol = eggStat.querySelector('h3');
+        const eggOverlay = document.getElementById('ee-overlay');
+        const eggClose = document.getElementById('ee-close');
+        let eggClicks = 0;
+        let eggTimer = null;
+
+        eggSymbol.addEventListener('click', () => {
+            eggClicks++;
+            eggSymbol.classList.remove('wiggle');
+            void eggSymbol.offsetWidth; // force reflow to restart animation
+            eggSymbol.classList.add('wiggle');
+
+            clearTimeout(eggTimer);
+            eggTimer = setTimeout(() => { eggClicks = 0; }, 2000);
+
+            if (eggClicks >= 5) {
+                eggClicks = 0;
+                eggOverlay.classList.add('active');
+            }
+        });
+
+        function closeEgg() {
+            eggOverlay.classList.remove('active');
+        }
+        eggClose.addEventListener('click', closeEgg);
+        eggOverlay.addEventListener('click', (e) => {
+            if (e.target === eggOverlay) closeEgg();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeEgg();
+        });
 
         // ========== Nav background on scroll ==========
         window.addEventListener('scroll', () => {
